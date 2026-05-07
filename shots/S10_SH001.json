@@ -1,29 +1,28 @@
 {
   "id": "S10_SH001",
+  "scene": "S#10",
 
-  "scene": "S10",
+  "shotType": "CU to MCU",
 
-  "shot": "SH001",
+  "duration": "10 sec",
 
-  "shotType": "",
+  "cameraMovement": "Slow Push In + Slight Up Pan",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "從門禁機器的魚眼POV觀看。一名普通韓國女性前同事抱著紙箱，幾乎貼近鏡頭站在中央，像正在讓門禁辨識自己，魚眼變形讓她的身體微微扭曲。她正面對著鏡頭，一開始專注於解鎖。畫面四周有明顯fisheye distortion與暗角，冷白企業燈光照亮灰色辦公大樓走廊。就在此時，畫面右側慢慢出現另一個人的西裝身軀——馬克正在靠近，但頭部仍完全不在frame內。前同事聽見腳步聲後停下動作，慢慢轉頭。隨著馬克逐漸接近，鏡頭開始極慢推進並微微上pan，fisheye監視感逐漸減弱，畫面慢慢轉變成更接近正常人類視角的仰角構圖。",
+
+  "composition": "門禁監視器POV構圖。前同事位於中央幾乎貼近鏡頭，fisheye distortion讓身體略微變形。馬克僅以西裝身軀形式從畫面右側邊緣進入。隨鏡頭推進與上pan，畫面逐漸從監視器視角過渡成接近人類觀看的仰角構圖。",
+
+  "lighting": "冷白企業辦公大樓燈光，偏冷與略微去飽和，中低對比。整體帶有安靜、制度化與監視感。",
+
+  "action": "前同事前傾靠近門禁解鎖，聽見腳步聲後停住並慢慢轉頭。馬克從右側逐漸靠近，但只有身軀先進入畫面。鏡頭同步極慢推進與微微上pan。",
+
+  "edit": "以 fisheye surveillance POV 開始，透過極慢 push in 與 subtle tilt up，逐漸去除監視器感，轉化為更具人性與情緒的觀看方式。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S10_SH001.jpg",
-
-  "status": "draft"
+  "prompt": "cinematic surveillance fisheye POV from security access machine inside korean office building, korean office woman leaning close to camera for access scan, distorted fisheye framing with dark vignette, cold corporate LED lighting, korean man in suit slowly entering frame from right side with only torso visible, giant red apple face still outside frame, quiet tension, surveillance realism slowly transforming into human cinematic perspective, slow push in and subtle upward pan, restrained emotional atmosphere, realistic korean arthouse film style"
 }

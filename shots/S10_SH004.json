@@ -1,29 +1,28 @@
 {
   "id": "S10_SH004",
+  "scene": "S#10",
 
-  "scene": "S10",
+  "shotType": "POV ECU",
 
-  "shot": "SH004",
+  "duration": "7 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "主觀鏡頭直視上方刺眼的辦公室白光。一塊半透明白布緩緩落向鏡頭，冷白光線透過布料逐漸被擴散、變柔。畫面慢慢失去清晰輪廓，最後幾乎只剩下一片柔白。整個過程安靜、緩慢，像一個人主動讓自己從世界裡淡去。",
+
+  "composition": "極簡主觀構圖。畫面只有冷白辦公室燈光與逐漸覆蓋鏡頭的半透明白布。白布成為唯一主體，空間感與輪廓隨覆蓋過程逐漸消失。",
+
+  "lighting": "冷白辦公室日光燈透過白布擴散，畫面整體偏亮且低對比。白、灰與低彩度構成近乎消失的視覺氛圍。",
+
+  "action": "白布從上方緩慢落下，逐步覆蓋鏡頭。光線與焦點同步變得模糊與柔化，直到畫面接近純白。",
+
+  "edit": "固定主觀鏡頭，利用白布遮蔽與曝光變化讓觀看感逐漸抽離，像角色正在安靜地從現實中消失。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S10_SH004.jpg",
-
-  "status": "draft"
+  "prompt": "extreme close up POV looking upward at bright office fluorescent light, semi transparent white fabric slowly falling over camera lens, soft diffused white light through cloth, minimal composition, fading visual clarity, peaceful disappearance atmosphere, low contrast white and gray tones, realistic cinematic texture, quiet emotional isolation, korean arthouse film aesthetic"
 }
