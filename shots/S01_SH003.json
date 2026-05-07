@@ -1,29 +1,28 @@
 {
   "id": "S01_SH003",
+  "scene": "S#1",
 
-  "scene": "S01",
+  "shotType": "WS",
 
-  "shot": "SH003",
+  "duration": "4 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "一張正式的韓國高中畢業團體照。大量穿著制服的學生整齊排列成數排，所有人都面向鏡頭微笑，畫面穩定而標準，像學校正式發放的畢業照片。馬克作為其中一名男學生站在人群裡，身體完整存在，但他的臉部位置卻被一塊自然形成的淡黃色污漬剛好覆蓋，使他的臉完全無法辨識。污漬看起來像照片保存多年後自然出現的水痕或退色，而不是刻意破壞。",
+
+  "composition": "正式畢業團體照構圖，大量學生分成數排整齊排列，前排坐下、中排站立、後排站高。馬克站在中後排之間，身體完整可見，但臉部被照片上的自然污漬覆蓋。",
+
+  "lighting": "均勻自然日光，中性略冷色調，中低對比，氛圍正式、平靜且帶有輕微異樣感。",
+
+  "action": "所有學生維持正式畢業照姿勢不動，只有馬克的臉像被時間自然抹除。",
+
+  "edit": "固定鏡頭，像正式學校畢業團體照。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S01_SH003.jpg",
-
-  "status": "draft"
+  "prompt": "formal korean high school graduation group photo, large group of korean students in uniforms arranged in rows, realistic school graduation photography, everyone smiling toward camera, one korean male student standing among crowd with face perfectly covered by natural faded yellow stain on old photograph, realistic aging water stain effect, body still visible while face becomes unrecognizable, ordinary formal graduation photo realism, korean school building background, subtle uncanny feeling, documentary realism, mid 2000s graduation photo aesthetic, static wide shot"
 }
