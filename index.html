@@ -122,6 +122,7 @@
         <!-- IMAGE -->
         <div
           class="
+            relative
             w-full
             aspect-video
             bg-zinc-900
@@ -138,6 +139,60 @@
             src=""
             class="w-full h-full object-cover"
           />
+
+          <!-- IMAGE UPLOAD UI -->
+          <div
+            class="
+              absolute
+              bottom-4
+              right-4
+              flex
+              gap-2
+            "
+          >
+
+            <label
+              class="
+                bg-black/70
+                hover:bg-black
+                px-4
+                py-2
+                rounded-xl
+                text-sm
+                cursor-pointer
+                transition
+                border
+                border-zinc-700
+              "
+            >
+
+              Upload Image
+
+              <input
+                type="file"
+                id="imageUpload"
+                accept="image/*"
+                class="hidden"
+              />
+
+            </label>
+
+            <button
+              id="clearImage"
+              class="
+                bg-red-500/80
+                hover:bg-red-500
+                px-4
+                py-2
+                rounded-xl
+                text-sm
+                transition
+              "
+            >
+              Clear
+            </button>
+
+          </div>
 
         </div>
 
@@ -341,6 +396,7 @@
   <script>
 
     let shots = []
+    let currentShot = null
 
     // DOM
 
@@ -382,6 +438,12 @@
 
     const statusBadge =
       document.getElementById('statusBadge')
+
+    const imageUpload =
+      document.getElementById('imageUpload')
+
+    const clearImage =
+      document.getElementById('clearImage')
 
 
     // LOAD SHOTS
@@ -497,8 +559,13 @@
 
     function renderShot(shot) {
 
+      currentShot = shot
+
+      const localImage =
+        localStorage.getItem(shot.id)
+
       mainImage.src =
-        shot.image || ''
+        localImage || shot.image || ''
 
       sceneTitle.textContent =
         shot.id || ''
@@ -536,6 +603,118 @@
     }
 
 
+    // IMAGE UPLOAD
+
+    imageUpload.addEventListener('change', (e) => {
+
+      const file = e.target.files[0]
+
+      if (!file || !currentShot) return
+
+      const reader = new FileReader()
+
+      reader.onload = () => {
+
+        const imageData = reader.result
+
+        mainImage.src = imageData
+
+        localStorage.setItem(
+          currentShot.id,
+          imageData
+        )
+
+      }
+
+      reader.readAsDataURL(file)
+
+    })
+
+
+    // CLEAR IMAGE
+
+    clearImage.addEventListener('click', () => {
+
+      if (!currentShot) return
+
+      localStorage.removeItem(currentShot.id)
+
+      mainImage.src =
+        currentShot.image || ''
+
+    })
+
+
+    // KEYBOARD NAVIGATION
+
+    document.addEventListener('keydown', (e) => {
+
+      if (!currentShot) return
+
+      const currentIndex =
+        shots.findIndex(
+          shot => shot.id === currentShot.id
+        )
+
+      if (e.key === 'ArrowDown') {
+
+        const nextShot =
+          shots[currentIndex + 1]
+
+        if (nextShot) {
+
+          renderShot(nextShot)
+
+          updateSidebarSelection(nextShot.id)
+
+        }
+
+      }
+
+      if (e.key === 'ArrowUp') {
+
+        const prevShot =
+          shots[currentIndex - 1]
+
+        if (prevShot) {
+
+          renderShot(prevShot)
+
+          updateSidebarSelection(prevShot.id)
+
+        }
+
+      }
+
+    })
+
+
+    // SIDEBAR ACTIVE UPDATE
+
+    function updateSidebarSelection(shotId) {
+
+      const buttons =
+        document.querySelectorAll('#shotList button')
+
+      buttons.forEach(btn => {
+
+        btn.classList.remove('shot-active')
+
+        if (btn.innerText.includes(shotId)) {
+
+          btn.classList.add('shot-active')
+
+          btn.scrollIntoView({
+            block: 'nearest'
+          })
+
+        }
+
+      })
+
+    }
+
+
     // START
 
     loadShots()
@@ -543,4 +722,5 @@
   </script>
 
 </body>
+
 </html>
