@@ -1,29 +1,28 @@
 {
   "id": "S04_SH001",
+  "scene": "S#4",
 
-  "scene": "S04",
+  "shotType": "WS",
 
-  "shot": "SH001",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "陰天的城市街道上，一名韓國警察站在駕駛座車窗外，正看向車內的馬克。馬克穿著西裝坐在車內，臉被一顆巨大的紅色蘋果完全遮住。整體畫面安靜、壓抑，像一場沒有情緒波動的例行檢查。",
+
+  "composition": "全景偏中景構圖，車輛佔據畫面左側與前景，警察站在畫面右側形成視覺重量。馬克位於車窗中央，紅色蘋果成為唯一強烈色彩焦點。背景街道與建築維持低干擾與冷靜秩序感。",
+
+  "lighting": "陰天自然光，冷灰色調，低對比，整體光線柔和且缺乏戲劇性。",
+
+  "action": "警察站在車窗旁進行例行詢問，馬克坐在車內幾乎不動，兩人維持停滯狀態。",
+
+  "edit": "固定鏡頭，長時間停留建立尷尬與被觀察感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S04_SH001.jpg",
-
-  "status": "draft"
+  "prompt": "wide cinematic shot of korean police officer standing beside dark sedan on quiet city street, korean businessman sitting inside car with giant red apple covering face, overcast weather, cold gray tones, realistic korean urban environment, static awkward atmosphere, institutional realism, minimal emotion, police traffic stop scene, muted color palette, documentary cinematic style"
 }
