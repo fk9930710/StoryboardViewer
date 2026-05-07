@@ -1,29 +1,28 @@
 {
   "id": "S06_SH003",
+  "scene": "S#6",
 
-  "scene": "S06",
+  "shotType": "CU（偏寬）",
 
-  "shot": "SH003",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
 
-  "dialogue": "",
+  "image": "",
 
-  "action": "",
+  "description": "鏡頭正面拍攝公務員，桌面堆滿表格與文件。他一隻手杵著下巴，另一隻手隨意放在文件上。雖然直視對面的人並持續說話，但整體狀態停滯且缺乏動力，呈現出一種制度疲乏與無法推進的感覺。",
 
-  "cameraMovement": "",
+  "composition": "正面構圖帶有壓迫感，公務員位於畫面中央，大量文件與表格佔據畫面下半部，椅背在人物後方形成包圍感，空間層次為文件堆 → 公務員 → 椅背。",
 
-  "edit": "",
+  "lighting": "冷白室內光，偏冷灰色調，低對比，氛圍疲乏、制度化、停滯。",
 
-  "duration": "",
+  "action": "公務員一隻手固定杵著下巴，另一隻手隨意壓在文件堆上或輕微翻動文件，動作緩慢且沒有進展感。",
 
-  "notes": "",
+  "edit": "固定鏡頭，維持正面壓迫構圖與停滯節奏。",
 
-  "prompt": "",
+  "dialogue": "對話存在，但沒有實質推進。",
 
-  "image": "images/S06_SH003.jpg",
-
-  "status": "draft"
+  "prompt": "front facing korean government office worker sitting behind desk covered with paperwork and forms, cinematic wide close up, 65mm lens look, cold office lighting, bureaucratic atmosphere, tired expression, hand supporting chin, messy paper stacks foreground, centered composition, low contrast gray tone, institutional fatigue, static camera, realistic korean office interior, chair framing behind subject, emotionally exhausted office worker"
 }
