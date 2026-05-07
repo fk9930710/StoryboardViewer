@@ -1,29 +1,28 @@
 {
   "id": "S07_SH002",
+  "scene": "S#7",
 
-  "scene": "S07",
+  "shotType": "MWS",
 
-  "shot": "SH002",
+  "duration": "14 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
 
-  "dialogue": "",
+  "image": "",
 
-  "action": "",
+  "description": "低角度固定鏡頭中，馬克進入室內後在前景來回移動，動作急促而混亂。他手裡拿著外套與帽子，臉被大型紅色蘋果遮住。後方妻子靠牆站著，雙手抱腰，冷靜而幾乎靜止地看著他。當馬克脫下外套卻沒有人接住時，他短暫停頓，逐漸意識到空間中的異樣。",
 
-  "cameraMovement": "",
+  "composition": "前後景分離構圖。低角度鏡頭看向室內走道，前景是來回移動的馬克，中景保留空間距離，後景則是穩定靠牆的妻子。動態與靜態形成強烈對比。",
 
-  "edit": "",
+  "lighting": "暖色室內燈光混合較暗陰影，整體偏暖但壓抑，對比中等，帶有日常生活中的不自然感。",
 
-  "duration": "",
+  "action": "馬克快速進屋、來回移動、說話、脫下外套與帽子。妻子幾乎不動，只冷靜注視他。外套沒被接住後，馬克停頓並顯得不知所措。",
 
-  "notes": "",
+  "edit": "固定鏡頭維持空間完整性，透過人物在畫面中的移動與停頓建立心理壓力。",
 
-  "prompt": "",
+  "dialogue": "馬克：『今天真是見鬼的一天。』 妻子：『哦。』",
 
-  "image": "images/S07_SH002.jpg",
-
-  "status": "draft"
+  "prompt": "low angle medium wide shot inside narrow korean apartment hallway, korean man with giant red apple covering face moving anxiously in foreground holding coat and hat, korean woman leaning against wall in background calmly watching him, static camera, subtle motion blur, awkward domestic tension, warm dim apartment lighting, restrained surreal realism, emotional distance, minimalist korean interior, cinematic realism"
 }

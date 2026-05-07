@@ -1,29 +1,28 @@
 {
   "id": "S09_SH001",
+  "scene": "S#9",
 
-  "scene": "S09",
+  "shotType": "WS",
 
-  "shot": "SH001",
+  "duration": "12 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "馬克坐在街邊，像個被遺落的人。他的臉被蘋果遮住，整體幾乎不動。前景不斷有行人經過，形成流動的遮擋。電話響起，他接起又很快放下，沒有明確情緒。短暫停頓後，他起身離開畫面，彷彿從世界邊緣消失。",
+
+  "composition": "遠景固定構圖，前景持續有模糊行人橫向經過形成遮擋。馬克位於畫面中偏側位置，與流動世界形成對比。空間透過70mm壓縮感讓街道顯得擁擠而封閉。",
+
+  "lighting": "自然柔光或陰天日光，低飽和偏灰色調，中低對比，整體帶有孤立與抽離感。",
+
+  "action": "馬克靜靜坐著，電話響起後緩慢接起，再平淡放下。短暫停頓後起身離開畫面。行人則持續流動，與他毫無關聯。",
+
+  "edit": "利用前景 pass-by 遮擋與長時間固定鏡頭建立疏離感。人物節奏刻意斷裂，讓觀眾感受到世界正常運作而主角被排除在外。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S09_SH001.jpg",
-
-  "status": "draft"
+  "prompt": "cinematic korean man sitting alone on street bench or sidewalk, face completely covered by giant red apple, people constantly passing in foreground motion blur, static long lens composition, lonely detached atmosphere, korean city street realism, muted gray colors, soft overcast daylight, isolated man ignored by society, slow melancholic pacing, realistic korean arthouse film style"
 }

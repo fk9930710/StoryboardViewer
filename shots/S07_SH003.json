@@ -1,29 +1,28 @@
 {
   "id": "S07_SH003",
+  "scene": "S#7",
 
-  "scene": "S07",
+  "shotType": "CU to MS",
 
-  "shot": "SH003",
+  "duration": "11 sec",
 
-  "shotType": "",
+  "cameraMovement": "Slow Dolly Out",
 
-  "description": "",
+  "status": "draft",
 
-  "dialogue": "",
+  "image": "",
 
-  "action": "",
+  "description": "鏡頭從馬克極近距離開始，他正面直視妻子，臉被大型紅色蘋果完全遮住，以壓抑而克制的語氣說出『我生氣』。隨著情緒逐漸升高，鏡頭緩慢後移，畫面從壓迫性的近景轉為較疏離的中景，空間逐漸暴露，兩人之間的情感距離反而被拉開。",
 
-  "cameraMovement": "",
+  "composition": "正面構圖。初期馬克幾乎填滿畫面，蘋果位於中央形成強烈壓迫感。隨鏡頭後移，背景與空間逐漸顯現，人物比例縮小，情緒與距離形成反差。",
 
-  "edit": "",
+  "lighting": "暖色室內光混合陰影，整體偏暗，中等對比，營造壓抑與逐漸升高的情緒張力。",
 
-  "duration": "",
+  "action": "馬克幾乎靜止，只透過視線與語氣施加壓力。鏡頭持續緩慢後移，使空間與關係感逐漸鬆開。",
 
-  "notes": "",
+  "edit": "以極慢 dolly out 建立情緒變化，讓畫面從壓迫性的親密感逐漸變成冷淡與疏離。",
 
-  "prompt": "",
+  "dialogue": "馬克：『我生氣。』",
 
-  "image": "images/S07_SH003.jpg",
-
-  "status": "draft"
+  "prompt": "cinematic korean man facing camera directly with giant red apple covering face, emotional confrontation scene, starts as oppressive close up then slowly dolly out to medium shot, warm dim apartment lighting, restrained anger, psychological distance increasing, static body posture, subtle tension, korean domestic realism mixed with surrealism, slow emotional camera movement, minimalist apartment background gradually revealed"
 }
