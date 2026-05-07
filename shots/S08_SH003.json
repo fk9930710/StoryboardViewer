@@ -1,29 +1,28 @@
 {
   "id": "S08_SH003",
+  "scene": "S#8",
 
-  "scene": "S08",
+  "shotType": "tight_CU",
 
-  "shot": "SH003",
+  "duration": "5 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "畫面為緊湊近景，左側為馬克，右側為金教授，兩人皆從肩膀以上入畫。兩人身體與頭部同方向，皆稍微朝向畫面右側，沒有轉頭。馬克的臉被一顆大型紅色蘋果完全遮住。兩人呈現並列但共同面向同一方向的狀態。背景為乾淨偏白的演播廳空間。",
+
+  "composition": "雙人並列構圖，左馬克右金教授，肩膀以上裁切。蘋果位於視覺中心偏左，形成畫面焦點。",
+
+  "lighting": "柔和且略帶方向性的棚內燈光，中低對比，帶有冷靜與輕微舞台感。",
+
+  "action": "金教授輕微說話或保持靜止，馬克完全不動。",
+
+  "edit": "固定鏡頭，以極度穩定與並列關係建立非現實感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S08_SH003.jpg",
-
-  "status": "draft"
+  "prompt": "tight cinematic close up of korean professor and korean businessman sitting side by side in minimalist talk show studio, giant red apple completely covering businessman face, both facing same direction, calm intellectual atmosphere, subtle surrealism, white clean background, magritte realism translated into real world, korean television studio aesthetic, static composition, 100mm lens look"
 }

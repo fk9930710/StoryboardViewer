@@ -1,29 +1,28 @@
 {
   "id": "S06_SH004",
+  "scene": "S#6",
 
-  "scene": "S06",
+  "shotType": "MCU",
 
-  "shot": "SH004",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "從桌子另一側看向馬克。畫面前景被大片桌面壓住，桌線略微傾斜，像一道制度性的界線。馬克坐在畫面中央，被椅背與空間框住，身體筆直幾乎不動。一顆大型紅色蘋果完全遮住他的臉，位於畫面正中央。背景是普通而廉價的行政辦公室，冷白日光燈均勻照亮整個空間。整顆鏡頭像是某種官僚系統正在安靜地審視與處理一個人，而那顆荒謬的蘋果卻沒有人感到奇怪。",
+
+  "composition": "制度視角構圖，桌面大量佔據畫面下半部形成壓迫感。桌線略微傾斜切開畫面，馬克位於中央，被椅背與空間框住。蘋果位於畫面正中心。",
+
+  "lighting": "冷白辦公室日光燈，偏冷、略微去飽和色調，低對比，氛圍安靜、壓抑且制度化。",
+
+  "action": "馬克幾乎完全靜止，只剩細微呼吸與眨眼，像等待被系統處理。",
+
+  "edit": "固定鏡頭，以停滯感與制度觀看感建立官僚蒙太奇節奏。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S06_SH004.jpg",
-
-  "status": "draft"
+  "prompt": "medium close up of korean businessman sitting across bureaucratic office desk with giant red apple covering face, realistic korean administrative office, cold fluorescent lighting, institutional framing, desk dominating foreground, static restrained composition, apple centered in frame, emotionally detached bureaucratic realism, ordinary cheap office furniture, muted desaturated tones, psychological stillness, cinematic realism, 50mm lens look"
 }

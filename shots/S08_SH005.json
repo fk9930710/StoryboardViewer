@@ -1,29 +1,28 @@
 {
   "id": "S08_SH005",
+  "scene": "S#8",
 
-  "scene": "S08",
+  "shotType": "MCU",
 
-  "shot": "SH005",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Slow Push",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "在一個簡單復古的演播廳佈景中，兩名韓國男子同框。左側黑毛衣男身體微微側向右側的馬克，頭部前傾靠近蘋果，視線專注盯著蘋果，並抬高手臂伸出手指指向蘋果，距離極近但不接觸。右側馬克正對鏡頭，臉被一顆大型紅色蘋果完全遮住，保持靜止。畫面平視、構圖乾淨，光線均勻帶有Magritte畫作轉為現實的質感。",
+
+  "composition": "雙人同框構圖，左側黑毛衣男、右側馬克。手指與蘋果形成極近距離的視覺張力。",
+
+  "lighting": "均勻柔和棚內燈光，中低對比，帶有冷靜與輕微超現實感。",
+
+  "action": "黑毛衣男伸手指向蘋果但不接觸，馬克保持完全靜止。",
+
+  "edit": "鏡頭緩慢向前推進，強化觀看與壓迫感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S08_SH005.jpg",
-
-  "status": "draft"
+  "prompt": "medium close up of korean man in black sweater pointing closely at giant red apple covering another korean man's face, minimalist retro talk show set, surreal calm atmosphere, magritte realism in real world, cinematic 50mm lens look, soft even studio lighting, psychologically uncomfortable stillness, korean television debate aesthetic"
 }

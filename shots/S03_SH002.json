@@ -1,29 +1,28 @@
 {
   "id": "S03_SH002",
+  "scene": "S#3",
 
-  "scene": "S03",
+  "shotType": "CU",
 
-  "shot": "SH002",
+  "duration": "4 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "妻子站在廚房空間裡，第一次看到馬克臉上的蘋果後短暫愣住。她嘴巴微微張開，眼神停住，沒有誇張反應，只像一瞬間無法理解眼前發生的事。整體氣氛安靜而不自然。",
+
+  "composition": "近距離正面構圖，人物位於畫面中央略偏右。背景是冷色調廚房空間，帶有簡單櫥櫃與室內燈光。",
+
+  "lighting": "冷白室內光，低對比，偏冷灰色調，氛圍安靜、停滯且帶有現實感。",
+
+  "action": "妻子微微轉頭後停住，嘴巴略微張開，維持短暫僵住狀態。",
+
+  "edit": "固定鏡頭，接在馬克穿衣與準備出門的動作中間，以停頓建立第一次異常感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S03_SH002.jpg",
-
-  "status": "draft"
+  "prompt": "close up of korean woman standing in kitchen frozen in confusion, realistic korean apartment kitchen interior, subtle shocked reaction, mouth slightly open, emotionally restrained acting, cold indoor lighting, cinematic realism, korean wife seeing something disturbing for first time, static camera, muted gray blue tones, natural documentary style, ordinary domestic environment, subtle psychological discomfort"
 }

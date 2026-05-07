@@ -1,29 +1,28 @@
 {
   "id": "S08_SH001",
+  "scene": "S#8",
 
-  "scene": "S08",
+  "shotType": "MCU",
 
-  "shot": "SH001",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "馬克坐著閱讀手中的文件，一隻手無意識地觸碰領口或領帶。他的臉被紅色蘋果完全遮住，使閱讀行為顯得不自然。整體畫面安靜且略帶壓迫感，呈現出理解與不安並存的狀態。",
+
+  "composition": "正面略微下壓構圖。馬克位於畫面中央，胸口以上裁切，背景空間被弱化，蘋果與文件形成主要視覺焦點。",
+
+  "lighting": "柔和偏冷的室內光線，低飽和與中低對比，營造壓抑與停滯感。",
+
+  "action": "馬克低頭閱讀文件，一手輕觸領口或領帶，動作緩慢而不安。",
+
+  "edit": "固定鏡頭，以長時間停留強化閱讀中的壓迫與異常感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S08_SH001.jpg",
-
-  "status": "draft"
+  "prompt": "medium close up of korean businessman sitting and reading documents, giant red apple completely covering face, one hand touching necktie nervously, minimalist interview room, muted colors, soft cold indoor lighting, restrained surrealism, bureaucratic realism, cinematic 50mm lens look, static composition, psychological discomfort, magritte realism translated into reality"
 }

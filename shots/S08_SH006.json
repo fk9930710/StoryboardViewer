@@ -1,29 +1,28 @@
 {
   "id": "S08_SH006",
+  "scene": "S#8",
 
-  "scene": "S08",
+  "shotType": "MS",
 
-  "shot": "SH006",
+  "duration": "7 sec",
 
-  "shotType": "",
+  "cameraMovement": "Slow Pan + Push",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "馬克坐在畫面左側的黑色金屬椅上，全身入畫，身體與頭部同方向微微朝向右側，臉被一顆大型紅色蘋果完全遮住，保持靜止。右側前景有一名宗教人士正面朝向鏡頭，但極度模糊，無法辨識其動作或表情，只呈現一種不明確的人形存在。畫面中有幾張紙定格在空中經過馬克臉前。背景為乾淨偏白的演播廳空間。",
+
+  "composition": "單人主體加前景干擾構圖。馬克位於左側完整入畫，前景右側宗教人士極度模糊形成壓迫存在感。空中紙張切過畫面增加停滯中的混亂感。",
+
+  "lighting": "柔和且略帶方向性的棚內光線，中低對比，氛圍冷靜、停滯且不自然。",
+
+  "action": "馬克完全靜止，前景宗教人士保持模糊活動感，紙張漂浮穿過畫面。",
+
+  "edit": "鏡頭從宗教人士方向緩慢橫移並向馬克推進，建立超現實停滯感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S08_SH006.jpg",
-
-  "status": "draft"
+  "prompt": "wide medium shot of korean businessman sitting motionless on black modernist chair with giant red apple covering face, blurred religious figure in foreground, floating papers crossing frame, minimalist white talk show studio, surreal stillness, magritte realism translated into reality, cinematic slow push atmosphere, psychologically uncanny television set, korean surreal drama aesthetic"
 }

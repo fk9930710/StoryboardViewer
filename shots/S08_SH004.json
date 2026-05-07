@@ -1,29 +1,28 @@
 {
   "id": "S08_SH004",
+  "scene": "S#8",
 
-  "scene": "S08",
+  "shotType": "CU",
 
-  "shot": "SH004",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "宗教人士位於畫面前景右側，靠近鏡頭且略微偏中心，清晰對焦，正面朝向鏡頭，手持聖經進行節制的傳教說話。後景左側，馬克坐在現代黑色金屬椅上，臉被紅色蘋果遮住，處於完全失焦狀態。畫面空間乾淨偏白，光線從上方斜射到宗教人士，形成微弱的聖光感。",
+
+  "composition": "前景宗教人士｜後景馬克的雙層構圖。宗教人士佔據畫面右側偏中央，比例略大形成壓迫感；馬克位於後景左側完全失焦。",
+
+  "lighting": "主光從畫面右上方斜射，集中於宗教人士臉部與聖經。整體中低對比，帶有現實感中的微弱神聖氛圍。",
+
+  "action": "宗教人士手持聖經平穩傳教，馬克完全靜止。",
+
+  "edit": "固定鏡頭，以清晰與失焦對比建立異樣神聖感與觀看關係。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S08_SH004.jpg",
-
-  "status": "draft"
+  "prompt": "close up korean religious man preaching while holding bible, foreground sharp focus, korean businessman with giant red apple covering face sitting blurred in background, minimalist white talk show studio, subtle holy light from upper right, realistic korean television studio, restrained religious performance, surreal bureaucratic absurdity, cinematic 85mm lens look, static composition, magritte realism"
 }

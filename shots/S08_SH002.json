@@ -1,29 +1,28 @@
 {
-  "id": "S08_SH002",
+  "id": "S09_SH002",
+  "scene": "S#9",
 
-  "scene": "S08",
+  "shotType": "MCU",
 
-  "shot": "SH002",
+  "duration": "7 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "主持人坐在桌後正面面對鏡頭，單手舉起食指，像正在強調某個觀點或進行節目式提問。畫面帶有深夜談話節目的冷靜與表演性，但整體保持克制。",
+
+  "composition": "正面談話節目構圖。主持人位於畫面中央偏右，桌面作為前景橫向切開畫面。手勢抬高形成垂直視覺重心。背景虛化，只保留燈光與演播廳空間感。",
+
+  "lighting": "演播廳主光均勻照亮人物臉部，背景帶有冷暖混合城市燈光。整體對比中低，帶有乾淨電視攝影質感。",
+
+  "action": "主持人單手舉起食指並持續說話，另一隻手放在桌面上，動作穩定而節制。",
+
+  "edit": "固定鏡頭長停留，維持談話節目的正式與制度性觀看感。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S08_SH002.jpg",
-
-  "status": "draft"
+  "prompt": "korean late night talk show host sitting behind desk, medium close up, one finger raised while speaking, calm television studio atmosphere, cinematic broadcast lighting, neutral expression, restrained performance, blurred studio background lights, static shot, realistic late night show framing, clean studio composition, korean male host in formal suit"
 }
