@@ -1,29 +1,28 @@
 {
   "id": "S01_SH001",
+  "scene": "S#1",
 
-  "scene": "S01",
+  "shotType": "MS",
 
-  "shot": "SH001",
+  "duration": "4 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "在韓國小學校門前，一對普通韓國父母與剛入學的兒子站在一起拍紀念照。父母自然微笑，看向鏡頭。男孩站在中間，背著書包，穿著整齊制服。然而就在快門按下的瞬間，一隻飛過的白鴿剛好完全遮住他的臉，使整張照片像一張真實卻奇怪的家庭舊照片。畫面帶有2000年代初期家庭數位相機的質感，略微過曝、偏冷、輕微褪色，像被保存多年的家庭相簿影像。",
+
+  "composition": "家庭紀念照構圖，三人同框。男孩站在中間，父母站在左右兩側。背景是韓國小學校門與自然經過的學生與家長。裁切至大腿以上，一隻飛過的白鴿剛好完全遮住男孩的臉。",
+
+  "lighting": "自然晨光，微冷色調，低至中低對比，略微過曝與輕微褪色，帶有2000年代初期家庭數位相機質感。",
+
+  "action": "父母自然站著微笑合照，男孩站直面向鏡頭，一隻白鴿飛行中展開翅膀，剛好完全遮住男孩整張臉。",
+
+  "edit": "固定鏡頭，像家庭相簿中的一張靜態照片。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S01_SH001.jpg",
-
-  "status": "draft"
+  "prompt": "early 2000s korean family photo in front of elementary school gate, ordinary korean parents smiling naturally, young korean schoolboy standing in middle with backpack and school uniform, white pigeon flying across and perfectly covering the boy's entire face, documentary realism, candid family digital camera photo, slightly overexposed, cold white balance, faded colors, jpeg compression artifacts, realistic korean morning school atmosphere, nostalgic family album feeling, medium shot, static composition"
 }

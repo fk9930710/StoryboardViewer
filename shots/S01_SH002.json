@@ -1,29 +1,28 @@
 {
   "id": "S01_SH002",
+  "scene": "S#1",
 
-  "scene": "S01",
+  "shotType": "WS",
 
-  "shot": "SH002",
+  "duration": "4 sec",
 
-  "shotType": "",
+  "cameraMovement": "Static",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "一張掛在普通韓國家庭牆上的高中入學紀念照片。照片裡是大型韓國高中校門前的廣場，許多學生與家長聚集拍照。畫面中央是幾組自然合照的學生，人群稍微混亂。馬克站在畫面最右側邊緣，穿著制服與書包，原本也應該在照片裡，但他的身體與臉卻被畫面邊界意外裁掉一半，像攝影者根本沒注意到他。照片帶有2000年代家庭數位相機的普通舊照片質感，略微泛黃，被裝進普通木框裡掛在家中牆上。",
+
+  "composition": "多人紀念照構圖，畫面中央是幾組正在合照的學生與家長。馬克位於畫面最右側邊緣，身體與臉被畫面邊界切掉一半。其他人完整入鏡，只有他被意外裁切。",
+
+  "lighting": "自然日光，略微偏冷與輕微褪色，低至中低對比，帶有2000年代家庭數位相機質感與些微泛黃。",
+
+  "action": "其他學生聊天、比手勢、整理制服與拍照，馬克則安靜站在人群邊緣，像被忽略的存在。",
+
+  "edit": "固定鏡頭，像鏡頭掃過掛在牆上的家庭舊照片。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S01_SH002.jpg",
-
-  "status": "draft"
+  "prompt": "old korean family photo hanging on living room wall, korean high school entrance ceremony, crowded school plaza with students and parents taking photos, realistic documentary photography, korean teenage boy standing at far right edge of frame with half of his body and face accidentally cropped out, ordinary korean high school uniforms, casual candid family digital camera shot, wooden photo frame, slight glass reflection, faded colors, slightly yellowed old print, early 2000s digital camera aesthetic, ordinary documentary realism, wide shot"
 }
