@@ -1,29 +1,28 @@
 {
   "id": "S10_SH006",
+  "scene": "S#10",
 
-  "scene": "S10",
+  "shotType": "ECU",
 
-  "shot": "SH006",
+  "duration": "6 sec",
 
-  "shotType": "",
+  "cameraMovement": "Subtle Floating Drift",
 
-  "description": "",
+  "status": "draft",
+
+  "image": "",
+
+  "description": "極特寫平視鏡頭觀看半透明白布內部。畫面裡沒有天花板、沒有燈管，也沒有任何辦公室資訊，只剩下一片柔白布料與模糊透光。白布柔軟輕薄，帶有少量自然皺摺，形成柔和起伏。後方只有若有似無的柔白光源，整個畫面像呼吸一樣輕微漂浮與擺動。",
+
+  "composition": "抽象極簡構圖。半透明白布幾乎填滿整個畫面，沒有具體空間資訊與人物輪廓。柔白透光區域隱約漂浮，形成封閉而柔軟的視覺空間。",
+
+  "lighting": "柔白散射光透過布料擴散，低飽和白灰色調，極低對比。整體氛圍溫柔、安靜且與世界隔絕。",
+
+  "action": "白布只有極輕微呼吸感般的漂浮與擺動，光線也隨之柔和變化。沒有任何劇烈動作。",
+
+  "edit": "利用極近距離與抽象化空間感讓畫面脫離現實辦公室環境，形成像被包覆在柔軟小空間中的感覺。",
 
   "dialogue": "",
 
-  "action": "",
-
-  "cameraMovement": "",
-
-  "edit": "",
-
-  "duration": "",
-
-  "notes": "",
-
-  "prompt": "",
-
-  "image": "images/S10_SH006.jpg",
-
-  "status": "draft"
+  "prompt": "extreme close up inside translucent white fabric, soft diffused white light glowing through cloth, minimal abstract cinematic image, gentle natural fabric folds, no ceiling or office details visible, floating breathing-like movement, quiet intimate atmosphere, low contrast white and pale gray tones, realistic soft textile texture, peaceful isolation, korean arthouse cinema aesthetic"
 }
