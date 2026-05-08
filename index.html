@@ -2,6 +2,7 @@
 <html lang="zh-Hant">
 
 <head>
+
   <meta charset="UTF-8" />
 
   <meta
@@ -53,6 +54,7 @@
   <div class="flex h-screen">
 
     <!-- SIDEBAR -->
+
     <aside
       class="
         w-[220px]
@@ -63,7 +65,6 @@
       "
     >
 
-      <!-- HEADER -->
       <div class="p-5 border-b border-zinc-800">
 
         <h1 class="text-2xl font-bold">
@@ -76,7 +77,6 @@
 
       </div>
 
-      <!-- SHOT LIST -->
       <div
         id="shotList"
         class="
@@ -92,11 +92,13 @@
     </aside>
 
     <!-- MAIN -->
+
     <main class="flex-1 overflow-y-auto">
 
       <div class="max-w-6xl mx-auto p-8">
 
         <!-- TOP -->
+
         <div class="mb-6">
 
           <div class="text-zinc-400 text-sm mb-2">
@@ -111,7 +113,8 @@
 
         </div>
 
-        <!-- IMAGE -->
+        <!-- MAIN IMAGE -->
+
         <div
           class="
             relative
@@ -132,9 +135,49 @@
             class="w-full h-full object-cover"
           />
 
+          <!-- IMAGE UPLOAD -->
+
+          <div
+            class="
+              absolute
+              bottom-4
+              right-4
+              z-20
+            "
+          >
+
+            <label
+              class="
+                bg-black/70
+                hover:bg-black
+                px-4
+                py-2
+                rounded-xl
+                text-sm
+                cursor-pointer
+                transition
+                border
+                border-zinc-700
+              "
+            >
+
+              Upload Image
+
+              <input
+                type="file"
+                id="imageUpload"
+                accept="image/*"
+                class="hidden"
+              />
+
+            </label>
+
+          </div>
+
         </div>
 
         <!-- META -->
+
         <div class="grid grid-cols-4 gap-4 mb-8">
 
           <div class="bg-zinc-900 rounded-2xl p-4 border border-zinc-800">
@@ -196,6 +239,7 @@
         </div>
 
         <!-- DESCRIPTION -->
+
         <section
           class="
             bg-zinc-900
@@ -228,6 +272,7 @@
         </section>
 
         <!-- OVERHEAD DIAGRAM -->
+
         <section
           class="
             bg-zinc-900
@@ -293,9 +338,9 @@
         </section>
 
         <!-- DETAILS -->
+
         <div class="grid grid-cols-2 gap-6">
 
-          <!-- ACTION -->
           <section
             class="
               bg-zinc-900
@@ -325,7 +370,6 @@
 
           </section>
 
-          <!-- EDIT -->
           <section
             class="
               bg-zinc-900
@@ -355,7 +399,6 @@
 
           </section>
 
-          <!-- DIALOGUE -->
           <section
             class="
               bg-zinc-900
@@ -385,7 +428,6 @@
 
           </section>
 
-          <!-- PROMPT -->
           <section
             class="
               bg-zinc-900
@@ -407,7 +449,6 @@
                 bg-transparent
                 text-zinc-400
                 text-sm
-                whitespace-pre-wrap
                 leading-relaxed
                 outline-none
                 resize-y
@@ -447,6 +488,428 @@
     Save Shot
   </button>
 
+<script>
+
+let shots = []
+let currentShot = null
+
+const shotList =
+  document.getElementById('shotList')
+
+const mainImage =
+  document.getElementById('mainImage')
+
+const overheadImage =
+  document.getElementById('overheadImage')
+
+const diagramUpload =
+  document.getElementById('diagramUpload')
+
+const imageUpload =
+  document.getElementById('imageUpload')
+
+const saveButton =
+  document.getElementById('saveButton')
+
+const sceneTitle =
+  document.getElementById('sceneTitle')
+
+const shotType =
+  document.getElementById('shotType')
+
+const duration =
+  document.getElementById('duration')
+
+const cameraMovement =
+  document.getElementById('cameraMovement')
+
+const scene =
+  document.getElementById('scene')
+
+const description =
+  document.getElementById('description')
+
+const action =
+  document.getElementById('action')
+
+const edit =
+  document.getElementById('edit')
+
+const dialogue =
+  document.getElementById('dialogue')
+
+const prompt =
+  document.getElementById('prompt')
+
+// LOAD SHOTS
+
+async function loadShots() {
+
+  const manifestRes =
+    await fetch('./shots/manifest.json')
+
+  const manifest =
+    await manifestRes.json()
+
+  const shotPromises =
+    manifest.map(async (fileName) => {
+
+      const res =
+        await fetch(`./shots/${fileName}.json`)
+
+      return await res.json()
+
+    })
+
+  shots =
+    await Promise.all(shotPromises)
+
+  renderSidebar()
+
+  renderShot(shots[0])
+
+}
+
+// SIDEBAR
+
+function renderSidebar() {
+
+  shotList.innerHTML = ''
+
+  shots.forEach((shot, index) => {
+
+    const item =
+      document.createElement('button')
+
+    item.className = `
+      w-full
+      text-left
+      px-3
+      py-2
+      rounded-lg
+      text-sm
+      hover:bg-zinc-800
+      transition
+    `
+
+    item.innerHTML = `
+      <div class="font-medium tracking-wide">
+        ${shot.id}
+      </div>
+    `
+
+    item.onclick = () => {
+
+      document
+        .querySelectorAll('#shotList button')
+        .forEach(btn =>
+          btn.classList.remove('shot-active')
+        )
+
+      item.classList.add('shot-active')
+
+      renderShot(shot)
+
+    }
+
+    shotList.appendChild(item)
+
+    if (index === 0) {
+      item.classList.add('shot-active')
+    }
+
+  })
+
+}
+
+// IMAGE PATHS
+
+function getImagePath(shotId) {
+
+  return `./images/${shotId
+    .toLowerCase()}.png`
+
+}
+
+function getDiagramPath(shotId) {
+
+  return `./diagrams/${shotId
+    .toLowerCase()}.png`
+
+}
+
+// IMAGE FALLBACK
+
+function setImageWithFallback(imgElement, src) {
+
+  imgElement.onerror = () => {
+
+    imgElement.src =
+      './images/placeholder.jpg'
+
+  }
+
+  imgElement.src =
+    `${src}?t=${Date.now()}`
+
+}
+
+// RENDER SHOT
+
+async function renderShot(shot) {
+
+  currentShot = shot
+
+  setImageWithFallback(
+    mainImage,
+    getImagePath(shot.id)
+  )
+
+  overheadImage.onerror = () => {
+    overheadImage.src = ''
+  }
+
+  overheadImage.src =
+    `${getDiagramPath(shot.id)}?t=${Date.now()}`
+
+  sceneTitle.textContent =
+    shot.id || ''
+
+  shotType.textContent =
+    shot.shotType || '-'
+
+  duration.textContent =
+    shot.duration || '-'
+
+  cameraMovement.textContent =
+    shot.cameraMovement || '-'
+
+  scene.textContent =
+    shot.scene || '-'
+
+  description.value =
+    shot.description || ''
+
+  action.value =
+    shot.action || ''
+
+  edit.value =
+    shot.edit || ''
+
+  dialogue.value =
+    shot.dialogue || ''
+
+  prompt.value =
+    shot.prompt || ''
+
+}
+
+// SAVE JSON
+
+saveButton.addEventListener('click', async () => {
+
+  if (!currentShot) return
+
+  currentShot.description =
+    description.value
+
+  currentShot.action =
+    action.value
+
+  currentShot.edit =
+    edit.value
+
+  currentShot.dialogue =
+    dialogue.value
+
+  currentShot.prompt =
+    prompt.value
+
+  try {
+
+    const response =
+      await fetch('/api/save-json', {
+
+        method: 'POST',
+
+        headers: {
+          'Content-Type': 'application/json'
+        },
+
+        body: JSON.stringify({
+
+          shotId: currentShot.id,
+
+          data: currentShot
+
+        })
+
+      })
+
+    if (!response.ok) {
+      throw new Error('Save failed')
+    }
+
+    saveButton.innerText = 'Saved'
+
+    setTimeout(() => {
+
+      saveButton.innerText =
+        'Save Shot'
+
+    }, 1500)
+
+  } catch (err) {
+
+    console.error(err)
+
+    saveButton.innerText = 'Error'
+
+  }
+
+})
+
+// MAIN IMAGE UPLOAD
+
+imageUpload.addEventListener('change', async (e) => {
+
+  const file = e.target.files[0]
+
+  if (!file || !currentShot) return
+
+  const reader = new FileReader()
+
+  reader.onload = async () => {
+
+    const imageData =
+      reader.result
+
+    mainImage.src =
+      imageData
+
+    try {
+
+      const response =
+        await fetch('/api/save-shot', {
+
+          method: 'POST',
+
+          headers: {
+            'Content-Type': 'application/json'
+          },
+
+          body: JSON.stringify({
+
+            shotId:
+              currentShot.id.toLowerCase(),
+
+            imageData,
+
+            folder:
+              'images'
+
+          })
+
+        })
+
+      if (!response.ok) {
+
+        throw new Error(
+          'Upload failed'
+        )
+
+      }
+
+    } catch (err) {
+
+      console.error(err)
+
+      alert('Upload failed')
+
+    }
+
+  }
+
+  reader.readAsDataURL(file)
+
+})
+
+// DIAGRAM UPLOAD
+
+diagramUpload.addEventListener('change', async (e) => {
+
+  const file = e.target.files[0]
+
+  if (!file || !currentShot) return
+
+  const reader = new FileReader()
+
+  reader.onload = async () => {
+
+    const imageData =
+      reader.result
+
+    try {
+
+      const response =
+        await fetch('/api/save-shot', {
+
+          method: 'POST',
+
+          headers: {
+            'Content-Type': 'application/json'
+          },
+
+          body: JSON.stringify({
+
+            shotId:
+              currentShot.id.toLowerCase(),
+
+            imageData,
+
+            folder:
+              'diagrams'
+
+          })
+
+        })
+
+      if (!response.ok) {
+
+        throw new Error(
+          'Diagram upload failed'
+        )
+
+      }
+
+      overheadImage.src =
+        `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
+
+    } catch (err) {
+
+      console.error(err)
+
+      alert(
+        'Diagram upload failed'
+      )
+
+    }
+
+  }
+
+  reader.readAsDataURL(file)
+
+})
+
+// START
+
+loadShots()
+
+</script>
+
+</body>
+</html>
+
   <script>
 
     let shots = []
@@ -467,6 +930,9 @@
 
     const diagramUpload =
       document.getElementById('diagramUpload')
+
+    const imageUpload =
+      document.getElementById('imageUpload')
 
     const saveButton =
       document.getElementById('saveButton')
@@ -675,7 +1141,7 @@
     }
 
     // ========================
-    // SAVE SHOT
+    // SAVE SHOT JSON
     // ========================
 
     saveButton.addEventListener('click', async () => {
@@ -742,6 +1208,75 @@
     })
 
     // ========================
+    // MAIN IMAGE UPLOAD
+    // ========================
+
+    imageUpload.addEventListener('change', async (e) => {
+
+      const file = e.target.files[0]
+
+      if (!file || !currentShot) return
+
+      const reader = new FileReader()
+
+      reader.onload = async () => {
+
+        const imageData =
+          reader.result
+
+        mainImage.src =
+          imageData
+
+        try {
+
+          const response =
+            await fetch('/api/save-shot', {
+
+              method: 'POST',
+
+              headers: {
+                'Content-Type': 'application/json'
+              },
+
+              body: JSON.stringify({
+
+                shotId:
+                  currentShot.id.toLowerCase(),
+
+                imageData,
+
+                folder:
+                  'images'
+
+              })
+
+            })
+
+          if (!response.ok) {
+
+            throw new Error(
+              'Upload failed'
+            )
+
+          }
+
+          console.log('Uploaded')
+
+        } catch (err) {
+
+          console.error(err)
+
+          alert('Upload failed')
+
+        }
+
+      }
+
+      reader.readAsDataURL(file)
+
+    })
+
+    // ========================
     // DIAGRAM UPLOAD
     // ========================
 
@@ -751,68 +1286,62 @@
 
       if (!file || !currentShot) return
 
-      const formData = new FormData()
+      const reader = new FileReader()
 
-      formData.append('file', file)
+      reader.onload = async () => {
 
-      formData.append(
-        'path',
-        `diagrams/${currentShot.id.toLowerCase()}.png`
-      )
+        const imageData =
+          reader.result
 
-      try {
+        try {
 
-        await fetch('/api/save-shot', {
+          const response =
+            await fetch('/api/save-shot', {
 
-          method: 'POST',
+              method: 'POST',
 
-          body: formData
+              headers: {
+                'Content-Type': 'application/json'
+              },
 
-        })
+              body: JSON.stringify({
 
-        overheadImage.src =
-          `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
+                shotId:
+                  currentShot.id.toLowerCase(),
 
-      } catch (err) {
+                imageData,
 
-        console.error(err)
+                folder:
+                  'diagrams'
 
-      }
+              })
 
-    })
-    imageUpload.addEventListener('change', async (e) => {
+            })
 
-      const file = e.target.files[0]
+          if (!response.ok) {
 
-      if (!file || !currentShot) return
+            throw new Error(
+              'Diagram upload failed'
+            )
 
-      const formData = new FormData()
+          }
 
-      formData.append('file', file)
+          overheadImage.src =
+            `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
 
-      formData.append(
-        'path',
-        `images/${currentShot.id.toLowerCase()}.png`
-      )
+        } catch (err) {
 
-      try {
+          console.error(err)
 
-        await fetch('/api/save-shot', {
+          alert(
+            'Diagram upload failed'
+          )
 
-          method: 'POST',
-
-          body: formData
-
-        })
-
-        mainImage.src =
-          `${getImagePath(currentShot.id)}?t=${Date.now()}`
-
-      } catch (err) {
-
-        console.error(err)
+        }
 
       }
+
+      reader.readAsDataURL(file)
 
     })
 
@@ -894,7 +1423,7 @@
 
     loadShots()
 
-  </script>
+    </script>
 
 </body>
 
