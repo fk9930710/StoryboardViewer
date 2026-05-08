@@ -780,6 +780,41 @@
       }
 
     })
+    imageUpload.addEventListener('change', async (e) => {
+
+      const file = e.target.files[0]
+
+      if (!file || !currentShot) return
+
+      const formData = new FormData()
+
+      formData.append('file', file)
+
+      formData.append(
+        'path',
+        `images/${currentShot.id.toLowerCase()}.png`
+      )
+
+      try {
+
+        await fetch('/api/save-shot', {
+
+          method: 'POST',
+
+          body: formData
+
+        })
+
+        mainImage.src =
+          `${getImagePath(currentShot.id)}?t=${Date.now()}`
+
+      } catch (err) {
+
+        console.error(err)
+
+      }
+
+    })
 
     // ========================
     // KEYBOARD NAVIGATION
