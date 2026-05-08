@@ -104,19 +104,6 @@
 
           </div>
 
-          <div
-            id="statusBadge"
-            class="
-              bg-zinc-700
-              px-4
-              py-2
-              rounded-full
-              text-sm
-              font-semibold
-            "
-          >
-          </div>
-
         </div>
 
         <!-- IMAGE -->
@@ -486,40 +473,31 @@
           document.createElement('button')
 
         item.className = `
-          w-full
-          text-left
-          bg-zinc-900
-          border
-          border-zinc-800
-          rounded-2xl
-          p-4
-          hover:bg-zinc-800
-          transition
+            w-full
+            text-left
+            px-4
+            py-2
+            rounded-lg
+            text-sm
+            hover:bg-zinc-800
+            transition
         `
 
         item.innerHTML = `
 
           <div class="flex items-center justify-between">
 
-            <div>
-
-              <div class="font-bold text-lg">
-                ${shot.id}
-              </div>
-
-              <div class="text-zinc-400 text-sm mt-1">
-                ${shot.shotType || 'No Shot Type'}
-              </div>
-
+            <div class="font-medium tracking-wide">
+              ${shot.id}
             </div>
 
             <div class="
-              w-3
-              h-3
+              w-2
+              h-2
               rounded-full
-              ${shot.status === 'generated'
+              ${shot.image
                 ? 'bg-blue-500'
-                : 'bg-zinc-500'
+                : 'bg-zinc-600'
               }
             ">
             </div>
