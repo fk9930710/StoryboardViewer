@@ -1,58 +1,130 @@
-export async function onRequest(context) {
-
-  if (context.request.method !== "POST") {
-    return new Response("Method Not Allowed", {
-      status: 405
-    });
-  }
-
-  const { request, env } = context;
+export async function onRequestPost(context) {
 
   try {
 
-    const body = await request.json();
+    const body =
+      await context.request.json()
 
     const {
-      filename,
-      content
-    } = body;
+      shotId,
+      imageData,
+      folder
+    } = body
 
-    const owner = env.GITHUB_OWNER;
-    const repo = env.GITHUB_REPO;
-    const token = env.GITHUB_TOKEN;
+    if (
+      !shotId ||
+      !imageData ||
+      !folder
+    ) {
 
-    const path = `shots/${filename}`;
+      return new Response(
+        "Missing fields",
+        { status: 400 }
+      )
 
-    const githubURL =
-      `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+    }
 
-    const encoded =
-      btoa(unescape(encodeURIComponent(content)));
+    const GITHUB_TOKEN =
+      context.env.GITHUB_TOKEN
 
-    const res = await fetch(githubURL, {
-      method: "PUT",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        message: `upload ${filename}`,
-        content: encoded
+    const GITHUB_OWNER =
+      context.env.GITHUB_OWNER
+
+    const GITHUB_REPO =
+      context.env.GITHUB_REPO
+
+    const GITHUB_BRANCH =
+      context.env.GITHUB_BRANCH || "main"
+
+    // remove base64 header
+
+    const base64 =
+      imageData.replace(
+        /^data:image\/\w+;base64,/,
+        ''
+      )
+
+    const path =
+      `${folder}/${shotId}.png`
+
+    const githubUrl =
+      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`
+
+    // check existing file
+
+    let sha = null
+
+    const existing =
+      await fetch(githubUrl, {
+
+        headers: {
+          Authorization:
+            `Bearer ${GITHUB_TOKEN}`
+        }
+
       })
-    });
 
-    const data = await res.json();
+    if (existing.ok) {
 
-    return Response.json({
-      success: true,
-      github: data.content?.html_url
-    });
+      const existingJson =
+        await existing.json()
+
+      sha =
+        existingJson.sha
+
+    }
+
+    // upload
+
+    const githubResponse =
+      await fetch(githubUrl, {
+
+        method: "PUT",
+
+        headers: {
+
+          Authorization:
+            `Bearer ${GITHUB_TOKEN}`,
+
+          "Content-Type":
+            "application/json"
+
+        },
+
+        body: JSON.stringify({
+
+          message:
+            `update ${path}`,
+
+          content:
+            base64,
+
+          sha,
+
+          branch:
+            GITHUB_BRANCH
+
+        })
+
+      })
+
+    const result =
+      await githubResponse.text()
+
+    return new Response(result, {
+
+      status:
+        githubResponse.status
+
+    })
 
   } catch (err) {
 
-    return Response.json({
-      success: false,
-      error: err.message
-    });
+    return new Response(
+      err.toString(),
+      { status: 500 }
+    )
+
   }
+
 }
