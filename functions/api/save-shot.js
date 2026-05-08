@@ -36,13 +36,19 @@ export async function onRequestPost(context) {
     const GITHUB_BRANCH =
       context.env.GITHUB_BRANCH || "main"
 
-    // remove base64 header
+    // ========================
+    // REMOVE BASE64 HEADER
+    // ========================
 
     const base64 =
       imageData.replace(
         /^data:image\/\w+;base64,/,
         ''
       )
+
+    // ========================
+    // FILE PATH
+    // ========================
 
     const path =
       `${folder}/${shotId}.png`
@@ -62,7 +68,10 @@ export async function onRequestPost(context) {
         headers: {
 
           Authorization:
-            `token ${GITHUB_TOKEN}`
+            `token ${GITHUB_TOKEN}`,
+
+          "User-Agent":
+            "StoryboardViewer"
 
         }
 
@@ -93,7 +102,10 @@ export async function onRequestPost(context) {
             `token ${GITHUB_TOKEN}`,
 
           "Content-Type":
-            "application/json"
+            "application/json",
+
+          "User-Agent":
+            "StoryboardViewer"
 
         },
 
