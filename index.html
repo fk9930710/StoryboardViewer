@@ -832,56 +832,65 @@ diagramUpload.addEventListener('change', async (e) => {
 
   if (!file || !currentShot) return
 
-  const formData = new FormData()
+  const reader = new FileReader()
 
-  formData.append('file', file)
+  reader.onload = async () => {
 
-  formData.append(
-    'path',
-    `diagrams/${currentShot.id.toLowerCase()}.png`
-  )
+    const imageData =
+      reader.result
 
-  try {
+    try {
 
-    const response =
-      await fetch('/api/save-shot', {
+      const response =
+        await fetch('/api/save-shot', {
 
-        method: 'POST',
+          method: 'POST',
 
-        body: formData
+          headers: {
+            'Content-Type': 'application/json'
+          },
 
-      })
+          body: JSON.stringify({
+
+            shotId:
+              currentShot.id.toLowerCase(),
+
+            imageData,
+
+            folder:
+              'diagrams'
+
+          })
+
+        })
+
+      const result =
+        await response.text()
+
+      console.log(result)
 
       if (!response.ok) {
 
-        const text =
-          await response.text()
-
-        console.error(text)
-
-        throw new Error(text)
+        throw new Error(result)
 
       }
-
-    setTimeout(() => {
 
       overheadImage.src =
         `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
 
-    }, 2000)
+    } catch (err) {
 
-  } catch (err) {
+      console.error(err)
 
-    console.error(err)
+      alert('Diagram upload failed')
 
-    alert(
-      'Diagram upload failed'
-    )
+    }
 
   }
 
-})
+  reader.readAsDataURL(file)
 
+})
 // START
 
 loadShots()
