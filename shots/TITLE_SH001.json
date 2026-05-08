@@ -1,29 +1,17 @@
 {
   "id": "TITLE_SH001",
-
   "scene": "TITLE",
-
   "shot": "SH001",
-
   "shotType": "",
-
   "description": "",
-
   "dialogue": "",
-
   "action": "",
-
   "cameraMovement": "",
-
   "edit": "",
-
   "duration": "",
-
   "notes": "",
-
   "prompt": "",
-
   "image": "images/TITLE_SH001.jpg",
-
-  "status": "draft"
+  "status": "draft",
+  "overheadDiagram": ""
 }

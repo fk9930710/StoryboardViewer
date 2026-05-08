@@ -1,28 +1,17 @@
 {
   "id": "S04_SH003",
   "scene": "S#4",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "近距離畫面中，一名韓國警察正面面對鏡頭，神情平靜且專業，沒有明顯情緒反應。背景為模糊的城市街道，整體氛圍冷靜且日常。",
-
   "composition": "準對稱構圖，頭到胸比例，警察位於畫面中央或微偏位置，背景街道保持柔焦與低干擾。",
-
   "lighting": "陰天自然光，冷灰色調，低對比，氛圍現實、冷靜且無戲劇性。",
-
   "action": "警察幾乎完全靜止，以例行公事般的方式面對對方。",
-
   "edit": "固定鏡頭，以平靜且缺乏情緒波動的節奏呈現制度感。",
-
   "dialogue": "",
-
-  "prompt": "close up korean police officer facing camera calmly, realistic korean policeman in uniform, cinematic 85mm lens look, overcast daylight, cold gray tone, static professional expression, ordinary urban street background softly blurred, procedural atmosphere, realistic traffic stop scene, emotionally detached police officer, low contrast documentary realism"
+  "prompt": "close up korean police officer facing camera calmly, realistic korean policeman in uniform, cinematic 85mm lens look, overcast daylight, cold gray tone, static professional expression, ordinary urban street background softly blurred, procedural atmosphere, realistic traffic stop scene, emotionally detached police officer, low contrast documentary realism",
+  "overheadDiagram": ""
 }

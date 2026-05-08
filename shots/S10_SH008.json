@@ -1,28 +1,17 @@
 {
   "id": "S10_SH008",
   "scene": "S#10",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "微俯視近景鏡頭看著辦公桌上的紙箱。馬克的手輕輕撫摸紙箱表面與邊角，動作很慢、很輕。普通粗紙箱帶著些微磨損與搬運痕跡，像正在被收拾。冷白辦公室燈光照著低彩度桌面，淺景深讓手與紙箱接觸的位置成為畫面焦點。",
-
   "composition": "觸感式近景構圖。微俯視角度觀看桌面與紙箱，紙箱佔據大部分畫面，馬克的手成為主要視覺中心。畫面只保留少量文件、鍵盤邊角與桌面細節，背景極少且模糊。淺景深聚焦於手指與紙箱接觸的位置，強調粗糙紙感與觸碰質地。",
-
   "lighting": "冷白辦公室燈光，低飽和冷灰色調，低對比。整體氛圍安靜、疲憊，像離開前最後一次碰觸自己的東西。",
-
   "action": "馬克的手緩慢撫摸紙箱表面與邊角，動作輕柔且克制，像在確認某些東西仍然存在。",
-
   "edit": "固定鏡頭搭配極少量動作，利用觸感與停滯節奏建立情緒。避免戲劇化表演，讓畫面維持觀察式寫實感。",
-
   "dialogue": "",
-
-  "prompt": "cinematic close up of a tired man's hand gently touching a worn cardboard box on an office desk, slight top down angle, rough cardboard texture, subtle office objects, shallow depth of field, cold fluorescent office lighting, low saturation gray tones, quiet bureaucratic atmosphere, realistic korean office film still, static observational shot, tactile realism"
+  "prompt": "cinematic close up of a tired man's hand gently touching a worn cardboard box on an office desk, slight top down angle, rough cardboard texture, subtle office objects, shallow depth of field, cold fluorescent office lighting, low saturation gray tones, quiet bureaucratic atmosphere, realistic korean office film still, static observational shot, tactile realism",
+  "overheadDiagram": ""
 }

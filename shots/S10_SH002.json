@@ -1,28 +1,17 @@
 {
   "id": "S10_SH002",
   "scene": "S#10",
-
   "shotType": "MCU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "固定低角度鏡頭觀看一間簡潔辦公室。畫面右下方前景是一張巨大的辦公椅，椅背正對鏡頭。畫面右上方是一張大型辦公桌，桌上已有多個紙箱。馬克站在畫面中央偏左，位於椅子後方、桌子前方，完全背對鏡頭，畫面只拍到腰部以上。前同事站在左上方，靠近桌子左側，抱著紙箱，身體微微朝向馬克。整個畫面幾乎沒有地板，人物與桌椅壓滿空間。",
-
   "composition": "低角度平面壓縮構圖。巨大辦公椅佔據右下前景形成壓迫感，辦公桌與紙箱壓縮畫面空間。馬克位於中央偏左並完全背對鏡頭，前同事則位於左上方形成斜向人物關係。畫面刻意避免大量地板與背景資訊。",
-
   "lighting": "冷白辦公室燈光，低飽和冷色調，中低對比。空間帶有bureaucratic與情感抽離感。",
-
   "action": "馬克站著不動，背對鏡頭。前同事抱著紙箱站在桌旁，微微朝向馬克。整體動作極少，帶有停滯與制度化感。",
-
   "edit": "固定鏡頭維持空間壓迫感，透過家具比例與低角度建立角色被辦公系統吞沒的感覺。",
-
   "dialogue": "",
-
-  "prompt": "cinematic korean office scene, low angle compressed composition, giant office chair dominating foreground, large office desk with cardboard boxes, korean man in black suit standing with back facing camera, only upper body visible, korean female coworker holding cardboard box near desk, minimal office environment, cold fluorescent office lighting, bureaucratic atmosphere, low saturation colors, static framing, realistic korean arthouse film style"
+  "prompt": "cinematic korean office scene, low angle compressed composition, giant office chair dominating foreground, large office desk with cardboard boxes, korean man in black suit standing with back facing camera, only upper body visible, korean female coworker holding cardboard box near desk, minimal office environment, cold fluorescent office lighting, bureaucratic atmosphere, low saturation colors, static framing, realistic korean arthouse film style",
+  "overheadDiagram": ""
 }

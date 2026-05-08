@@ -35,6 +35,15 @@
       border-color: #ffffff50;
     }
 
+    textarea::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    textarea::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 999px;
+    }
+
   </style>
 
 </head>
@@ -46,7 +55,7 @@
     <!-- SIDEBAR -->
     <aside
       class="
-        w-[280px]
+        w-[220px]
         border-r
         border-zinc-800
         flex
@@ -75,7 +84,7 @@
           overflow-y-auto
           sidebar-scroll
           p-3
-          space-y-2
+          space-y-1
         "
       >
       </div>
@@ -88,21 +97,17 @@
       <div class="max-w-6xl mx-auto p-8">
 
         <!-- TOP -->
-        <div class="flex items-start justify-between mb-6">
+        <div class="mb-6">
 
-          <div>
-
-            <div class="text-zinc-400 text-sm mb-2">
-              CURRENT SHOT
-            </div>
-
-            <h2
-              id="sceneTitle"
-              class="text-5xl font-bold"
-            >
-            </h2>
-
+          <div class="text-zinc-400 text-sm mb-2">
+            CURRENT SHOT
           </div>
+
+          <h2
+            id="sceneTitle"
+            class="text-5xl font-bold"
+          >
+          </h2>
 
         </div>
 
@@ -126,60 +131,6 @@
             src=""
             class="w-full h-full object-cover"
           />
-
-          <!-- UPLOAD UI -->
-          <div
-            class="
-              absolute
-              bottom-4
-              right-4
-              flex
-              gap-2
-            "
-          >
-
-            <label
-              class="
-                bg-black/70
-                hover:bg-black
-                px-4
-                py-2
-                rounded-xl
-                text-sm
-                cursor-pointer
-                transition
-                border
-                border-zinc-700
-              "
-            >
-
-              Upload Image
-
-              <input
-                type="file"
-                id="imageUpload"
-                accept="image/*"
-                class="hidden"
-              />
-
-            </label>
-
-            <button
-              id="clearImage"
-              class="
-                bg-red-500/80
-                hover:bg-red-500
-                px-4
-                py-2
-                rounded-xl
-                text-sm
-                transition
-              "
-            >
-              Clear
-            </button>
-
-          </div>
 
         </div>
 
@@ -260,15 +211,84 @@
             Description
           </h3>
 
-          <p
+          <textarea
             id="description"
             class="
+              w-full
+              bg-transparent
               text-zinc-300
               text-lg
               leading-relaxed
+              outline-none
+              resize-y
+              min-h-[180px]
+            "
+          ></textarea>
+
+        </section>
+
+        <!-- OVERHEAD DIAGRAM -->
+        <section
+          class="
+            bg-zinc-900
+            border
+            border-zinc-800
+            rounded-3xl
+            p-6
+            mb-6
+          "
+        >
+
+          <div class="flex items-center justify-between mb-4">
+
+            <h3 class="text-2xl font-bold">
+              Overhead Diagram
+            </h3>
+
+            <label
+              class="
+                bg-zinc-800
+                hover:bg-zinc-700
+                px-4
+                py-2
+                rounded-xl
+                text-sm
+                cursor-pointer
+                transition
+              "
+            >
+
+              Upload Diagram
+
+              <input
+                type="file"
+                id="diagramUpload"
+                accept="image/*"
+                class="hidden"
+              />
+
+            </label>
+
+          </div>
+
+          <div
+            class="
+              aspect-video
+              rounded-2xl
+              overflow-hidden
+              border
+              border-zinc-800
+              bg-black
             "
           >
-          </p>
+
+            <img
+              id="overheadImage"
+              src=""
+              class="w-full h-full object-contain"
+            />
+
+          </div>
 
         </section>
 
@@ -290,11 +310,18 @@
               Action
             </h3>
 
-            <p
+            <textarea
               id="action"
-              class="text-zinc-300 leading-relaxed"
-            >
-            </p>
+              class="
+                w-full
+                bg-transparent
+                text-zinc-300
+                leading-relaxed
+                outline-none
+                resize-y
+                min-h-[160px]
+              "
+            ></textarea>
 
           </section>
 
@@ -313,11 +340,18 @@
               Edit
             </h3>
 
-            <p
+            <textarea
               id="edit"
-              class="text-zinc-300 leading-relaxed"
-            >
-            </p>
+              class="
+                w-full
+                bg-transparent
+                text-zinc-300
+                leading-relaxed
+                outline-none
+                resize-y
+                min-h-[160px]
+              "
+            ></textarea>
 
           </section>
 
@@ -336,11 +370,18 @@
               Dialogue
             </h3>
 
-            <p
+            <textarea
               id="dialogue"
-              class="text-zinc-300 leading-relaxed"
-            >
-            </p>
+              class="
+                w-full
+                bg-transparent
+                text-zinc-300
+                leading-relaxed
+                outline-none
+                resize-y
+                min-h-[160px]
+              "
+            ></textarea>
 
           </section>
 
@@ -359,16 +400,20 @@
               Prompt
             </h3>
 
-            <p
+            <textarea
               id="prompt"
               class="
+                w-full
+                bg-transparent
                 text-zinc-400
                 text-sm
                 whitespace-pre-wrap
                 leading-relaxed
+                outline-none
+                resize-y
+                min-h-[220px]
               "
-            >
-            </p>
+            ></textarea>
 
           </section>
 
@@ -379,6 +424,28 @@
     </main>
 
   </div>
+
+  <!-- SAVE BUTTON -->
+
+  <button
+    id="saveButton"
+    class="
+      fixed
+      bottom-6
+      right-6
+      bg-blue-600
+      hover:bg-blue-500
+      px-6
+      py-3
+      rounded-2xl
+      font-semibold
+      shadow-xl
+      transition
+      z-50
+    "
+  >
+    Save Shot
+  </button>
 
   <script>
 
@@ -394,6 +461,15 @@
 
     const mainImage =
       document.getElementById('mainImage')
+
+    const overheadImage =
+      document.getElementById('overheadImage')
+
+    const diagramUpload =
+      document.getElementById('diagramUpload')
+
+    const saveButton =
+      document.getElementById('saveButton')
 
     const sceneTitle =
       document.getElementById('sceneTitle')
@@ -424,9 +500,6 @@
 
     const prompt =
       document.getElementById('prompt')
-
-    const statusBadge =
-      document.getElementById('statusBadge')
 
     // ========================
     // LOAD SHOTS
@@ -473,37 +546,20 @@
           document.createElement('button')
 
         item.className = `
-            w-full
-            text-left
-            px-4
-            py-2
-            rounded-lg
-            text-sm
-            hover:bg-zinc-800
-            transition
+          w-full
+          text-left
+          px-3
+          py-2
+          rounded-lg
+          text-sm
+          hover:bg-zinc-800
+          transition
         `
 
         item.innerHTML = `
-
-          <div class="flex items-center justify-between">
-
-            <div class="font-medium tracking-wide">
-              ${shot.id}
-            </div>
-
-            <div class="
-              w-2
-              h-2
-              rounded-full
-              ${shot.image
-                ? 'bg-blue-500'
-                : 'bg-zinc-600'
-              }
-            ">
-            </div>
-
+          <div class="font-medium tracking-wide">
+            ${shot.id}
           </div>
-
         `
 
         item.onclick = () => {
@@ -541,6 +597,13 @@
 
     }
 
+    function getDiagramPath(shotId) {
+
+      return `./diagrams/${shotId
+        .toLowerCase()}.png`
+
+    }
+
     // ========================
     // IMAGE FALLBACK
     // ========================
@@ -554,7 +617,8 @@
 
       }
 
-      imgElement.src = src
+      imgElement.src =
+        `${src}?t=${Date.now()}`
 
     }
 
@@ -566,13 +630,17 @@
 
       currentShot = shot
 
-      const imagePath =
-        getImagePath(shot.id)
-
       setImageWithFallback(
         mainImage,
-        imagePath
+        getImagePath(shot.id)
       )
+
+      overheadImage.onerror = () => {
+        overheadImage.src = ''
+      }
+
+      overheadImage.src =
+        `${getDiagramPath(shot.id)}?t=${Date.now()}`
 
       sceneTitle.textContent =
         shot.id || ''
@@ -589,25 +657,129 @@
       scene.textContent =
         shot.scene || '-'
 
-      description.textContent =
+      description.value =
         shot.description || ''
 
-      action.textContent =
+      action.value =
         shot.action || ''
 
-      edit.textContent =
+      edit.value =
         shot.edit || ''
 
-      dialogue.textContent =
+      dialogue.value =
         shot.dialogue || ''
 
-      prompt.textContent =
+      prompt.value =
         shot.prompt || ''
 
-      statusBadge.textContent =
-        shot.status || 'draft'
-
     }
+
+    // ========================
+    // SAVE SHOT
+    // ========================
+
+    saveButton.addEventListener('click', async () => {
+
+      if (!currentShot) return
+
+      currentShot.description =
+        description.value
+
+      currentShot.action =
+        action.value
+
+      currentShot.edit =
+        edit.value
+
+      currentShot.dialogue =
+        dialogue.value
+
+      currentShot.prompt =
+        prompt.value
+
+      try {
+
+        const response =
+          await fetch('/api/save-json', {
+
+            method: 'POST',
+
+            headers: {
+              'Content-Type': 'application/json'
+            },
+
+            body: JSON.stringify({
+
+              shotId: currentShot.id,
+
+              data: currentShot
+
+            })
+
+          })
+
+        if (!response.ok) {
+          throw new Error('Save failed')
+        }
+
+        saveButton.innerText = 'Saved'
+
+        setTimeout(() => {
+
+          saveButton.innerText =
+            'Save Shot'
+
+        }, 1500)
+
+      } catch (err) {
+
+        console.error(err)
+
+        saveButton.innerText = 'Error'
+
+      }
+
+    })
+
+    // ========================
+    // DIAGRAM UPLOAD
+    // ========================
+
+    diagramUpload.addEventListener('change', async (e) => {
+
+      const file = e.target.files[0]
+
+      if (!file || !currentShot) return
+
+      const formData = new FormData()
+
+      formData.append('file', file)
+
+      formData.append(
+        'path',
+        `diagrams/${currentShot.id.toLowerCase()}.png`
+      )
+
+      try {
+
+        await fetch('/api/save-shot', {
+
+          method: 'POST',
+
+          body: formData
+
+        })
+
+        overheadImage.src =
+          `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
+
+      } catch (err) {
+
+        console.error(err)
+
+      }
+
+    })
 
     // ========================
     // KEYBOARD NAVIGATION

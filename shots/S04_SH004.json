@@ -1,28 +1,17 @@
 {
   "id": "S04_SH004",
   "scene": "S#4",
-
   "shotType": "CU（動態近距）",
-
   "duration": "",
-
   "cameraMovement": "Handheld Follow",
-
   "status": "draft",
-
   "image": "",
-
   "description": "鏡頭以低機位手持跟拍馬克正面，他穿著西裝在室外街道上快速奔跑。畫面略帶晃動與模糊，呈現急促與不穩定感。他的臉被紅色蘋果完全遮住，在奔跑中微微晃動，形成一種荒謬與緊張並存的畫面。",
-
   "composition": "動態中心構圖，馬克位於畫面中央，頭頂可能略微被裁切形成壓迫感。背景街道與人行道產生動態模糊。",
-
   "lighting": "自然陰天日光，偏冷灰與略帶藍色調，中等對比，氛圍緊張、急迫且帶有現實感。",
-
   "action": "馬克快速向前奔跑，手臂擺動不穩，身體微微前傾，呼吸急促。蘋果在移動中輕微晃動。",
-
   "edit": "低機位手持跟拍，畫面晃動與 motion blur 強化失控與壓迫感。",
-
   "dialogue": "",
-
-  "prompt": "handheld low angle tracking shot of korean businessman running toward camera on city street, giant red apple covering face, realistic korean urban environment, cinematic motion blur, unstable handheld movement, cold overcast lighting, tense absurd atmosphere, korean man in suit running desperately, realistic breathing and body movement, dynamic close up framing, documentary thriller realism, 35mm lens look"
+  "prompt": "handheld low angle tracking shot of korean businessman running toward camera on city street, giant red apple covering face, realistic korean urban environment, cinematic motion blur, unstable handheld movement, cold overcast lighting, tense absurd atmosphere, korean man in suit running desperately, realistic breathing and body movement, dynamic close up framing, documentary thriller realism, 35mm lens look",
+  "overheadDiagram": ""
 }

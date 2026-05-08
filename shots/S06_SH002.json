@@ -1,29 +1,17 @@
 {
   "id": "S06_SH002",
-
   "scene": "S#6",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "保安坐在桌後，身體微微後仰靠在椅背上。他直視對面的人，一隻手輕輕攤開表示無奈，另一隻手在桌上轉動一支筆。整體動作輕鬆而制式，像在回應，但並沒有真正解決任何問題。",
-
   "composition": "正面構圖（略帶框架），保安位於畫面中央，桌面下緣清楚可見，椅背在後方形成包覆感，空間層次為桌子 → 保安 → 椅背。",
-
   "lighting": "冷白室內光，偏冷色調，低到中對比，氛圍日常、制度化、帶點荒謬。",
-
   "action": "保安身體微微後仰靠在椅背上，一隻手輕輕攤開表示『我也沒辦法』，另一隻手在桌上輕鬆轉筆，動作慢且重複。",
-
   "edit": "固定鏡頭，維持正面構圖與低情緒節奏。",
-
   "dialogue": "像是在應付問題，而不是解決問題。",
-
-  "prompt": "front facing korean security guard sitting behind desk, cold office lighting, cinematic close up, centered composition, slightly absurd bureaucratic atmosphere, desk foreground visible, chair framing behind subject, security office interior, realistic korean man age 40-60, hand gesture expressing helplessness, spinning pen on desk, low contrast cold tone, static camera, symmetrical framing"
+  "prompt": "front facing korean security guard sitting behind desk, cold office lighting, cinematic close up, centered composition, slightly absurd bureaucratic atmosphere, desk foreground visible, chair framing behind subject, security office interior, realistic korean man age 40-60, hand gesture expressing helplessness, spinning pen on desk, low contrast cold tone, static camera, symmetrical framing",
+  "overheadDiagram": ""
 }

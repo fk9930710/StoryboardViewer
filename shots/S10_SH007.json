@@ -1,28 +1,17 @@
 {
   "id": "S10_SH007",
   "scene": "S#10",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "近景固定鏡頭平視辦公桌上的普通物件。畫面裡有紙箱、文件夾、筆筒、鍵盤與少量紙張，排列自然安靜，像一個人剛離開位置後留下的痕跡。冷白辦公室燈光照著低彩度桌面，背景模糊而空。整個畫面沒有人物，只剩下工作的殘留。",
-
   "composition": "靜止空鏡構圖。桌面物件填滿大部分畫面，紙箱、文件與辦公用品自然散落。前景清晰，背景以淺景深柔化，形成空掉的辦公空間感。",
-
   "lighting": "冷白辦公室燈光，低飽和灰白冷色調，低對比。整體氣氛安靜、停滯、像空間仍在等待某個人回來。",
-
   "action": "完全沒有動作。所有物件保持靜止，只留下被使用過的痕跡與存在感。",
-
   "edit": "利用長時間固定空鏡與靜態構圖讓觀眾停留在『人已經離開，但痕跡仍存在』的感覺上。",
-
   "dialogue": "",
-
-  "prompt": "cinematic close up of ordinary office desk objects after someone left, cardboard boxes, folders, keyboard, pen holder, scattered papers, coffee mug, cold fluorescent office lighting, shallow depth of field, quiet bureaucratic atmosphere, low saturation gray tones, realistic korean office realism, static observational shot, traces of human presence without people"
+  "prompt": "cinematic close up of ordinary office desk objects after someone left, cardboard boxes, folders, keyboard, pen holder, scattered papers, coffee mug, cold fluorescent office lighting, shallow depth of field, quiet bureaucratic atmosphere, low saturation gray tones, realistic korean office realism, static observational shot, traces of human presence without people",
+  "overheadDiagram": ""
 }

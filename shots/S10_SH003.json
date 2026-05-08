@@ -1,28 +1,17 @@
 {
   "id": "S10_SH003",
   "scene": "S#10",
-
   "shotType": "POV CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "主觀鏡頭直視辦公室白色天花板。冷白色日光燈位於畫面中央偏上，光線略微過曝而刺眼。整個畫面幾乎只有白色與燈光，沒有裝飾、沒有情緒起伏，像一個人在辦公室裡坐下後短暫失神的瞬間。",
-
   "composition": "極簡主觀構圖。白色辦公室天花板幾乎填滿整個畫面，冷白日光燈位於中央偏上。畫面沒有人物與家具，視覺空間近乎空白。",
-
   "lighting": "冷白辦公室日光燈，微過曝與低對比，整體偏冷純白。光線刺眼但沒有戲劇性陰影。",
-
   "action": "鏡頭完全靜止，沒有任何動作。只有日光燈持續照亮畫面，形成疲勞與失神感。",
-
   "edit": "長時間固定主觀視角，利用空白天花板與過曝白光建立心理停滯感，像角色短暫從世界抽離。",
-
   "dialogue": "",
-
-  "prompt": "POV shot staring directly at white office ceiling, cold fluorescent office light slightly overexposed, minimalist composition, almost empty frame, static camera, emotional numbness, quiet dissociation, realistic office lighting, low contrast white and gray tones, korean arthouse realism, exhausted mental state, subtle existential emptiness"
+  "prompt": "POV shot staring directly at white office ceiling, cold fluorescent office light slightly overexposed, minimalist composition, almost empty frame, static camera, emotional numbness, quiet dissociation, realistic office lighting, low contrast white and gray tones, korean arthouse realism, exhausted mental state, subtle existential emptiness",
+  "overheadDiagram": ""
 }

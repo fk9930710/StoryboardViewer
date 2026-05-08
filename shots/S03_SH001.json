@@ -1,28 +1,17 @@
 {
   "id": "S03_SH001",
   "scene": "S#3",
-
   "shotType": "MWS",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "在狹窄普通的韓國公寓內，馬克從左側廁所方向走出，停在中央凸出的牆角附近，準備轉向右側玄關。鏡頭位置偏低，他的頭部被畫面上緣完全切掉，因此看不見臉與蘋果。整體畫面像空間冷靜地觀看人物移動。",
-
   "composition": "低機位室內觀察構圖。畫面中央為凸出的牆面轉角，左側是一條通往廁所的單一路徑，右側為鞋櫃與玄關門。馬克位於畫面中間偏右，頭部被畫面裁切，只保留身體與移動動作。",
-
   "lighting": "冷白晨間室內光，低飽和與低對比，空間帶有疲憊且日常的冷感。",
-
   "action": "馬克從廁所方向走出，停在中央牆角附近，身體轉向玄關，動作急促但克制。",
-
   "edit": "固定鏡頭維持空間完整性，讓人物自行進出畫面，帶有輕微監視感。",
-
   "dialogue": "",
-
-  "prompt": "medium wide shot of narrow korean apartment interior, low angle static camera, man walking from bathroom hallway toward apartment entrance, head cropped out of frame, only body visible, central wall corner dividing composition, shoe cabinet and front door on right side, cold morning indoor lighting, restrained cinematic realism, quiet domestic tension, minimal korean apartment, surveillance-like framing, realistic korean film style"
+  "prompt": "medium wide shot of narrow korean apartment interior, low angle static camera, man walking from bathroom hallway toward apartment entrance, head cropped out of frame, only body visible, central wall corner dividing composition, shoe cabinet and front door on right side, cold morning indoor lighting, restrained cinematic realism, quiet domestic tension, minimal korean apartment, surveillance-like framing, realistic korean film style",
+  "overheadDiagram": ""
 }

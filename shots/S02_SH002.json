@@ -1,28 +1,17 @@
 {
   "id": "S02_SH002",
   "scene": "S#2",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "鏡頭俯視白色洗手台，畫面極簡。數滴深紅色血液從水龍頭下方落下，沿著視覺動線逐步接近排水孔。血滴在白色背景上形成強烈對比，節奏不均勻，帶來逐漸增強的不安感。",
-
   "composition": "幾何構圖，白色洗手台佔滿畫面，水龍頭位於上方，排水孔位於畫面中心。視覺動線從水龍頭延伸至血滴與排水孔，形成紅與白的強烈對比。",
-
   "lighting": "冷白室內光，偏冷灰色調，高對比，氛圍冷靜、異常且突兀。",
-
   "action": "血液一滴一滴落下，節奏不均勻，從偶然逐漸變成令人不舒服的異常感。",
-
   "edit": "固定鏡頭，以不均勻血滴節奏建立不安與停滯感。",
-
   "dialogue": "",
-
-  "prompt": "top down cinematic close up of white bathroom sink with drops of dark red blood falling toward drain, minimalist geometric composition, korean apartment bathroom, cold white lighting, high contrast red blood against white ceramic sink, realistic blood droplets, metallic faucet at top of frame, drain centered composition, unsettling realistic atmosphere, static camera, cold gray tone, slow irregular dripping rhythm, psychological tension, 50mm lens look"
+  "prompt": "top down cinematic close up of white bathroom sink with drops of dark red blood falling toward drain, minimalist geometric composition, korean apartment bathroom, cold white lighting, high contrast red blood against white ceramic sink, realistic blood droplets, metallic faucet at top of frame, drain centered composition, unsettling realistic atmosphere, static camera, cold gray tone, slow irregular dripping rhythm, psychological tension, 50mm lens look",
+  "overheadDiagram": ""
 }

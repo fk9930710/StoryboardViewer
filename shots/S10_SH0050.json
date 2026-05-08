@@ -1,28 +1,17 @@
 {
   "id": "S10_SH005",
   "scene": "S#10",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "固定近景鏡頭從馬克右側正側面拍攝。畫面左側前景是前同事的部分身軀，她站著不動，微微朝向馬克。畫面左側中景是一張辦公桌，桌子位於馬克正前方。馬克坐在畫面中央偏右的辦公椅上，面向畫面左側，整個頭部與上半身被普通白布完整覆蓋，形成安靜而清楚的人體側面輪廓。畫面右側可見椅背與馬克背部。整個畫面像一個被暫停的辦公室瞬間。",
-
   "composition": "固定正側面構圖。左前景為前同事局部身軀，左中景為辦公桌，中央偏右則是被白布覆蓋的馬克側面輪廓。椅背與馬克背部形成右側壓迫。畫面保持極穩定的空間秩序與方向性。",
-
   "lighting": "冷白辦公室燈光，低飽和冷色調，中低對比。整體氛圍安靜、bureaucratic、像時間停止。",
-
   "action": "所有人物幾乎完全不動。前同事只是站著看向馬克，馬克則靜止坐在椅子上，被白布完整覆蓋。",
-
   "edit": "固定側面觀察式鏡頭，利用人物與家具的靜止關係建立停滯感。白布輪廓成為畫面唯一異常元素。",
-
   "dialogue": "",
-
-  "prompt": "cinematic korean office scene viewed from right side profile angle, korean man sitting on office chair facing left, entire head and upper body covered with plain white cloth forming clear human silhouette, female coworker partially visible in left foreground, office desk positioned in front of man on left side, cold fluorescent office lighting, static restrained composition, bureaucratic stillness, low saturation colors, realistic korean arthouse film aesthetic"
+  "prompt": "cinematic korean office scene viewed from right side profile angle, korean man sitting on office chair facing left, entire head and upper body covered with plain white cloth forming clear human silhouette, female coworker partially visible in left foreground, office desk positioned in front of man on left side, cold fluorescent office lighting, static restrained composition, bureaucratic stillness, low saturation colors, realistic korean arthouse film aesthetic",
+  "overheadDiagram": ""
 }

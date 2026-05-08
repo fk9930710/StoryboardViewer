@@ -1,28 +1,17 @@
 {
   "id": "S06_SH001",
   "scene": "S#6",
-
   "shotType": "MS（偏近中景）",
-
   "duration": "",
-
   "cameraMovement": "Slow Push In",
-
   "status": "draft",
-
   "image": "",
-
   "description": "畫面拉遠，桌面佔據畫面下半部。左側是桌上型電腦，右側是HR。他身體面向前方但微微側向電腦，視線完全停留在螢幕上，一邊打字一邊提問。整體畫面強調桌面與系統感，HR像是流程的一部分，而不是對話者。",
-
   "composition": "正面偏側的非對稱構圖，左側為桌上型電腦，右側為HR，中間是大面積桌面。空間層次為前景桌面 → 中景HR與電腦 → 背景牆面。",
-
   "lighting": "冷白室內光，偏冷色調，低到中對比，氛圍制度化、機械、去人性。",
-
   "action": "HR一邊打字，一邊以手指規律敲擊桌面或鍵盤邊緣，動作穩定、機械、重複。",
-
   "edit": "鏡頭緩慢推進，維持壓抑與制度化節奏。",
-
   "dialogue": "邊打字邊提問，但注意力完全不在對方身上。",
-
-  "prompt": "korean HR office worker sitting behind desk with desktop computer, cinematic medium shot, asymmetric composition, computer monitor on left side, HR on right side, large desk foreground, cold office lighting, realistic korean office interior, typing while interviewing, emotionally detached office worker, bureaucratic atmosphere, static office wall background, low contrast cold tone, dehumanized corporate system feeling, 65mm lens look, slow push in cinematic framing"
+  "prompt": "korean HR office worker sitting behind desk with desktop computer, cinematic medium shot, asymmetric composition, computer monitor on left side, HR on right side, large desk foreground, cold office lighting, realistic korean office interior, typing while interviewing, emotionally detached office worker, bureaucratic atmosphere, static office wall background, low contrast cold tone, dehumanized corporate system feeling, 65mm lens look, slow push in cinematic framing",
+  "overheadDiagram": ""
 }

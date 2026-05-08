@@ -1,28 +1,17 @@
 {
   "id": "S02_SH001",
   "scene": "S#2",
-
   "shotType": "MCU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "鏡頭固定，正面拍攝鏡中的馬克。他的臉被紅色蘋果完全遮住。起初靜止觀察，接著嘗試透過歪頭與觸碰確認狀況，逐漸產生不安。後段拿起刮鬍刀嘗試處理，但動作卡住並失誤，整體呈現出逐步失控的尷尬與異常感。",
-
   "composition": "鏡像構圖但非完全對稱，馬克位於畫面中央，鏡子邊框清楚可見，背景為低干擾冷色牆面。",
-
   "lighting": "冷白室內光，偏冷藍灰色調，低對比，氛圍壓抑、異常且具有現實感。",
-
   "action": "馬克站在鏡前停頓觀察，左右歪頭時蘋果同步移動，接著輕拍自己的臉確認異狀。停頓後拿起刮鬍刀 awkward 地嘗試找角度刮鬍，最後動作卡住並失誤刮傷自己。",
-
   "edit": "固定鏡頭，透過停頓與逐漸失控的節奏建立異常感。",
-
   "dialogue": "",
-
-  "prompt": "korean man in bathroom mirror with giant red apple completely covering his face, cinematic mirror shot, medium close up, korean businessman slightly messy suit, cold bathroom lighting, realistic korean apartment bathroom, awkward shaving attempt with razor, surreal but realistic atmosphere, static camera, blue gray tone, low contrast, oppressive mood, apple perfectly fixed in front of face, documentary realism, unsettling everyday situation, 50mm lens look"
+  "prompt": "korean man in bathroom mirror with giant red apple completely covering his face, cinematic mirror shot, medium close up, korean businessman slightly messy suit, cold bathroom lighting, realistic korean apartment bathroom, awkward shaving attempt with razor, surreal but realistic atmosphere, static camera, blue gray tone, low contrast, oppressive mood, apple perfectly fixed in front of face, documentary realism, unsettling everyday situation, 50mm lens look",
+  "overheadDiagram": ""
 }

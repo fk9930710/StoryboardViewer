@@ -1,28 +1,17 @@
 {
   "id": "S05_SH001",
   "scene": "S#5",
-
   "shotType": "CU（魚眼POV）",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "魚眼視角從門禁機器看向馬克，鏡頭略帶仰角。馬克站直時臉會被裁切掉，需要稍微彎腰才能進入辨識範圍。他快速微幅轉動頭部，試圖對準掃描區，但臉被蘋果遮住，始終無法被辨識。",
-
   "composition": "機器視角構圖，魚眼鏡頭造成邊緣明顯變形。馬克位於畫面中央，但因仰角與裁切，站直時頭部會超出辨識範圍。",
-
   "lighting": "冷白室內光，偏冷色調，中低對比，氛圍機械、冷淡且無情緒。",
-
   "action": "馬克站在門禁前快速微幅轉頭與調整位置，試圖讓臉進入掃描區域，但因蘋果遮擋始終無法辨識。",
-
   "edit": "固定鏡頭，以短促卡住與重試節奏建立機械性與荒謬感。",
-
   "dialogue": "",
-
-  "prompt": "fisheye POV security gate camera looking upward at korean businessman with giant apple covering face, realistic access control scanner perspective, cold office entrance lighting, korean man in suit trying awkwardly to align face with scanner, face recognition failure, distorted fisheye lens effect, mechanical institutional atmosphere, static surveillance camera shot, subtle absurd realism, cold tone, security device framing visible, cinematic access gate POV"
+  "prompt": "fisheye POV security gate camera looking upward at korean businessman with giant apple covering face, realistic access control scanner perspective, cold office entrance lighting, korean man in suit trying awkwardly to align face with scanner, face recognition failure, distorted fisheye lens effect, mechanical institutional atmosphere, static surveillance camera shot, subtle absurd realism, cold tone, security device framing visible, cinematic access gate POV",
+  "overheadDiagram": ""
 }

@@ -1,28 +1,17 @@
 {
   "id": "S04_SH002",
   "scene": "S#4",
-
   "shotType": "CU",
-
   "duration": "",
-
   "cameraMovement": "Static",
-
   "status": "draft",
-
   "image": "",
-
   "description": "鏡頭位於車窗外正對駕駛座，從警察的視角看向馬克。馬克坐在車內，臉被紅色蘋果完全遮住，幾乎靜止。他微微面向鏡頭方向，但沒有主動表達。畫面安靜，帶有被審視與尷尬的感覺。",
-
   "composition": "準正面構圖，頭到胸比例，車窗邊框自然形成畫面包圍感。蘋果位於畫面中央略偏上，成為視覺焦點。",
-
   "lighting": "陰天自然光從車窗進入，冷色調，低對比，氛圍安靜、不舒服且帶有被觀察感。",
-
   "action": "馬克幾乎完全靜止，只維持略微僵硬的姿態。",
-
   "edit": "固定鏡頭，以停滯與沉默建立被審視感。",
-
   "dialogue": "",
-
-  "prompt": "close up korean businessman sitting inside car with giant red apple covering face, police point of view through car window, cinematic 85mm lens look, cold cloudy daylight, realistic korean man in suit with slightly messy hair, static awkward atmosphere, subtle car window framing, low contrast cold tone, psychologically uncomfortable realism, korean traffic stop scene, static composition"
+  "prompt": "close up korean businessman sitting inside car with giant red apple covering face, police point of view through car window, cinematic 85mm lens look, cold cloudy daylight, realistic korean man in suit with slightly messy hair, static awkward atmosphere, subtle car window framing, low contrast cold tone, psychologically uncomfortable realism, korean traffic stop scene, static composition",
+  "overheadDiagram": ""
 }

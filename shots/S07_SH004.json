@@ -1,28 +1,17 @@
 {
   "id": "S07_SH004",
   "scene": "S#7",
-
   "shotType": "CU to MS",
-
   "duration": "",
-
   "cameraMovement": "Slow Dolly Out",
-
   "status": "draft",
-
   "image": "",
-
   "description": "鏡頭從妻子的近景開始，她正面直視馬克，表情幾乎沒有變化。隨著鏡頭緩慢後移，畫面逐漸轉為中景，背景與空間慢慢顯現，但她的姿態與情緒始終穩定不動。整體呈現出冷靜且封閉的回應，使兩人的關係在視覺上逐漸拉遠。",
-
   "composition": "正面構圖帶微弱對稱感。初期妻子幾乎填滿畫面，形成穩定壓迫感；隨鏡頭後移，背景與空間逐漸展開，但人物仍保持中央位置，強化情緒上的封閉與距離感。",
-
   "lighting": "柔和暖色室內光，色調偏暖灰，中低對比，空間帶有壓抑與情感停滯感。",
-
   "action": "妻子幾乎完全不動，只透過穩定視線與極少的表情變化回應馬克。鏡頭持續緩慢後移，讓關係感逐漸疏離。",
-
   "edit": "以極慢 dolly out 建立情緒距離，讓視覺空間逐漸擴張，但角色心理狀態保持封閉與靜止。",
-
   "dialogue": "妻子冷靜回應馬克，語氣簡短而沒有情緒起伏。",
-
-  "prompt": "cinematic korean woman facing camera directly in emotional confrontation scene, starts as close up then slowly dolly out to medium shot, calm expression, emotionally closed off, warm dim apartment lighting, restrained domestic tension, minimalist korean apartment background gradually revealed, subtle psychological distance, static posture, realistic korean drama cinematography mixed with surreal emotional atmosphere"
+  "prompt": "cinematic korean woman facing camera directly in emotional confrontation scene, starts as close up then slowly dolly out to medium shot, calm expression, emotionally closed off, warm dim apartment lighting, restrained domestic tension, minimalist korean apartment background gradually revealed, subtle psychological distance, static posture, realistic korean drama cinematography mixed with surreal emotional atmosphere",
+  "overheadDiagram": ""
 }
