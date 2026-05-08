@@ -805,28 +805,73 @@ imageUpload.addEventListener('change', async (e) => {
 
 let diagramVisible = false
 
+// ========================
+// DIAGRAM TOGGLE
+// ========================
+
+let diagramVisible = false
+
 mainImage.addEventListener('click', () => {
 
   if (!currentShot) return
 
-  if (!diagramVisible) {
+  const diagramPath =
+    getDiagramPath(currentShot.id)
 
-    diagramImage.src =
-      `${getDiagramPath(currentShot.id)}?v=${Date.now()}`
+  // check image exists first
 
-    diagramOverlay.classList.remove('hidden')
-    diagramOverlay.classList.add('flex')
+  const testImage =
+    new Image()
 
-    diagramVisible = true
+  testImage.onload = () => {
 
-  } else {
+    // image exists
 
-    diagramOverlay.classList.add('hidden')
-    diagramOverlay.classList.remove('flex')
+    if (!diagramVisible) {
 
-    diagramVisible = false
+      diagramImage.src =
+        `${diagramPath}?v=${Date.now()}`
+
+      diagramOverlay.classList.remove('hidden')
+
+      diagramOverlay.classList.add('flex')
+
+      diagramVisible = true
+
+    } else {
+
+      diagramOverlay.classList.add('hidden')
+
+      diagramOverlay.classList.remove('flex')
+
+      diagramVisible = false
+
+    }
 
   }
+
+  testImage.onerror = () => {
+
+    // no diagram → do nothing
+
+    return
+
+  }
+
+  testImage.src =
+    `${diagramPath}?v=${Date.now()}`
+
+})
+
+// close overlay
+
+diagramOverlay.addEventListener('click', () => {
+
+  diagramOverlay.classList.add('hidden')
+
+  diagramOverlay.classList.remove('flex')
+
+  diagramVisible = false
 
 })
 
