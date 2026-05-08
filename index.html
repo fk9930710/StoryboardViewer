@@ -271,72 +271,6 @@
 
         </section>
 
-        <!-- OVERHEAD DIAGRAM -->
-
-        <section
-          class="
-            bg-zinc-900
-            border
-            border-zinc-800
-            rounded-3xl
-            p-6
-            mb-6
-          "
-        >
-
-          <div class="flex items-center justify-between mb-4">
-
-            <h3 class="text-2xl font-bold">
-              Overhead Diagram
-            </h3>
-
-            <label
-              class="
-                bg-zinc-800
-                hover:bg-zinc-700
-                px-4
-                py-2
-                rounded-xl
-                text-sm
-                cursor-pointer
-                transition
-              "
-            >
-
-              Upload Diagram
-
-              <input
-                type="file"
-                id="diagramUpload"
-                accept="image/*"
-                class="hidden"
-              />
-
-            </label>
-
-          </div>
-
-          <div
-            class="
-              aspect-video
-              rounded-2xl
-              overflow-hidden
-              border
-              border-zinc-800
-              bg-black
-            "
-          >
-
-            <img
-              id="overheadImage"
-              src=""
-              class="w-full h-full object-contain"
-            />
-
-          </div>
-
-        </section>
-
         <!-- DETAILS -->
 
         <div class="grid grid-cols-2 gap-6">
@@ -499,12 +433,6 @@ const shotList =
 const mainImage =
   document.getElementById('mainImage')
 
-const overheadImage =
-  document.getElementById('overheadImage')
-
-const diagramUpload =
-  document.getElementById('diagramUpload')
-
 const imageUpload =
   document.getElementById('imageUpload')
 
@@ -622,7 +550,7 @@ function renderSidebar() {
 
 }
 
-// IMAGE PATHS
+// IMAGE PATH
 
 function getImagePath(shotId) {
 
@@ -631,11 +559,6 @@ function getImagePath(shotId) {
 
 }
 
-function getDiagramPath(shotId) {
-
-  return `https://raw.githubusercontent.com/fk9930710/StoryboardViewer/main/diagrams/${shotId.toLowerCase()}.png`
-
-}
 // IMAGE FALLBACK
 
 function setImageWithFallback(imgElement, src) {
@@ -662,13 +585,6 @@ async function renderShot(shot) {
     mainImage,
     getImagePath(shot.id)
   )
-
-  overheadImage.onerror = () => {
-    overheadImage.src = ''
-  }
-
-  overheadImage.src =
-    `${getDiagramPath(shot.id)}?t=${Date.now()}`
 
   sceneTitle.textContent =
     shot.id || ''
@@ -769,62 +685,7 @@ saveButton.addEventListener('click', async () => {
 
 // MAIN IMAGE UPLOAD
 
-// MAIN IMAGE UPLOAD
-
 imageUpload.addEventListener('change', async (e) => {
-
-  const file = e.target.files[0]
-
-  if (!file || !currentShot) return
-
-  const formData = new FormData()
-
-  formData.append('file', file)
-
-  formData.append(
-    'path',
-    `images/${currentShot.id.toLowerCase()}.png`
-  )
-
-  try {
-
-    const response =
-      await fetch('/api/save-shot', {
-
-        method: 'POST',
-
-        body: formData
-
-      })
-
-    if (!response.ok) {
-
-      throw new Error('Upload failed')
-
-    }
-
-    setTimeout(() => {
-
-      mainImage.src =
-        `${getImagePath(currentShot.id)}?t=${Date.now()}`
-
-    }, 2000)
-
-  } catch (err) {
-
-    console.error(err)
-
-    alert('Upload failed')
-
-  }
-
-})
-
-// DIAGRAM UPLOAD
-
-// DIAGRAM UPLOAD
-
-diagramUpload.addEventListener('change', async (e) => {
 
   const file = e.target.files[0]
 
@@ -836,6 +697,9 @@ diagramUpload.addEventListener('change', async (e) => {
 
     const imageData =
       reader.result
+
+    mainImage.src =
+      imageData
 
     try {
 
@@ -856,7 +720,7 @@ diagramUpload.addEventListener('change', async (e) => {
             imageData,
 
             folder:
-              'diagrams'
+              'images'
 
           })
 
@@ -873,18 +737,18 @@ diagramUpload.addEventListener('change', async (e) => {
 
       }
 
-        setTimeout(() => {
+      setTimeout(() => {
 
-          overheadImage.src =
-            `${getDiagramPath(currentShot.id)}?v=${crypto.randomUUID()}`
+        mainImage.src =
+          `${getImagePath(currentShot.id)}?v=${crypto.randomUUID()}`
 
-        }, 1500)
+      }, 1500)
 
     } catch (err) {
 
       console.error(err)
 
-      alert('Diagram upload failed')
+      alert('Upload failed')
 
     }
 
@@ -893,6 +757,7 @@ diagramUpload.addEventListener('change', async (e) => {
   reader.readAsDataURL(file)
 
 })
+
 // START
 
 loadShots()
