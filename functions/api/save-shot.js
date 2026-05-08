@@ -50,7 +50,9 @@ export async function onRequestPost(context) {
     const githubUrl =
       `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`
 
-    // check existing file
+    // ========================
+    // CHECK EXISTING FILE
+    // ========================
 
     let sha = null
 
@@ -58,8 +60,10 @@ export async function onRequestPost(context) {
       await fetch(githubUrl, {
 
         headers: {
+
           Authorization:
-            `Bearer ${GITHUB_TOKEN}`
+            `token ${GITHUB_TOKEN}`
+
         }
 
       })
@@ -74,7 +78,9 @@ export async function onRequestPost(context) {
 
     }
 
-    // upload
+    // ========================
+    // UPLOAD TO GITHUB
+    // ========================
 
     const githubResponse =
       await fetch(githubUrl, {
@@ -84,7 +90,7 @@ export async function onRequestPost(context) {
         headers: {
 
           Authorization:
-            `Bearer ${GITHUB_TOKEN}`,
+            `token ${GITHUB_TOKEN}`,
 
           "Content-Type":
             "application/json"
@@ -111,6 +117,8 @@ export async function onRequestPost(context) {
     const result =
       await githubResponse.text()
 
+    console.log(result)
+
     return new Response(result, {
 
       status:
@@ -121,8 +129,27 @@ export async function onRequestPost(context) {
   } catch (err) {
 
     return new Response(
-      err.toString(),
-      { status: 500 }
+
+      JSON.stringify({
+
+        error:
+          err.toString()
+
+      }),
+
+      {
+
+        status: 500,
+
+        headers: {
+
+          "Content-Type":
+            "application/json"
+
+        }
+
+      }
+
     )
 
   }
