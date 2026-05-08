@@ -771,68 +771,58 @@ saveButton.addEventListener('click', async () => {
 
 // MAIN IMAGE UPLOAD
 
+// MAIN IMAGE UPLOAD
+
 imageUpload.addEventListener('change', async (e) => {
 
   const file = e.target.files[0]
 
   if (!file || !currentShot) return
 
-  const reader = new FileReader()
+  const formData = new FormData()
 
-  reader.onload = async () => {
+  formData.append('file', file)
 
-    const imageData =
-      reader.result
+  formData.append(
+    'path',
+    `images/${currentShot.id.toLowerCase()}.png`
+  )
 
-    mainImage.src =
-      imageData
+  try {
 
-    try {
+    const response =
+      await fetch('/api/save-shot', {
 
-      const response =
-        await fetch('/api/save-shot', {
+        method: 'POST',
 
-          method: 'POST',
+        body: formData
 
-          headers: {
-            'Content-Type': 'application/json'
-          },
+      })
 
-          body: JSON.stringify({
+    if (!response.ok) {
 
-            shotId:
-              currentShot.id.toLowerCase(),
-
-            imageData,
-
-            folder:
-              'images'
-
-          })
-
-        })
-
-      if (!response.ok) {
-
-        throw new Error(
-          'Upload failed'
-        )
-
-      }
-
-    } catch (err) {
-
-      console.error(err)
-
-      alert('Upload failed')
+      throw new Error('Upload failed')
 
     }
 
+    setTimeout(() => {
+
+      mainImage.src =
+        `${getImagePath(currentShot.id)}?t=${Date.now()}`
+
+    }, 2000)
+
+  } catch (err) {
+
+    console.error(err)
+
+    alert('Upload failed')
+
   }
 
-  reader.readAsDataURL(file)
-
 })
+
+// DIAGRAM UPLOAD
 
 // DIAGRAM UPLOAD
 
@@ -842,62 +832,50 @@ diagramUpload.addEventListener('change', async (e) => {
 
   if (!file || !currentShot) return
 
-  const reader = new FileReader()
+  const formData = new FormData()
 
-  reader.onload = async () => {
+  formData.append('file', file)
 
-    const imageData =
-      reader.result
+  formData.append(
+    'path',
+    `diagrams/${currentShot.id.toLowerCase()}.png`
+  )
 
-    try {
+  try {
 
-      const response =
-        await fetch('/api/save-shot', {
+    const response =
+      await fetch('/api/save-shot', {
 
-          method: 'POST',
+        method: 'POST',
 
-          headers: {
-            'Content-Type': 'application/json'
-          },
+        body: formData
 
-          body: JSON.stringify({
+      })
 
-            shotId:
-              currentShot.id.toLowerCase(),
+    if (!response.ok) {
 
-            imageData,
-
-            folder:
-              'diagrams'
-
-          })
-
-        })
-
-      if (!response.ok) {
-
-        throw new Error(
-          'Diagram upload failed'
-        )
-
-      }
-
-      overheadImage.src =
-        `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
-
-    } catch (err) {
-
-      console.error(err)
-
-      alert(
+      throw new Error(
         'Diagram upload failed'
       )
 
     }
 
-  }
+    setTimeout(() => {
 
-  reader.readAsDataURL(file)
+      overheadImage.src =
+        `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
+
+    }, 2000)
+
+  } catch (err) {
+
+    console.error(err)
+
+    alert(
+      'Diagram upload failed'
+    )
+
+  }
 
 })
 
