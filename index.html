@@ -633,11 +633,9 @@ function getImagePath(shotId) {
 
 function getDiagramPath(shotId) {
 
-  return `./diagrams/${shotId
-    .toLowerCase()}.png`
+  return `https://raw.githubusercontent.com/fk9930710/StoryboardViewer/main/diagrams/${shotId.toLowerCase()}.png`
 
 }
-
 // IMAGE FALLBACK
 
 function setImageWithFallback(imgElement, src) {
@@ -875,8 +873,12 @@ diagramUpload.addEventListener('change', async (e) => {
 
       }
 
-      overheadImage.src =
-        `${getDiagramPath(currentShot.id)}?t=${Date.now()}`
+        setTimeout(() => {
+
+          overheadImage.src =
+            `${getDiagramPath(currentShot.id)}?v=${crypto.randomUUID()}`
+
+        }, 1500)
 
     } catch (err) {
 
