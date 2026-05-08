@@ -809,17 +809,19 @@ mainImage.addEventListener('click', () => {
 
   if (!currentShot) return
 
-  if (!diagramVisible) {
+  const diagramPath =
+    `${getDiagramPath(currentShot.id)}?v=${Date.now()}`
 
-    diagramImage.src =
-      `${getDiagramPath(currentShot.id)}?v=${Date.now()}`
+  diagramImage.onload = () => {
 
     diagramOverlay.classList.remove('hidden')
     diagramOverlay.classList.add('flex')
 
     diagramVisible = true
 
-  } else {
+  }
+
+  diagramImage.onerror = () => {
 
     diagramOverlay.classList.add('hidden')
     diagramOverlay.classList.remove('flex')
@@ -828,19 +830,35 @@ mainImage.addEventListener('click', () => {
 
   }
 
+  // already open → close
+
+  if (diagramVisible) {
+
+    diagramOverlay.classList.add('hidden')
+    diagramOverlay.classList.remove('flex')
+
+    diagramVisible = false
+
+    return
+
+  }
+
+  diagramImage.src =
+    diagramPath
+
 })
 
-// click overlay close
+// close overlay
 
 diagramOverlay.addEventListener('click', () => {
 
   diagramOverlay.classList.add('hidden')
+
   diagramOverlay.classList.remove('flex')
 
   diagramVisible = false
 
 })
-// START
 
 loadShots()
 
