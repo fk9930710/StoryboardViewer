@@ -38,16 +38,14 @@ export async function onRequestPost(context) {
     const githubUrl =
       `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`
 
-    // EXISTING FILE
+    // existing file
 
     const existing =
       await fetch(githubUrl, {
 
         headers: {
-
           Authorization:
             `token ${GITHUB_TOKEN}`
-
         }
 
       })
@@ -75,8 +73,6 @@ export async function onRequestPost(context) {
           )
         )
       )
-
-    // SAVE TO GITHUB
 
     const githubResponse =
       await fetch(githubUrl, {

@@ -36,9 +36,7 @@ export async function onRequestPost(context) {
     const GITHUB_BRANCH =
       context.env.GITHUB_BRANCH || "main"
 
-    // ========================
-    // REMOVE BASE64 HEADER
-    // ========================
+    // remove base64 header
 
     const base64 =
       imageData.replace(
@@ -46,19 +44,13 @@ export async function onRequestPost(context) {
         ''
       )
 
-    // ========================
-    // FILE PATH
-    // ========================
-
     const path =
       `${folder}/${shotId}.png`
 
     const githubUrl =
       `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`
 
-    // ========================
-    // CHECK EXISTING FILE
-    // ========================
+    // check existing file
 
     let sha = null
 
@@ -66,13 +58,8 @@ export async function onRequestPost(context) {
       await fetch(githubUrl, {
 
         headers: {
-
           Authorization:
-            `token ${GITHUB_TOKEN}`,
-
-          "User-Agent":
-            "StoryboardViewer"
-
+            `Bearer ${GITHUB_TOKEN}`
         }
 
       })
@@ -87,9 +74,7 @@ export async function onRequestPost(context) {
 
     }
 
-    // ========================
-    // UPLOAD TO GITHUB
-    // ========================
+    // upload
 
     const githubResponse =
       await fetch(githubUrl, {
@@ -99,13 +84,10 @@ export async function onRequestPost(context) {
         headers: {
 
           Authorization:
-            `token ${GITHUB_TOKEN}`,
+            `Bearer ${GITHUB_TOKEN}`,
 
           "Content-Type":
-            "application/json",
-
-          "User-Agent":
-            "StoryboardViewer"
+            "application/json"
 
         },
 
@@ -129,8 +111,6 @@ export async function onRequestPost(context) {
     const result =
       await githubResponse.text()
 
-    console.log(result)
-
     return new Response(result, {
 
       status:
@@ -141,27 +121,8 @@ export async function onRequestPost(context) {
   } catch (err) {
 
     return new Response(
-
-      JSON.stringify({
-
-        error:
-          err.toString()
-
-      }),
-
-      {
-
-        status: 500,
-
-        headers: {
-
-          "Content-Type":
-            "application/json"
-
-        }
-
-      }
-
+      err.toString(),
+      { status: 500 }
     )
 
   }
