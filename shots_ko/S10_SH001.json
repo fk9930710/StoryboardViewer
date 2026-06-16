@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH001",
+  "scene": "S#10",
+  "shotType": "CU to MCU",
+  "duration": "",
+  "cameraMovement": "Slow Push In + Slight Up Pan",
+  "status": "draft",
+  "image": "",
+  "description": "출입통제 장치의 어안렌즈 POV로 시작한다. 평범한 한국인 여성 전 동료가 상자를 안고 화면 중앙에 거의 붙어 서 있다. 출입 인증을 시도하는 듯한 자세이며, 어안렌즈 왜곡으로 몸이 약간 휘어 보인다. 그녀는 처음에는 해제 작업에 집중하고 있다. 화면 가장자리에는 강한 어안 왜곡과 비네팅이 보이며, 차가운 사무실 조명이 회색 복도를 비춘다. 그 순간 화면 오른쪽에 다른 사람의 정장 차림 몸통이 천천히 등장한다. 마크가 다가오고 있지만 머리는 아직 프레임 밖에 있다. 전 동료는 발소리를 듣고 멈춘 뒤 천천히 고개를 돌린다. 마크가 가까워질수록 카메라는 매우 천천히 앞으로 이동하고 살짝 위로 틸트하며, 감시 카메라 같은 시점은 점차 인간적인 시선으로 변해간다.",
+  "composition": "출입 게이트 감시카메라 POV 구도. 전 동료는 화면 중앙에 매우 가깝게 위치하며 어안렌즈 왜곡을 받는다. 마크는 화면 오른쪽 가장자리에서 정장 차림 몸통만 먼저 등장한다. 카메라가 전진하고 위로 이동하면서 감시 시점은 점차 인간적인 로우 앵글 시점으로 전환된다.",
+  "lighting": "차가운 기업용 사무실 조명. 차갑고 약간 탈채도된 색감, 중저대비. 조용하고 제도적이며 감시받는 듯한 분위기를 가진다.",
+  "action": "전 동료는 출입 인증을 위해 몸을 앞으로 기울인다. 발소리를 듣고 멈춘 뒤 천천히 고개를 돌린다. 마크는 오른쪽에서 점차 가까워지지만 처음에는 몸통만 보인다. 카메라는 동시에 매우 천천히 전진하고 위로 이동한다.",
+  "edit": "어안렌즈 감시 시점으로 시작해 극도로 느린 푸시 인과 미세한 틸트 업을 통해 감시자의 시선을 인간적인 감정의 시선으로 변화시킨다.",
+  "dialogue": "",
+  "prompt": "cinematic surveillance fisheye POV from security access machine inside korean office building, korean office woman leaning close to camera for access scan, distorted fisheye framing with dark vignette, cold corporate LED lighting, korean man in suit slowly entering frame from right side with only torso visible, giant red apple face still outside frame, quiet tension, surveillance realism slowly transforming into human cinematic perspective, slow push in and subtle upward pan, restrained emotional atmosphere, realistic korean arthouse film style",
+  "overheadDiagram": ""
+}

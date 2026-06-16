@@ -1,0 +1,17 @@
+{
+  "id": "S06_SH004",
+  "scene": "S#6",
+  "shotType": "MCU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "책상 반대편에서 마크를 바라본다. 화면 전경은 넓은 책상이 차지하고 있으며, 책상 가장자리는 약간 기울어져 있어 제도적인 경계선처럼 보인다. 마크는 화면 중앙에 앉아 의자 등받이와 공간 구조 안에 갇혀 있다. 거대한 붉은 사과가 그의 얼굴을 완전히 가리고 있으며 화면 정중앙에 위치한다. 배경은 평범하고 저렴한 행정 사무실이다. 차가운 형광등이 공간 전체를 균일하게 비춘다. 마치 관료 시스템이 한 사람을 조용히 심사하고 처리하고 있는 것처럼 보이지만, 그 기이한 사과에 대해서는 아무도 이상하게 여기지 않는다.",
+  "composition": "제도적 시점을 강조하는 구도. 책상이 화면 아래 절반을 크게 차지하며 압박감을 만든다. 약간 기울어진 책상 선이 화면을 가르고, 마크는 중앙에 위치해 의자와 공간에 의해 둘러싸여 있다. 사과는 화면 정중앙에 위치한다.",
+  "lighting": "차가운 사무실 형광등 조명. 차갑고 약간 탈채도된 색조, 낮은 대비. 분위기는 조용하고 억압적이며 제도적이다.",
+  "action": "마크는 거의 완전히 정지한 상태로 앉아 있다. 미세한 호흡과 눈 깜빡임만 남아 있으며, 마치 시스템의 처리를 기다리는 사람처럼 보인다.",
+  "edit": "고정 카메라. 정체감과 제도적 시선을 통해 관료주의 몽타주의 리듬을 만든다.",
+  "dialogue": "",
+  "prompt": "medium close up of korean businessman sitting across bureaucratic office desk with giant red apple covering face, realistic korean administrative office, cold fluorescent lighting, institutional framing, desk dominating foreground, static restrained composition, apple centered in frame, emotionally detached bureaucratic realism, ordinary cheap office furniture, muted desaturated tones, psychological stillness, cinematic realism, 50mm lens look",
+  "overheadDiagram": ""
+}

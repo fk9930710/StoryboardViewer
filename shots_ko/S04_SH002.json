@@ -1,0 +1,17 @@
+{
+  "id": "S04_SH002",
+  "scene": "S#4",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "카메라는 차량 창문 밖에서 운전석을 정면으로 바라본다. 경찰관의 시점에서 본 마크는 차량 안에 앉아 있으며, 얼굴은 붉은 사과에 의해 완전히 가려져 있다. 그는 거의 움직이지 않은 채 카메라 방향을 향하고 있지만, 어떤 의사 표현도 하지 않는다. 화면은 조용하며 심문받는 듯한 어색함과 관찰당하는 느낌을 준다.",
+  "composition": "준정면 구도. 머리부터 가슴까지의 프레이밍. 차량 창문 프레임이 자연스럽게 화면을 둘러싸며, 사과는 화면 중앙보다 약간 위쪽에 위치한 시각적 중심이 된다.",
+  "lighting": "흐린 날의 자연광이 차량 창문을 통해 들어온다. 차가운 색조와 낮은 대비. 분위기는 조용하고 불편하며 관찰당하는 느낌을 강조한다.",
+  "action": "마크는 거의 완전히 정지한 상태를 유지하며 약간 경직된 자세만 보인다.",
+  "edit": "고정 카메라. 정지와 침묵을 통해 심문받는 듯한 분위기를 형성한다.",
+  "dialogue": "",
+  "prompt": "close up korean businessman sitting inside car with giant red apple covering face, police point of view through car window, cinematic 85mm lens look, cold cloudy daylight, realistic korean man in suit with slightly messy hair, static awkward atmosphere, subtle car window framing, low contrast cold tone, psychologically uncomfortable realism, korean traffic stop scene, static composition",
+  "overheadDiagram": ""
+}

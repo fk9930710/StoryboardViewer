@@ -1,0 +1,17 @@
+{
+  "id": "S06_SH003",
+  "scene": "S#6",
+  "shotType": "CU（와이드 클로즈업）",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "카메라는 공무원을 정면에서 촬영한다. 책상 위에는 각종 서류와 양식이 가득 쌓여 있다. 그는 한 손으로 턱을 괴고 있으며, 다른 손은 서류 위에 무심하게 올려놓고 있다. 상대를 바라보며 계속 말을 하고 있지만, 전체적인 상태는 정체되어 있고 의욕이 없어 보인다. 마치 제도 자체가 앞으로 나아가지 못하는 느낌을 전달한다.",
+  "composition": "정면 구도와 함께 약간의 압박감을 주는 프레이밍. 공무원은 화면 중앙에 위치하며, 서류와 양식이 화면 아래 절반을 차지한다. 뒤쪽 의자 등받이가 인물을 둘러싸며 공간은 서류 더미 → 공무원 → 의자 등받이로 구성된다.",
+  "lighting": "차가운 실내 백색 조명, 차가운 회색 계열 색조, 낮은 대비. 분위기는 피로하고 제도적이며 정체되어 있다.",
+  "action": "공무원은 한 손으로 턱을 괸 채 유지하고, 다른 손은 서류를 가볍게 누르거나 천천히 넘긴다. 움직임은 느리고 진전이 없는 듯하다.",
+  "edit": "고정 카메라. 정면의 압박감 있는 구도와 정체된 리듬을 유지한다.",
+  "dialogue": "대화는 계속되지만 실질적인 진전은 없다.",
+  "prompt": "front facing korean government office worker sitting behind desk covered with paperwork and forms, cinematic wide close up, 65mm lens look, cold office lighting, bureaucratic atmosphere, tired expression, hand supporting chin, messy paper stacks foreground, centered composition, low contrast gray tone, institutional fatigue, static camera, realistic korean office interior, chair framing behind subject, emotionally exhausted office worker",
+  "overheadDiagram": ""
+}

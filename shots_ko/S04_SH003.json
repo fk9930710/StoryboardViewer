@@ -1,0 +1,17 @@
+{
+  "id": "S04_SH003",
+  "scene": "S#4",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "근거리 화면 속에서 한 한국 경찰관이 카메라를 정면으로 바라보고 있다. 표정은 차분하고 전문적이며 특별한 감정 변화는 없다. 배경에는 흐릿한 도시 거리가 보이며 전체 분위기는 일상적이고 차분하다.",
+  "composition": "준대칭 구도. 머리부터 가슴까지의 프레이밍. 경찰관은 화면 중앙 또는 약간 치우친 위치에 있으며, 배경 거리는 부드럽게 흐려져 시선을 방해하지 않는다.",
+  "lighting": "흐린 날의 자연광. 차가운 회색 계열 색조와 낮은 대비. 현실적이고 담담하며 극적이지 않은 분위기.",
+  "action": "경찰관은 거의 움직이지 않은 채, 일상적인 업무를 수행하듯 상대를 바라본다.",
+  "edit": "고정 카메라. 감정의 기복이 거의 없는 리듬을 통해 제도적이고 사무적인 분위기를 강조한다.",
+  "dialogue": "",
+  "prompt": "close up korean police officer facing camera calmly, realistic korean policeman in uniform, cinematic 85mm lens look, overcast daylight, cold gray tone, static professional expression, ordinary urban street background softly blurred, procedural atmosphere, realistic traffic stop scene, emotionally detached police officer, low contrast documentary realism",
+  "overheadDiagram": ""
+}

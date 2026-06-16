@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH003a",
+  "scene": "S#10",
+  "shotType": "POV CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "주관적 시점으로 사무실의 하얀 천장을 올려다본다. 차가운 형광등이 화면 중앙 위쪽에 위치해 있으며 약간 과노출되어 눈부시게 빛난다. 화면에는 거의 흰색 천장과 조명만 존재한다. 장식도 없고 감정의 변화도 없다. 마치 누군가 사무실에 앉아 있다가 잠시 멍하니 천장을 바라보는 순간처럼 느껴진다.",
+  "composition": "극도로 단순한 주관적 구도. 하얀 사무실 천장이 화면 대부분을 차지하고 있으며, 차가운 형광등이 중앙 상단에 위치한다. 인물이나 가구는 보이지 않으며 시각적 공간은 거의 비어 있다.",
+  "lighting": "차가운 사무실 형광등 조명. 약간의 과노출과 낮은 대비를 가진 차가운 백색 톤. 눈부시지만 극적인 그림자는 없다.",
+  "action": "카메라는 완전히 정지해 있다. 형광등만이 계속 화면을 비추며 피로감과 멍한 상태를 만들어낸다.",
+  "edit": "긴 고정 주관 숏. 텅 빈 천장과 과노출된 백색광을 통해 심리적인 정체 상태를 표현한다. 마치 인물이 잠시 현실과 분리된 것처럼 보인다.",
+  "dialogue": "",
+  "prompt": "POV shot staring directly at white office ceiling, cold fluorescent office light slightly overexposed, minimalist composition, almost empty frame, static camera, emotional numbness, quiet dissociation, realistic office lighting, low contrast white and gray tones, korean arthouse realism, exhausted mental state, subtle existential emptiness",
+  "overheadDiagram": ""
+}

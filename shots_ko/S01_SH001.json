@@ -1,0 +1,17 @@
+{
+  "id": "S01_SH001",
+  "scene": "S#1",
+  "shotType": "MS",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "한국 초등학교 정문 앞. 평범한 한국인 부모와 막 입학한 아들이 함께 기념사진을 찍고 있다. 부모는 자연스럽게 미소를 지으며 카메라를 바라본다. 아들은 가운데에 서서 책가방을 메고 단정한 교복을 입고 있다. 그러나 셔터가 눌리는 순간, 날아가던 흰 비둘기 한 마리가 그의 얼굴을 완전히 가려 버린다. 사진은 실제 가족사진처럼 보이지만 어딘가 이상한 느낌을 준다. 화면은 2000년대 초반 가정용 디지털카메라 특유의 질감을 가지고 있으며, 약간의 과노출과 차가운 색감, 옅게 바랜 색채가 오랫동안 보관된 가족 앨범 사진처럼 느껴진다.",
+  "composition": "가족 기념사진 구도. 세 사람이 한 프레임 안에 함께 서 있다. 아들은 중앙에, 부모는 좌우에 위치한다. 배경에는 한국 초등학교 정문과 자연스럽게 지나가는 학생 및 학부모들이 보인다. 허벅지 위까지 프레이밍되며, 날아가는 흰 비둘기 한 마리가 아들의 얼굴을 정확히 완전히 가리고 있다.",
+  "lighting": "자연스러운 아침 햇살. 약간 차가운 색조, 낮거나 중간 정도의 대비. 살짝 과노출되고 색이 바랜 느낌으로 2000년대 초반 가정용 디지털카메라의 질감을 재현한다.",
+  "action": "부모는 자연스럽게 서서 미소를 지으며 사진을 찍고 있다. 아들은 똑바로 서서 카메라를 바라본다. 흰 비둘기 한 마리가 날개를 펼친 채 날아가며 아들의 얼굴 전체를 정확히 가린다.",
+  "edit": "고정 카메라. 가족 앨범 속 한 장의 정지된 사진처럼 보인다.",
+  "dialogue": "",
+  "prompt": "early 2000s korean family photo in front of elementary school gate, ordinary korean parents smiling naturally, young korean schoolboy standing in middle with backpack and school uniform, white pigeon flying across and perfectly covering the boy's entire face, documentary realism, candid family digital camera photo, slightly overexposed, cold white balance, faded colors, jpeg compression artifacts, realistic korean morning school atmosphere, nostalgic family album feeling, medium shot, static composition",
+  "overheadDiagram": ""
+}

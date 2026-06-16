@@ -1,0 +1,17 @@
+{
+  "id": "S05_SH001",
+  "scene": "S#5",
+  "shotType": "CU（어안렌즈 POV）",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "어안렌즈 시점으로 출입통제 장치가 마크를 올려다본다. 카메라는 약간의 로우 앵글을 가지고 있다. 마크가 똑바로 서면 얼굴이 프레임 밖으로 잘려 나가기 때문에 약간 허리를 숙여야 인식 범위 안으로 들어온다. 그는 얼굴을 인식시키기 위해 빠르게 고개를 조금씩 움직이며 위치를 조정하지만, 얼굴이 사과에 가려져 있어 끝내 인식되지 않는다.",
+  "composition": "기계 시점 구도. 어안렌즈로 인해 화면 가장자리에 강한 왜곡이 생긴다. 마크는 화면 중앙에 위치하지만 로우 앵글과 프레이밍 때문에 똑바로 서면 머리가 인식 범위를 벗어난다.",
+  "lighting": "차가운 실내 백색 조명, 차가운 색조, 중저대비. 분위기는 기계적이고 냉담하며 감정이 없다.",
+  "action": "마크는 출입 게이트 앞에서 얼굴을 스캔 영역에 맞추기 위해 고개를 조금씩 돌리고 위치를 조정하지만, 사과 때문에 끝내 인식되지 않는다.",
+  "edit": "고정 카메라. 반복되는 실패와 재시도 리듬을 통해 기계적인 우스꽝스러움과 답답함을 만든다.",
+  "dialogue": "",
+  "prompt": "fisheye POV security gate camera looking upward at korean businessman with giant apple covering face, realistic access control scanner perspective, cold office entrance lighting, korean man in suit trying awkwardly to align face with scanner, face recognition failure, distorted fisheye lens effect, mechanical institutional atmosphere, static surveillance camera shot, subtle absurd realism, cold tone, security device framing visible, cinematic access gate POV",
+  "overheadDiagram": ""
+}

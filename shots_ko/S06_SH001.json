@@ -1,0 +1,17 @@
+{
+  "id": "S06_SH001",
+  "scene": "S#6",
+  "shotType": "MS（근접 미디엄 숏）",
+  "duration": "",
+  "cameraMovement": "Slow Push In",
+  "status": "draft",
+  "image": "",
+  "description": "카메라가 뒤로 물러난 구도에서 책상이 화면 아래 절반을 차지한다. 왼쪽에는 데스크톱 컴퓨터가 있고, 오른쪽에는 인사 담당자가 앉아 있다. 그는 몸은 정면을 향하고 있지만 약간 컴퓨터 쪽으로 기울어져 있으며, 시선은 끝까지 모니터에 머물러 있다. 질문을 하면서도 계속 타이핑을 하고 있으며, 화면은 책상과 시스템 자체를 강조한다. 인사 담당자는 대화 상대라기보다 절차의 일부처럼 보인다.",
+  "composition": "정면에서 약간 비튼 비대칭 구도. 왼쪽에는 데스크톱 컴퓨터, 오른쪽에는 인사 담당자, 중앙에는 넓은 책상 공간이 위치한다. 공간은 전경의 책상, 중경의 인사 담당자와 컴퓨터, 배경의 벽면으로 구성된다.",
+  "lighting": "차가운 실내 백색 조명. 차가운 색조와 낮거나 중간 정도의 대비. 분위기는 제도적이고 기계적이며 비인간적이다.",
+  "action": "인사 담당자는 타이핑을 하면서 규칙적인 리듬으로 책상이나 키보드 가장자리를 손가락으로 두드린다. 움직임은 안정적이고 반복적이며 기계적이다.",
+  "edit": "카메라는 매우 천천히 앞으로 이동한다. 억압적이고 제도적인 리듬을 유지한다.",
+  "dialogue": "타이핑을 하면서 질문을 하지만, 상대방에게는 전혀 관심이 없는 상태.",
+  "prompt": "korean HR office worker sitting behind desk with desktop computer, cinematic medium shot, asymmetric composition, computer monitor on left side, HR on right side, large desk foreground, cold office lighting, realistic korean office interior, typing while interviewing, emotionally detached office worker, bureaucratic atmosphere, static office wall background, low contrast cold tone, dehumanized corporate system feeling, 65mm lens look, slow push in cinematic framing",
+  "overheadDiagram": ""
+}

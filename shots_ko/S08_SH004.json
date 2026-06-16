@@ -1,0 +1,17 @@
+{
+  "id": "S08_SH004",
+  "scene": "S#8",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "종교인이 화면 전경 오른쪽에 위치해 있다. 그는 카메라에 가깝고 약간 중앙 쪽에 배치되어 있으며 선명하게 초점이 맞춰져 있다. 정면으로 카메라를 바라보며 성경을 들고 차분한 태도로 설교를 이어간다. 후경 왼쪽에는 마크가 현대적인 검은 금속 의자에 앉아 있으며, 얼굴은 붉은 사과에 가려져 있다. 그는 완전히 아웃포커스 상태다. 공간은 깨끗하고 밝은 스튜디오이며, 위쪽에서 비스듬히 들어오는 빛이 종교인에게 약한 성스러운 분위기를 만들어낸다.",
+  "composition": "전경의 종교인과 후경의 마크로 이루어진 이중 구도. 종교인은 화면 오른쪽 중앙 부근을 차지하며 약간 크게 보여 압박감을 형성한다. 마크는 화면 왼쪽 후경에 위치하며 완전히 흐릿하게 처리된다.",
+  "lighting": "주광은 화면 오른쪽 위에서 비스듬히 들어와 종교인의 얼굴과 성경을 비춘다. 중저대비의 현실적인 조명 속에 미묘한 성스러움이 섞여 있다.",
+  "action": "종교인은 성경을 들고 차분하게 설교를 이어간다. 마크는 완전히 정지한 상태를 유지한다.",
+  "edit": "고정 카메라. 선명함과 흐림의 대비를 통해 기묘한 성스러움과 시선의 관계를 형성한다.",
+  "dialogue": "",
+  "prompt": "close up korean religious man preaching while holding bible, foreground sharp focus, korean businessman with giant red apple covering face sitting blurred in background, minimalist white talk show studio, subtle holy light from upper right, realistic korean television studio, restrained religious performance, surreal bureaucratic absurdity, cinematic 85mm lens look, static composition, magritte realism",
+  "overheadDiagram": ""
+}

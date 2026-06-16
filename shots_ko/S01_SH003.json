@@ -1,0 +1,17 @@
+{
+  "id": "S01_SH003",
+  "scene": "S#1",
+  "shotType": "WS",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "정식 한국 고등학교 졸업 단체사진. 교복을 입은 많은 학생들이 여러 줄로 정렬되어 있으며, 모두 카메라를 향해 미소 짓고 있다. 화면은 안정적이고 전형적인 구도로, 학교에서 공식적으로 배포하는 졸업사진처럼 보인다. 마크는 그중 한 명의 남학생으로 학생들 사이에 서 있다. 몸은 온전히 보이지만 얼굴 부분은 사진 위에 자연스럽게 생긴 옅은 노란색 얼룩에 정확히 가려져 있어 전혀 식별할 수 없다. 얼룩은 사진이 오랜 세월 보관되면서 생긴 물자국이나 변색처럼 보이며, 의도적으로 훼손된 흔적은 아니다.",
+  "composition": "정식 졸업 단체사진 구도. 많은 학생들이 여러 줄로 정렬되어 있으며, 앞줄은 앉아 있고 중간 줄과 뒷줄은 서 있다. 마크는 중간과 뒷줄 사이에 서 있으며 몸 전체는 보이지만 얼굴은 사진 위 자연스러운 얼룩에 가려져 있다.",
+  "lighting": "균일한 자연광. 중성에 가까운 약간 차가운 색조, 낮거나 중간 정도의 대비. 정식 졸업사진 특유의 차분함과 미묘한 이질감을 동시에 지닌 분위기.",
+  "action": "모든 학생들은 정식 졸업사진 자세를 유지한 채 움직이지 않는다. 오직 마크의 얼굴만이 시간에 의해 자연스럽게 지워진 것처럼 보인다.",
+  "edit": "고정 카메라. 학교 공식 졸업 단체사진을 바라보는 느낌.",
+  "dialogue": "",
+  "prompt": "formal korean high school graduation group photo, large group of korean students in uniforms arranged in rows, realistic school graduation photography, everyone smiling toward camera, one korean male student standing among crowd with face perfectly covered by natural faded yellow stain on old photograph, realistic aging water stain effect, body still visible while face becomes unrecognizable, ordinary formal graduation photo realism, korean school building background, subtle uncanny feeling, documentary realism, mid 2000s graduation photo aesthetic, static wide shot",
+  "overheadDiagram": ""
+}

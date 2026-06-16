@@ -1,0 +1,17 @@
+{
+  "id": "S02_SH002",
+  "scene": "S#2",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "카메라는 흰색 세면대를 위에서 내려다본다. 화면은 극도로 단순하다. 진한 붉은색 혈액 몇 방울이 수도꼭지 아래에서 떨어져 배수구를 향해 천천히 이동한다. 혈액은 흰색 배경 위에서 강한 대비를 만들며, 불규칙한 리듬으로 떨어져 점점 불안감을 증폭시킨다.",
+  "composition": "기하학적인 구도. 흰색 세면대가 화면을 가득 채우고, 수도꼭지는 상단에, 배수구는 화면 중앙에 위치한다. 시선은 수도꼭지에서 혈액 방울을 거쳐 배수구로 이어지며 붉은색과 흰색의 강한 대비를 형성한다.",
+  "lighting": "차가운 실내 백색 조명, 차가운 회색 계열 색조, 높은 대비. 차분하지만 이질적이고 돌출된 분위기.",
+  "action": "혈액이 한 방울씩 불규칙하게 떨어진다. 처음에는 우연처럼 보이지만 점차 불편하고 이상한 느낌으로 변한다.",
+  "edit": "고정 카메라. 불규칙한 혈액 방울의 리듬을 통해 불안감과 정체된 시간을 표현한다.",
+  "dialogue": "",
+  "prompt": "top down cinematic close up of white bathroom sink with drops of dark red blood falling toward drain, minimalist geometric composition, korean apartment bathroom, cold white lighting, high contrast red blood against white ceramic sink, realistic blood droplets, metallic faucet at top of frame, drain centered composition, unsettling realistic atmosphere, static camera, cold gray tone, slow irregular dripping rhythm, psychological tension, 50mm lens look",
+  "overheadDiagram": ""
+}

@@ -1,0 +1,17 @@
+{
+  "id": "S08_SH001",
+  "scene": "S#8",
+  "shotType": "MCU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "마크는 의자에 앉아 손에 든 문서를 읽고 있다. 한 손은 무의식적으로 셔츠 깃이나 넥타이를 만진다. 그의 얼굴은 붉은 사과에 의해 완전히 가려져 있어 독서 행위 자체가 어딘가 부자연스럽게 보인다. 화면 전체는 조용하지만 은은한 압박감을 품고 있으며, 이해와 불안이 동시에 존재하는 상태를 보여준다.",
+  "composition": "정면에서 약간 내려다보는 구도. 마크는 화면 중앙에 위치하며 가슴 위까지만 보인다. 배경 공간은 최대한 단순화되어 있으며, 사과와 문서가 주요 시각적 초점이 된다.",
+  "lighting": "부드럽고 약간 차가운 실내 조명. 낮은 채도와 중저대비로 억압감과 정체된 분위기를 만든다.",
+  "action": "마크는 고개를 숙인 채 문서를 읽고 있으며, 한 손으로 셔츠 깃이나 넥타이를 가볍게 만진다. 움직임은 느리고 불안정하다.",
+  "edit": "고정 카메라. 긴 정지 시간을 유지하며 문서를 읽는 과정의 압박감과 이질감을 강조한다.",
+  "dialogue": "",
+  "prompt": "medium close up of korean businessman sitting and reading documents, giant red apple completely covering face, one hand touching necktie nervously, minimalist interview room, muted colors, soft cold indoor lighting, restrained surrealism, bureaucratic realism, cinematic 50mm lens look, static composition, psychological discomfort, magritte realism translated into reality",
+  "overheadDiagram": ""
+}

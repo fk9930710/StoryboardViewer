@@ -1,0 +1,17 @@
+{
+  "id": "S09_SH001",
+  "scene": "S#9",
+  "shotType": "WS",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "마크는 거리 한쪽에 앉아 있다. 마치 세상에 버려진 사람처럼 보인다. 그의 얼굴은 붉은 사과에 의해 완전히 가려져 있으며 거의 움직이지 않는다. 전경에는 행인들이 계속 지나가며 화면을 가린다. 전화벨이 울리고 그는 전화를 받지만 곧 내려놓는다. 특별한 감정은 드러나지 않는다. 잠시 멈춰 있던 그는 천천히 일어나 화면 밖으로 걸어 나간다. 마치 세상의 가장자리에서 사라지는 것처럼 보인다.",
+  "composition": "고정된 원경 구도. 전경에서는 흐릿한 행인들이 계속 가로질러 지나가며 시야를 가린다. 마크는 화면 한쪽에 위치해 있으며, 끊임없이 움직이는 세상과 대비된다. 70mm 렌즈 특유의 압축감으로 거리 공간은 답답하고 폐쇄적으로 느껴진다.",
+  "lighting": "부드러운 자연광 또는 흐린 날의 햇빛. 낮은 채도와 회색 계열 색조, 중저대비. 전체적으로 고립감과 거리감을 전달한다.",
+  "action": "마크는 조용히 앉아 있다. 전화가 울리자 천천히 받았다가 무심하게 내려놓는다. 잠시 멈춘 뒤 자리에서 일어나 화면 밖으로 걸어 나간다. 주변 사람들은 계속 움직이지만 그와는 아무 관계도 없다.",
+  "edit": "전경을 가로지르는 행인과 긴 고정 숏을 활용해 소외감을 만든다. 인물의 리듬은 의도적으로 끊어져 있으며, 세상은 정상적으로 돌아가지만 주인공만 배제된 느낌을 전달한다.",
+  "dialogue": "",
+  "prompt": "cinematic korean man sitting alone on street bench or sidewalk, face completely covered by giant red apple, people constantly passing in foreground motion blur, static long lens composition, lonely detached atmosphere, korean city street realism, muted gray colors, soft overcast daylight, isolated man ignored by society, slow melancholic pacing, realistic korean arthouse film style",
+  "overheadDiagram": ""
+}

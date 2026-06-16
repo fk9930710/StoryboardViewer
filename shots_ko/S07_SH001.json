@@ -1,0 +1,17 @@
+{
+  "id": "S07_SH001",
+  "scene": "S#7",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "화면은 거의 완전한 암흑 상태에서 시작된다. 나무문이 천천히 열리면서 좁은 틈 사이로 문 밖에 서 있는 마크가 조금씩 드러난다. 그의 얼굴은 거대한 붉은 사과에 의해 완전히 가려져 있으며, 전체적으로 거의 움직임이 없다. 강한 불안감과 이질적인 분위기를 만들어낸다.",
+  "composition": "가림을 활용한 리빌 구도. 문이 화면 한쪽을 차지하며 문틀이 수직 분할선을 형성한다. 인물은 어둠과 문틈 사이에서 점차 드러나고, 사과는 화면 속 유일하게 강한 시각적 초점이 된다.",
+  "lighting": "저조도 고대비 조명. 공간 대부분은 어둠 속에 잠겨 있으며, 약한 차가운 빛만이 마크와 붉은 사과를 비춰 강한 색채 대비를 만든다.",
+  "action": "나무문이 천천히 열리고 마크가 점차 모습을 드러낸다. 이후 그는 움직이지 않은 채 서 있으며, 아주 미세한 호흡만 느껴진다.",
+  "edit": "고정 카메라. 긴 정지 시간을 유지하며 리빌의 리듬을 통해 어둠 속에서 인물의 존재를 서서히 드러낸다.",
+  "dialogue": "",
+  "prompt": "close up of korean man slowly appearing through half opened wooden door in darkness, giant red apple completely covering face, static cinematic shot, reveal composition, dark hallway, low key lighting, cold shadows, surreal realism, unsettling stillness, high contrast black and red, korean psychological film atmosphere, minimal movement, mysterious presence",
+  "overheadDiagram": ""
+}

@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH004",
+  "scene": "S#10",
+  "shotType": "POV ECU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "주관적 시점으로 위쪽의 눈부신 사무실 형광등을 바라본다. 반투명한 흰 천이 천천히 렌즈 위로 내려오기 시작한다. 차가운 백색광은 천을 통과하며 점점 퍼지고 부드러워진다. 화면은 서서히 선명함을 잃고, 마지막에는 거의 순백색만 남는다. 모든 과정은 조용하고 느리게 진행되며, 마치 누군가 스스로 세상에서 희미해지기를 선택하는 것처럼 느껴진다.",
+  "composition": "극도로 단순한 주관적 구도. 화면에는 차가운 형광등과 점차 렌즈를 덮어가는 반투명한 흰 천만 존재한다. 천은 유일한 시각적 주체가 되며, 공간감과 윤곽은 덮이는 과정 속에서 서서히 사라진다.",
+  "lighting": "차가운 사무실 형광등이 흰 천을 통과하며 확산된다. 전체적으로 밝고 낮은 대비를 유지하며, 흰색과 회색 위주의 색감이 거의 사라져가는 듯한 분위기를 만든다.",
+  "action": "흰 천이 위에서 천천히 내려와 렌즈를 덮는다. 동시에 빛과 초점은 점차 흐려지고 부드러워지며, 결국 화면은 거의 순백색에 가까워진다.",
+  "edit": "고정된 주관 카메라. 천이 시야를 가리고 노출이 변화하는 과정을 통해 시선이 현실로부터 점차 분리되는 느낌을 만든다. 마치 인물이 조용히 현실에서 사라지고 있는 것처럼 보인다.",
+  "dialogue": "",
+  "prompt": "extreme close up POV looking upward at bright office fluorescent light, semi transparent white fabric slowly falling over camera lens, soft diffused white light through cloth, minimal composition, fading visual clarity, peaceful disappearance atmosphere, low contrast white and gray tones, realistic cinematic texture, quiet emotional isolation, korean arthouse film aesthetic",
+  "overheadDiagram": ""
+}

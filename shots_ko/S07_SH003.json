@@ -1,0 +1,17 @@
+{
+  "id": "S07_SH003",
+  "scene": "S#7",
+  "shotType": "CU to MS",
+  "duration": "",
+  "cameraMovement": "Slow Dolly Out",
+  "status": "draft",
+  "image": "",
+  "description": "카메라는 마크의 극단적인 근접 화면에서 시작된다. 그는 정면으로 아내를 바라보고 있으며, 얼굴은 거대한 붉은 사과에 의해 완전히 가려져 있다. 그는 억눌린 목소리로 '나 화났어.'라고 말한다. 감정이 조금씩 높아질수록 카메라는 매우 천천히 뒤로 이동하고, 화면은 압박감 있는 클로즈업에서 보다 거리감 있는 미디엄 숏으로 변한다. 공간은 점점 드러나지만 두 사람 사이의 정서적 거리는 오히려 더 멀어진다.",
+  "composition": "정면 구도. 초반에는 마크가 화면 대부분을 차지하며, 중앙의 사과가 강한 압박감을 만든다. 카메라가 뒤로 물러나면서 배경과 공간이 점차 드러나고, 인물은 점점 작아져 감정과 거리의 대비를 형성한다.",
+  "lighting": "따뜻한 실내 조명과 그림자가 섞인 어두운 공간. 중간 정도의 대비를 유지하며 억압적이고 긴장된 감정을 만든다.",
+  "action": "마크는 거의 움직이지 않은 채 시선과 말투만으로 압박을 준다. 카메라는 계속 뒤로 이동하며 관계의 거리를 시각적으로 드러낸다.",
+  "edit": "매우 느린 돌리 아웃을 통해 감정 변화를 구축한다. 화면은 친밀한 압박감에서 점차 냉담하고 소원한 거리감으로 변한다.",
+  "dialogue": "마크: '나 화났어.'",
+  "prompt": "cinematic korean man facing camera directly with giant red apple covering face, emotional confrontation scene, starts as oppressive close up then slowly dolly out to medium shot, warm dim apartment lighting, restrained anger, psychological distance increasing, static body posture, subtle tension, korean domestic realism mixed with surrealism, slow emotional camera movement, minimalist apartment background gradually revealed",
+  "overheadDiagram": ""
+}

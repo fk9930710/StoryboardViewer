@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH005",
+  "scene": "S#10",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "고정된 클로즈업 카메라가 마크의 오른쪽 측면을 바라본다. 화면 왼쪽 전경에는 전 동료의 몸 일부가 보이며, 그녀는 움직이지 않은 채 마크를 향해 서 있다. 화면 왼쪽 중경에는 사무용 책상이 있고, 책상은 마크의 정면에 위치한다. 마크는 화면 중앙 오른쪽의 사무용 의자에 앉아 왼쪽을 바라보고 있다. 그의 머리와 상반신 전체는 평범한 흰 천으로 덮여 있으며, 조용하고 또렷한 인간의 옆모습 실루엣을 만든다. 화면 오른쪽에는 의자 등받이와 마크의 등이 보인다. 전체 화면은 시간이 멈춘 사무실의 한 순간처럼 느껴진다.",
+  "composition": "고정된 정측면 구도. 왼쪽 전경에는 전 동료의 일부 몸이, 왼쪽 중경에는 책상이 위치한다. 중앙 오른쪽에는 흰 천에 덮인 마크의 측면 실루엣이 자리한다. 의자 등받이와 마크의 등이 오른쪽에서 압박감을 형성한다. 화면은 매우 안정적인 공간 질서와 방향성을 유지한다.",
+  "lighting": "차가운 사무실 형광등 조명. 낮은 채도의 차가운 색감과 중저대비. 전체 분위기는 조용하고 관료적이며 시간이 멈춘 듯하다.",
+  "action": "모든 인물은 거의 완전히 정지해 있다. 전 동료는 마크를 바라보며 서 있을 뿐이고, 마크는 흰 천에 덮인 채 의자에 앉아 움직이지 않는다.",
+  "edit": "고정된 측면 관찰 숏. 인물과 가구의 정적인 관계를 통해 정체감을 형성한다. 흰 천의 실루엣만이 화면 속 유일한 이질적 요소가 된다.",
+  "dialogue": "",
+  "prompt": "cinematic korean office scene viewed from right side profile angle, korean man sitting on office chair facing left, entire head and upper body covered with plain white cloth forming clear human silhouette, female coworker partially visible in left foreground, office desk positioned in front of man on left side, cold fluorescent office lighting, static restrained composition, bureaucratic stillness, low saturation colors, realistic korean arthouse film aesthetic",
+  "overheadDiagram": ""
+}

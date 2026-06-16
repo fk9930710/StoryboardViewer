@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH006",
+  "scene": "S#10",
+  "shotType": "ECU",
+  "duration": "",
+  "cameraMovement": "Subtle Floating Drift",
+  "status": "draft",
+  "image": "",
+  "description": "극단적인 클로즈업 시점으로 반투명한 흰 천 내부를 바라본다. 화면에는 천장도, 형광등도, 사무실의 어떤 정보도 존재하지 않는다. 오직 부드러운 흰 천과 흐릿하게 스며드는 빛만 남아 있다. 천은 얇고 부드러우며 자연스러운 주름이 만들어내는 완만한 굴곡을 가진다. 뒤쪽에는 희미한 백색 광원만 존재하며, 화면 전체는 마치 숨을 쉬듯 아주 미세하게 흔들리고 떠다닌다.",
+  "composition": "추상적이고 미니멀한 구도. 반투명한 흰 천이 화면 대부분을 채우며, 구체적인 공간 정보나 인물의 형태는 보이지 않는다. 흐릿한 빛의 영역이 천천히 떠다니며 폐쇄적이지만 부드러운 시각 공간을 형성한다.",
+  "lighting": "부드러운 백색 확산광이 천을 통과하며 퍼진다. 낮은 채도의 흰색과 회색 계열, 극도로 낮은 대비. 전체적으로 따뜻하고 조용하며 외부 세계와 단절된 느낌을 만든다.",
+  "action": "흰 천은 마치 호흡처럼 아주 미세하게 떠다니고 흔들린다. 빛 또한 이에 맞춰 부드럽게 변화한다. 그 외의 움직임은 없다.",
+  "edit": "극단적으로 가까운 거리와 추상적인 공간감을 활용해 현실적인 사무실 환경에서 완전히 벗어난다. 마치 부드럽고 작은 공간 안에 감싸인 듯한 감각을 만든다.",
+  "dialogue": "",
+  "prompt": "extreme close up inside translucent white fabric, soft diffused white light glowing through cloth, minimal abstract cinematic image, gentle natural fabric folds, no ceiling or office details visible, floating breathing-like movement, quiet intimate atmosphere, low contrast white and pale gray tones, realistic soft textile texture, peaceful isolation, korean arthouse cinema aesthetic",
+  "overheadDiagram": ""
+}

@@ -1,0 +1,17 @@
+{
+  "id": "S03_SH002",
+  "scene": "S#3",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "아내는 부엌 공간에 서 있다. 마크의 얼굴을 가린 사과를 처음 본 순간 잠시 멍하니 굳어 버린다. 입이 살짝 벌어지고 시선이 멈춘다. 과장된 반응은 없으며, 단지 눈앞에서 벌어진 일을 순간적으로 이해하지 못하는 것처럼 보인다. 전체 분위기는 조용하지만 어딘가 부자연스럽다.",
+  "composition": "근거리 정면 구도. 인물은 화면 중앙에서 약간 오른쪽에 위치한다. 배경은 차가운 색조의 주방 공간으로 단순한 수납장과 실내 조명이 보인다.",
+  "lighting": "차가운 실내 백색 조명. 낮은 대비와 차가운 회색 계열 색조. 분위기는 조용하고 정체되어 있으며 현실적인 감각을 유지한다.",
+  "action": "아내는 고개를 살짝 돌린 뒤 움직임을 멈춘다. 입이 조금 벌어진 채 짧은 시간 동안 굳어 있는 상태를 유지한다.",
+  "edit": "고정 카메라. 마크가 옷을 입고 외출을 준비하는 동작 사이에 배치되며, 이 첫 번째 이상함의 순간을 정지와 침묵으로 강조한다.",
+  "dialogue": "",
+  "prompt": "close up of korean woman standing in kitchen frozen in confusion, realistic korean apartment kitchen interior, subtle shocked reaction, mouth slightly open, emotionally restrained acting, cold indoor lighting, cinematic realism, korean wife seeing something disturbing for first time, static camera, muted gray blue tones, natural documentary style, ordinary domestic environment, subtle psychological discomfort",
+  "overheadDiagram": ""
+}

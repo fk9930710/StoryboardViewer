@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH008",
+  "scene": "S#10",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "약간 위에서 내려다보는 클로즈업으로 사무실 책상 위의 종이상자를 바라본다. 마크의 손이 상자 표면과 모서리를 천천히 쓰다듬는다. 움직임은 매우 느리고 조심스럽다. 평범한 골판지 상자에는 작은 마모와 운반 흔적이 남아 있어 정리되고 있는 물건처럼 보인다. 차가운 사무실 조명이 낮은 채도의 책상을 비추고 있으며, 얕은 심도는 손과 상자가 맞닿는 지점을 화면의 중심으로 만든다.",
+  "composition": "촉각을 강조하는 클로즈업 구도. 약간의 하이 앵글로 책상과 종이상자를 바라본다. 상자가 화면 대부분을 차지하며, 마크의 손이 주요 시각적 중심이 된다. 일부 서류와 키보드 모서리, 책상 디테일만 남기고 배경은 거의 보이지 않는다. 얕은 심도가 손가락과 상자의 접촉 지점에 집중되어 거친 골판지 질감을 강조한다.",
+  "lighting": "차가운 사무실 형광등 조명. 낮은 채도의 회색 계열 색감과 낮은 대비. 전체 분위기는 조용하고 피로하며, 마치 떠나기 전 마지막으로 자신의 물건을 만져보는 순간 같다.",
+  "action": "마크의 손이 종이상자 표면과 모서리를 천천히 쓰다듬는다. 움직임은 부드럽고 절제되어 있으며, 무언가가 아직 존재하고 있는지 확인하는 듯하다.",
+  "edit": "고정 카메라와 최소한의 움직임을 사용한다. 촉감과 정체된 리듬을 통해 감정을 전달하며, 과도한 연기는 배제하고 관찰적인 사실감을 유지한다.",
+  "dialogue": "",
+  "prompt": "cinematic close up of a tired man's hand gently touching a worn cardboard box on an office desk, slight top down angle, rough cardboard texture, subtle office objects, shallow depth of field, cold fluorescent office lighting, low saturation gray tones, quiet bureaucratic atmosphere, realistic korean office film still, static observational shot, tactile realism",
+  "overheadDiagram": ""
+}

@@ -1,0 +1,17 @@
+{
+  "id": "S02_SH001",
+  "scene": "S#2",
+  "shotType": "MCU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "고정된 카메라가 거울 속 마크를 정면에서 촬영한다. 그의 얼굴은 붉은 사과에 의해 완전히 가려져 있다. 처음에는 멈춰서 상황을 관찰하지만, 곧 고개를 기울이거나 얼굴을 만지며 자신의 상태를 확인하려고 한다. 점차 불안감이 커지고, 후반부에는 면도기를 들어 문제를 해결하려고 시도한다. 그러나 동작은 어색하게 꼬이고 실수를 저지르며, 전체적으로 점진적으로 통제력을 잃어가는 불편함과 이상함을 보여준다.",
+  "composition": "거울을 활용한 구도이지만 완전한 대칭은 아니다. 마크는 화면 중앙에 위치하며 거울 프레임이 명확하게 보인다. 배경은 단순한 차가운 색조의 벽면이다.",
+  "lighting": "차가운 실내 백색 조명. 푸른빛이 도는 회색 계열 색조, 낮은 대비. 현실적이면서도 억압적이고 이상한 분위기.",
+  "action": "마크는 거울 앞에서 멈춰 서서 자신을 관찰한다. 고개를 좌우로 기울일 때마다 사과도 함께 움직인다. 이후 자신의 얼굴을 가볍게 두드리며 이상 여부를 확인한다. 잠시 멈춘 뒤 면도기를 집어 어색하게 면도를 시도하지만, 적절한 각도를 찾지 못하고 결국 실수로 자신을 베고 만다.",
+  "edit": "고정 카메라. 긴 정지와 점진적으로 무너지는 리듬을 통해 이상함을 구축한다.",
+  "dialogue": "",
+  "prompt": "korean man in bathroom mirror with giant red apple completely covering his face, cinematic mirror shot, medium close up, korean businessman slightly messy suit, cold bathroom lighting, realistic korean apartment bathroom, awkward shaving attempt with razor, surreal but realistic atmosphere, static camera, blue gray tone, low contrast, oppressive mood, apple perfectly fixed in front of face, documentary realism, unsettling everyday situation, 50mm lens look",
+  "overheadDiagram": ""
+}

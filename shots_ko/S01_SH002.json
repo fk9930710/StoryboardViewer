@@ -1,0 +1,17 @@
+{
+  "id": "S01_SH002",
+  "scene": "S#1",
+  "shotType": "WS",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "평범한 한국 가정의 벽에 걸려 있는 고등학교 입학 기념사진. 사진 속에는 대형 한국 고등학교 정문 앞 광장이 보이며, 많은 학생과 학부모들이 모여 기념사진을 찍고 있다. 화면 중앙에는 자연스럽게 사진을 찍는 여러 학생 그룹이 있고, 전체적으로 약간 어수선한 분위기다. 마크는 화면 가장 오른쪽 끝에 교복과 책가방을 착용한 채 서 있지만, 원래 사진 속에 포함되어 있어야 함에도 불구하고 몸과 얼굴의 절반이 프레임 밖으로 잘려 나가 있다. 마치 사진을 찍은 사람이 그의 존재를 전혀 인식하지 못한 것처럼 보인다. 사진은 2000년대 가정용 디지털카메라 특유의 평범한 질감을 가지고 있으며, 약간 누렇게 바랜 인화 사진이 평범한 나무 액자에 담겨 집 벽에 걸려 있다.",
+  "composition": "다수가 함께 등장하는 기념사진 구도. 화면 중앙에는 사진을 찍고 있는 학생과 학부모 그룹들이 위치한다. 마크는 화면 가장 오른쪽 끝에 서 있으며, 몸과 얼굴의 절반이 프레임 경계에 의해 잘려 나가 있다. 다른 사람들은 모두 온전히 프레임 안에 있지만, 오직 그만 우연히 잘려 있다.",
+  "lighting": "자연광. 약간 차가운 색감과 옅게 바랜 색채, 낮거나 중간 정도의 대비. 2000년대 가정용 디지털카메라 특유의 질감과 약간 누렇게 변색된 사진 느낌.",
+  "action": "다른 학생들은 대화하거나 포즈를 취하고, 교복을 정리하거나 사진을 찍고 있다. 마크는 사람들 가장자리에서 조용히 서 있으며, 마치 아무도 주목하지 않는 존재처럼 보인다.",
+  "edit": "고정 카메라. 벽에 걸린 오래된 가족사진을 천천히 훑어보는 듯한 느낌.",
+  "dialogue": "",
+  "prompt": "old korean family photo hanging on living room wall, korean high school entrance ceremony, crowded school plaza with students and parents taking photos, realistic documentary photography, korean teenage boy standing at far right edge of frame with half of his body and face accidentally cropped out, ordinary korean high school uniforms, casual candid family digital camera shot, wooden photo frame, slight glass reflection, faded colors, slightly yellowed old print, early 2000s digital camera aesthetic, ordinary documentary realism, wide shot",
+  "overheadDiagram": ""
+}

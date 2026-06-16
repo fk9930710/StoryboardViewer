@@ -17,6 +17,43 @@ body{
   display:none !important;
 }
 
+.language-switcher{
+
+  display:flex;
+
+  gap:8px;
+
+  padding:12px;
+
+  border-bottom:1px solid #27272a;
+
+}
+
+.language-button{
+
+  flex:1;
+
+  background:#18181b;
+
+  border:1px solid #27272a;
+
+  border-radius:8px;
+
+  color:white;
+
+  padding:8px;
+
+  cursor:pointer;
+
+  transition:.2s;
+
+}
+
+.language-button:hover{
+
+  background:#27272a;
+
+}
 
 /* =========================
    APP LAYOUT

@@ -1,0 +1,17 @@
+{
+  "id": "S06_SH002",
+  "scene": "S#6",
+  "shotType": "CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "경비원은 책상 뒤에 앉아 의자 등받이에 몸을 살짝 기대고 있다. 그는 맞은편 사람을 똑바로 바라보며, 한 손은 가볍게 펼쳐 '저도 어쩔 수 없습니다'라는 듯한 제스처를 취한다. 다른 손은 책상 위에서 볼펜을 천천히 돌리고 있다. 전체적인 움직임은 느긋하고 형식적이며, 무언가에 반응하고는 있지만 실제로 문제를 해결하려는 의지는 없어 보인다.",
+  "composition": "정면 구도(약간의 프레이밍 포함). 경비원은 화면 중앙에 위치하며, 책상 하단이 명확하게 보인다. 뒤쪽 의자 등받이가 인물을 감싸는 느낌을 만들며, 공간은 책상 → 경비원 → 의자 등받이의 순서로 구성된다.",
+  "lighting": "차가운 실내 백색 조명, 차가운 색조, 낮거나 중간 정도의 대비. 분위기는 일상적이고 제도적이며 약간의 부조리함을 가진다.",
+  "action": "경비원은 의자에 기대어 앉은 채 한 손을 펼쳐 무력함을 표현한다. 다른 손은 책상 위에서 볼펜을 천천히 반복적으로 돌린다.",
+  "edit": "고정 카메라. 정면 구도와 낮은 감정의 리듬을 유지한다.",
+  "dialogue": "문제를 해결하기보다 그저 대응하고 있는 듯한 태도.",
+  "prompt": "front facing korean security guard sitting behind desk, cold office lighting, cinematic close up, centered composition, slightly absurd bureaucratic atmosphere, desk foreground visible, chair framing behind subject, security office interior, realistic korean man age 40-60, hand gesture expressing helplessness, spinning pen on desk, low contrast cold tone, static camera, symmetrical framing",
+  "overheadDiagram": ""
+}

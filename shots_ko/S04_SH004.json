@@ -1,0 +1,17 @@
+{
+  "id": "S04_SH004",
+  "scene": "S#4",
+  "shotType": "CU（다이내믹 클로즈업）",
+  "duration": "",
+  "cameraMovement": "Handheld Follow",
+  "status": "draft",
+  "image": "",
+  "description": "낮은 위치의 핸드헬드 카메라가 마크의 정면을 따라가며 촬영한다. 그는 정장을 입은 채 거리 위를 빠르게 달리고 있다. 화면은 약간 흔들리고 흐려지며 급박하고 불안정한 느낌을 만든다. 그의 얼굴은 붉은 사과에 의해 완전히 가려져 있으며, 달리는 동안 사과가 미세하게 흔들려 우스꽝스러움과 긴장감이 동시에 느껴진다.",
+  "composition": "다이내믹한 중앙 구도. 마크는 화면 중앙에 위치하며, 머리 윗부분이 약간 잘려 압박감을 만든다. 배경의 거리와 인도는 움직임에 의해 자연스러운 모션 블러를 형성한다.",
+  "lighting": "흐린 날의 자연광. 차가운 회색과 푸른 기운이 섞인 색조, 중간 정도의 대비. 분위기는 긴장되고 급박하며 현실적이다.",
+  "action": "마크는 빠르게 앞으로 달린다. 팔은 불안정하게 흔들리고 몸은 약간 앞으로 기울어져 있으며 호흡은 거칠다. 사과는 움직임에 따라 미세하게 흔들린다.",
+  "edit": "낮은 위치의 핸드헬드 추적 촬영. 화면의 흔들림과 모션 블러가 통제력을 잃어가는 압박감을 강화한다.",
+  "dialogue": "",
+  "prompt": "handheld low angle tracking shot of korean businessman running toward camera on city street, giant red apple covering face, realistic korean urban environment, cinematic motion blur, unstable handheld movement, cold overcast lighting, tense absurd atmosphere, korean man in suit running desperately, realistic breathing and body movement, dynamic close up framing, documentary thriller realism, 35mm lens look",
+  "overheadDiagram": ""
+}

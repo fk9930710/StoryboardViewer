@@ -1,0 +1,17 @@
+{
+  "id": "S07_SH002",
+  "scene": "S#7",
+  "shotType": "MWS",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "낮은 시점의 고정 카메라 속에서 마크는 집 안으로 들어온 뒤 전경을 분주하게 오간다. 그는 코트와 모자를 들고 있으며 얼굴은 거대한 붉은 사과에 가려져 있다. 뒤쪽에는 아내가 벽에 기대어 서서 팔짱을 낀 채 차분하게 그를 바라본다. 마크가 코트를 벗어 던졌지만 아무도 받아주지 않자, 그는 잠시 멈춰 서서 공간 안의 이상한 변화를 인식하기 시작한다.",
+  "composition": "전경과 후경이 분리된 구도. 낮은 시점으로 실내 복도를 바라본다. 전경에는 끊임없이 움직이는 마크가 있고, 중경에는 비어 있는 공간이 남아 있으며, 후경에는 벽에 기대어 선 아내가 위치한다. 움직임과 정지가 강한 대비를 만든다.",
+  "lighting": "따뜻한 실내 조명과 어두운 그림자가 섞여 있다. 전체적으로는 따뜻한 색감이지만 답답하고 부자연스러운 분위기를 형성한다.",
+  "action": "마크는 빠르게 집 안으로 들어와 움직이고, 말을 하고, 코트와 모자를 벗는다. 아내는 거의 움직이지 않은 채 그를 바라본다. 코트를 받아주는 사람이 없자 마크는 멈춰 서서 당황한 모습을 보인다.",
+  "edit": "고정 카메라로 공간의 완전성을 유지한다. 인물의 이동과 멈춤을 통해 심리적 압박을 형성한다.",
+  "dialogue": "마크: '오늘 정말 엉망인 하루였어.' / 아내: '그래.'",
+  "prompt": "low angle medium wide shot inside narrow korean apartment hallway, korean man with giant red apple covering face moving anxiously in foreground holding coat and hat, korean woman leaning against wall in background calmly watching him, static camera, subtle motion blur, awkward domestic tension, warm dim apartment lighting, restrained surreal realism, emotional distance, minimalist korean interior, cinematic realism",
+  "overheadDiagram": ""
+}

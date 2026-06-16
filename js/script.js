@@ -3,6 +3,20 @@ let currentShot = null
 let diagramVisible = false
 
 // ========================
+// LANGUAGE
+// ========================
+
+const currentLanguage =
+  new URLSearchParams(
+    window.location.search
+  ).get('lang') || 'zh'
+
+const shotFolder =
+  currentLanguage === 'ko'
+    ? 'shots_ko'
+    : 'shots'
+
+// ========================
 // DOM
 // ========================
 
@@ -60,6 +74,43 @@ const allShotsButton =
 const singleShotView =
   document.getElementById('singleShotView')
 
+const langZh =
+  document.getElementById('langZh')
+
+const langKo =
+  document.getElementById('langKo')
+
+// ========================
+// LANGUAGE BUTTONS
+// ========================
+
+if (langZh) {
+
+  langZh.addEventListener(
+    'click',
+    () => {
+
+      window.location.href =
+        window.location.pathname
+
+    }
+  )
+
+}
+
+if (langKo) {
+
+  langKo.addEventListener(
+    'click',
+    () => {
+
+      window.location.href =
+        `${window.location.pathname}?lang=ko`
+
+    }
+  )
+
+}
 
 // ========================
 // PATHS
@@ -77,12 +128,14 @@ function getDiagramPath(shotId) {
 
 }
 
-
 // ========================
 // IMAGE
 // ========================
 
-function setImageWithFallback(imgElement, src) {
+function setImageWithFallback(
+  imgElement,
+  src
+) {
 
   imgElement.onerror = () => {
 
@@ -96,42 +149,57 @@ function setImageWithFallback(imgElement, src) {
 
 }
 
-
 // ========================
 // LOAD SHOTS
 // ========================
 
 async function loadShots() {
 
-  const manifestRes =
-    await fetch('./shots/manifest.json')
+  try {
 
-  const manifest =
-    await manifestRes.json()
+    const manifestRes =
+      await fetch('./shots/manifest.json')
 
-  const shotPromises =
-    manifest.map(async (fileName) => {
+    const manifest =
+      await manifestRes.json()
 
-      const res =
-        await fetch(`./shots/${fileName}.json`)
+    const shotPromises =
+      manifest.map(async (fileName) => {
 
-      return await res.json()
+        const res =
+          await fetch(
+            `./${shotFolder}/${fileName}.json`
+          )
 
-    })
+        return await res.json()
 
-  shots =
-    await Promise.all(shotPromises)
+      })
 
-  renderSidebar()
+    shots =
+      await Promise.all(
+        shotPromises
+      )
 
-  if (shots.length > 0) {
+    renderSidebar()
 
-    renderShot(shots[0])
+    if (shots.length > 0) {
+
+      renderShot(
+        shots[0]
+      )
+
+    }
+
+  } catch (err) {
+
+    console.error(
+      'Load shots failed',
+      err
+    )
 
   }
 
 }
-
 
 // ========================
 // SIDEBAR
@@ -141,50 +209,69 @@ function renderSidebar() {
 
   shotList.innerHTML = ''
 
-  shots.forEach((shot, index) => {
+  shots.forEach(
+    (shot, index) => {
 
-    const item =
-      document.createElement('button')
-
-    item.className =
-      'sidebar-shot-button'
-
-    item.innerHTML = `
-      <div class="sidebar-shot-title">
-        ${shot.id}
-      </div>
-    `
-
-    item.onclick = () => {
-
-      document
-        .querySelectorAll('#shotList button')
-        .forEach(btn =>
-          btn.classList.remove('shot-active')
+      const item =
+        document.createElement(
+          'button'
         )
 
-      item.classList.add('shot-active')
+      item.className =
+        'sidebar-shot-button'
 
-      allShotsView.classList.add('hidden')
+      item.innerHTML = `
+        <div class="sidebar-shot-title">
+          ${shot.id}
+        </div>
+      `
 
-      singleShotView.classList.remove('hidden')
+      item.onclick = () => {
 
-      renderShot(shot)
+        document
+          .querySelectorAll(
+            '#shotList button'
+          )
+          .forEach(btn =>
+            btn.classList.remove(
+              'shot-active'
+            )
+          )
+
+        item.classList.add(
+          'shot-active'
+        )
+
+        allShotsView.classList.add(
+          'hidden'
+        )
+
+        singleShotView.classList.remove(
+          'hidden'
+        )
+
+        renderShot(
+          shot
+        )
+
+      }
+
+      shotList.appendChild(
+        item
+      )
+
+      if (index === 0) {
+
+        item.classList.add(
+          'shot-active'
+        )
+
+      }
 
     }
-
-    shotList.appendChild(item)
-
-    if (index === 0) {
-
-      item.classList.add('shot-active')
-
-    }
-
-  })
+  )
 
 }
-
 
 // ========================
 // RENDER SHOT
@@ -231,7 +318,6 @@ function renderShot(shot) {
 
 }
 
-
 // ========================
 // ALL SHOTS
 // ========================
@@ -240,44 +326,62 @@ function renderAllShots() {
 
   allShotsGrid.innerHTML = ''
 
-  singleShotView.classList.add('hidden')
+  singleShotView.classList.add(
+    'hidden'
+  )
 
-  allShotsView.classList.remove('hidden')
+  allShotsView.classList.remove(
+    'hidden'
+  )
 
-  shots.forEach(shot => {
+  shots.forEach(
+    shot => {
 
-    const card =
-      document.createElement('div')
+      const card =
+        document.createElement(
+          'div'
+        )
 
-    card.className =
-      'shot-card'
+      card.className =
+        'shot-card'
 
-    card.innerHTML = `
+      card.innerHTML = `
 
-      <img
-        src="${getImagePath(shot.id)}"
-        class="shot-card-image"
-      />
+        <img
+          src="${getImagePath(
+            shot.id
+          )}"
+          class="shot-card-image"
+        />
 
-      <div class="shot-card-title">
-        ${shot.id}
-      </div>
+        <div class="shot-card-title">
+          ${shot.id}
+        </div>
 
-    `
+      `
 
-    card.onclick = () => {
+      card.onclick = () => {
 
-      allShotsView.classList.add('hidden')
+        allShotsView.classList.add(
+          'hidden'
+        )
 
-      singleShotView.classList.remove('hidden')
+        singleShotView.classList.remove(
+          'hidden'
+        )
 
-      renderShot(shot)
+        renderShot(
+          shot
+        )
+
+      }
+
+      allShotsGrid.appendChild(
+        card
+      )
 
     }
-
-    allShotsGrid.appendChild(card)
-
-  })
+  )
 
 }
 
@@ -286,61 +390,67 @@ allShotsButton.addEventListener(
   renderAllShots
 )
 
-
 // ========================
 // DIAGRAM OVERLAY
 // ========================
 
-mainImage.addEventListener('click', () => {
+mainImage.addEventListener(
+  'click',
+  () => {
 
-  if (!currentShot) return
+    if (!currentShot) return
 
-  const path =
-    `${getDiagramPath(currentShot.id)}?v=${Date.now()}`
+    const path =
+      `${getDiagramPath(
+        currentShot.id
+      )}?v=${Date.now()}`
 
-  if (diagramVisible) {
+    if (diagramVisible) {
 
-    diagramOverlay.classList.add('hidden')
+      diagramOverlay.classList.add(
+        'hidden'
+      )
 
-    diagramOverlay.classList.remove('flex')
+      diagramVisible = false
+
+      return
+
+    }
+
+    diagramImage.onload = () => {
+
+      diagramOverlay.classList.remove(
+        'hidden'
+      )
+
+      diagramVisible = true
+
+    }
+
+    diagramImage.onerror = () => {
+
+      diagramVisible = false
+
+    }
+
+    diagramImage.src =
+      path
+
+  }
+)
+
+diagramOverlay.addEventListener(
+  'click',
+  () => {
+
+    diagramOverlay.classList.add(
+      'hidden'
+    )
 
     diagramVisible = false
 
-    return
-
   }
-
-  diagramImage.onload = () => {
-
-    diagramOverlay.classList.remove('hidden')
-
-    diagramOverlay.classList.add('flex')
-
-    diagramVisible = true
-
-  }
-
-  diagramImage.onerror = () => {
-
-    diagramVisible = false
-
-  }
-
-  diagramImage.src =
-    path
-
-})
-
-diagramOverlay.addEventListener('click', () => {
-
-  diagramOverlay.classList.add('hidden')
-
-  diagramOverlay.classList.remove('flex')
-
-  diagramVisible = false
-
-})
-
+)
 
 // ========================
 // START

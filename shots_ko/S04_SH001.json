@@ -1,0 +1,17 @@
+{
+  "id": "S04_SH001",
+  "scene": "S#4",
+  "shotType": "WS",
+  "duration": "6 sec",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "흐린 날의 도시 거리. 한 한국 경찰관이 운전석 창문 밖에 서서 차 안의 마크를 바라보고 있다. 마크는 정장을 입고 차량 안에 앉아 있으며, 그의 얼굴은 거대한 붉은 사과에 의해 완전히 가려져 있다. 전체 화면은 조용하고 답답하며, 감정의 변화가 거의 없는 일상적인 검문 장면처럼 보인다.",
+  "composition": "와이드 숏과 미디엄 숏 사이의 구도. 차량은 화면 왼쪽과 전경을 차지하고, 경찰관은 화면 오른쪽에 서서 시각적 균형을 형성한다. 마크는 차량 창문 중앙에 위치하며, 붉은 사과가 화면 속 유일하게 강한 색채 포인트가 된다. 배경의 거리와 건물은 단순하고 질서정연하게 유지된다.",
+  "lighting": "흐린 날의 자연광. 차가운 회색 계열 색조, 낮은 대비. 전체 조명은 부드럽고 극적인 요소가 거의 없다.",
+  "action": "경찰관은 차량 창문 옆에서 일상적인 질문을 하고, 마크는 차량 안에서 거의 움직이지 않는다. 두 사람 모두 정체된 상태를 유지한다.",
+  "edit": "고정 카메라. 긴 정지 시간을 통해 어색함과 감시당하는 느낌을 형성한다.",
+  "dialogue": "",
+  "prompt": "wide cinematic shot of korean police officer standing beside dark sedan on quiet city street, korean businessman sitting inside car with giant red apple covering face, overcast weather, cold gray tones, realistic korean urban environment, static awkward atmosphere, institutional realism, minimal emotion, police traffic stop scene, muted color palette, documentary cinematic style",
+  "overheadDiagram": ""
+}

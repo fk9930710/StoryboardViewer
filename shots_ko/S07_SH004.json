@@ -1,0 +1,17 @@
+{
+  "id": "S07_SH004",
+  "scene": "S#7",
+  "shotType": "CU to MS",
+  "duration": "",
+  "cameraMovement": "Slow Dolly Out",
+  "status": "draft",
+  "image": "",
+  "description": "카메라는 아내의 클로즈업에서 시작된다. 그녀는 정면으로 마크를 바라보지만 표정에는 거의 변화가 없다. 카메라가 천천히 뒤로 이동하면서 화면은 미디엄 숏으로 확장되고, 배경과 공간이 조금씩 드러난다. 그러나 그녀의 자세와 감정은 끝까지 흔들리지 않는다. 전체적으로 차분하고 닫혀 있는 반응을 보여주며, 두 사람의 관계는 시각적으로 점점 멀어진다.",
+  "composition": "정면 구도와 약한 대칭감. 초반에는 아내가 화면 대부분을 차지해 안정적인 압박감을 만든다. 카메라가 뒤로 이동하면서 공간이 펼쳐지지만 인물은 계속 중앙에 위치하며 감정적인 폐쇄성과 거리감을 강조한다.",
+  "lighting": "부드러운 따뜻한 실내 조명. 따뜻한 회색 계열 색조와 중저대비. 공간 전체에 억눌린 감정과 정체된 분위기가 흐른다.",
+  "action": "아내는 거의 움직이지 않는다. 안정적인 시선과 최소한의 표정 변화만으로 마크에게 반응한다. 카메라는 계속 뒤로 이동하며 두 사람 사이의 거리를 강조한다.",
+  "edit": "매우 느린 돌리 아웃을 통해 감정적 거리를 구축한다. 시각적 공간은 확장되지만 인물의 심리는 끝까지 닫혀 있다.",
+  "dialogue": "아내는 짧고 감정 변화 없는 목소리로 마크에게 대답한다.",
+  "prompt": "cinematic korean woman facing camera directly in emotional confrontation scene, starts as close up then slowly dolly out to medium shot, calm expression, emotionally closed off, warm dim apartment lighting, restrained domestic tension, minimalist korean apartment background gradually revealed, subtle psychological distance, static posture, realistic korean drama cinematography mixed with surreal emotional atmosphere",
+  "overheadDiagram": ""
+}

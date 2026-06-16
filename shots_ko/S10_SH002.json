@@ -1,0 +1,17 @@
+{
+  "id": "S10_SH002",
+  "scene": "S#10",
+  "shotType": "MCU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "고정된 로우 앵글 카메라가 간결한 사무실 공간을 바라본다. 화면 오른쪽 아래 전경에는 거대한 사무용 의자가 있으며, 등받이가 카메라를 향하고 있다. 화면 오른쪽 위에는 큰 책상이 있고, 그 위에는 여러 개의 종이 상자가 놓여 있다. 마크는 화면 중앙 왼쪽에 서 있으며 의자 뒤, 책상 앞에 위치한다. 그는 완전히 등을 돌리고 있으며 허리 위만 보인다. 전 동료는 화면 왼쪽 위에서 상자를 안고 서 있으며, 몸을 약간 마크 쪽으로 향하고 있다. 화면에는 바닥이 거의 보이지 않고, 인물과 가구가 공간을 가득 채운다.",
+  "composition": "로우 앵글의 압축된 평면 구도. 거대한 사무용 의자가 오른쪽 아래 전경을 차지하며 압박감을 만든다. 책상과 상자가 공간을 압축하고, 마크는 중앙 왼쪽에서 등을 돌린 채 서 있다. 전 동료는 왼쪽 위에 위치하며 대각선 인물 관계를 형성한다. 의도적으로 바닥과 배경 정보는 최소화한다.",
+  "lighting": "차가운 사무실 형광등 조명. 낮은 채도의 차가운 색조, 중저대비. 관료적이고 감정이 제거된 분위기를 만든다.",
+  "action": "마크는 등을 돌린 채 가만히 서 있다. 전 동료는 상자를 안고 책상 옆에 서 있으며 몸을 약간 마크 쪽으로 향한다. 전체적으로 움직임은 매우 적고 정체된 느낌을 준다.",
+  "edit": "고정 카메라. 가구의 비율과 낮은 시점을 통해 인물이 사무 시스템에 삼켜진 듯한 인상을 만든다.",
+  "dialogue": "",
+  "prompt": "cinematic korean office scene, low angle compressed composition, giant office chair dominating foreground, large office desk with cardboard boxes, korean man in black suit standing with back facing camera, only upper body visible, korean female coworker holding cardboard box near desk, minimal office environment, cold fluorescent office lighting, bureaucratic atmosphere, low saturation colors, static framing, realistic korean arthouse film style",
+  "overheadDiagram": ""
+}

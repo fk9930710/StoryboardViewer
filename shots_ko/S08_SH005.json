@@ -1,0 +1,17 @@
+{
+  "id": "S08_SH005",
+  "scene": "S#8",
+  "shotType": "MCU",
+  "duration": "",
+  "cameraMovement": "Slow Push",
+  "status": "draft",
+  "image": "",
+  "description": "단순하고 복고적인 스튜디오 세트 안에 두 명의 한국 남성이 함께 앉아 있다. 왼쪽의 검은 터틀넥 남성은 몸을 약간 오른쪽의 마크 쪽으로 기울이고, 머리를 앞으로 내민 채 사과를 유심히 바라본다. 그는 팔을 들어 손가락으로 사과를 가리키지만 직접 닿지는 않는다. 오른쪽의 마크는 카메라를 정면으로 바라보고 있으며, 얼굴은 거대한 붉은 사과에 의해 완전히 가려져 있다. 그는 움직이지 않는다. 화면은 눈높이 시점으로 촬영되며, 전체적으로 마그리트의 회화를 현실로 옮겨놓은 듯한 분위기를 가진다.",
+  "composition": "두 인물이 함께 등장하는 구도. 왼쪽에는 검은 터틀넥 남성, 오른쪽에는 마크가 위치한다. 손가락과 사과 사이의 매우 가까운 거리가 시각적인 긴장감을 형성한다.",
+  "lighting": "균일하고 부드러운 스튜디오 조명. 중저대비로 차분하면서도 약간 초현실적인 분위기를 만든다.",
+  "action": "검은 터틀넥 남성은 손가락으로 사과를 가리키지만 닿지 않는다. 마크는 완전히 정지한 상태를 유지한다.",
+  "edit": "카메라는 매우 천천히 앞으로 이동한다. 응시와 압박감을 점진적으로 강화한다.",
+  "dialogue": "",
+  "prompt": "medium close up of korean man in black sweater pointing closely at giant red apple covering another korean man's face, minimalist retro talk show set, surreal calm atmosphere, magritte realism in real world, cinematic 50mm lens look, soft even studio lighting, psychologically uncomfortable stillness, korean television debate aesthetic",
+  "overheadDiagram": ""
+}

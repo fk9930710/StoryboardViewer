@@ -1,0 +1,17 @@
+{
+  "id": "S08_SH003",
+  "scene": "S#8",
+  "shotType": "tight_CU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "타이트한 클로즈업 구도. 화면 왼쪽에는 마크, 오른쪽에는 김 교수가 있다. 두 사람 모두 어깨 위까지만 보이며, 몸과 머리는 같은 방향을 향한 채 약간 화면 오른쪽을 바라본다. 누구도 고개를 돌리지 않는다. 마크의 얼굴은 거대한 붉은 사과에 의해 완전히 가려져 있다. 두 사람은 나란히 앉아 있지만 같은 방향을 바라보는 묘한 상태를 형성한다. 배경은 깨끗하고 밝은 스튜디오 공간이다.",
+  "composition": "2인 병렬 구도. 왼쪽에는 마크, 오른쪽에는 김 교수가 위치한다. 어깨 위까지만 프레이밍되며, 사과는 화면 중심보다 약간 왼쪽에 위치해 주요 시각적 초점이 된다.",
+  "lighting": "부드럽고 약간 방향성이 있는 스튜디오 조명. 중저대비로 차분하면서도 약간의 무대적 분위기를 형성한다.",
+  "action": "김 교수는 조용히 말을 하거나 가만히 앉아 있다. 마크는 완전히 움직이지 않는다.",
+  "edit": "고정 카메라. 극도로 안정된 병렬 구도를 통해 비현실적인 느낌을 만든다.",
+  "dialogue": "",
+  "prompt": "tight cinematic close up of korean professor and korean businessman sitting side by side in minimalist talk show studio, giant red apple completely covering businessman face, both facing same direction, calm intellectual atmosphere, subtle surrealism, white clean background, magritte realism translated into real world, korean television studio aesthetic, static composition, 100mm lens look",
+  "overheadDiagram": ""
+}

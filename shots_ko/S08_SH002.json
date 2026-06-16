@@ -1,0 +1,17 @@
+{
+  "id": "S08_SH002",
+  "scene": "S#9",
+  "shotType": "MCU",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "진행자는 책상 뒤에 앉아 정면으로 카메라를 바라본다. 한 손의 검지를 들어 올린 채 특정한 의견을 강조하거나 프로그램 진행자로서 질문을 던지고 있다. 화면은 심야 토크쇼 특유의 차분함과 연출된 성격을 지니고 있지만, 전체적인 표현은 절제되어 있다.",
+  "composition": "정면 토크쇼 구도. 진행자는 화면 중앙에서 약간 오른쪽에 위치한다. 책상이 전경에서 화면을 가로지르며, 들어 올린 손가락이 수직적인 시각 중심을 형성한다. 배경은 흐려져 있으며 조명과 스튜디오 공간감만 남아 있다.",
+  "lighting": "스튜디오 메인 조명이 인물의 얼굴을 균일하게 비춘다. 배경에는 차가운 색과 따뜻한 색이 섞인 도시 조명이 보인다. 전체적으로 중저대비이며 깔끔한 방송 촬영의 질감을 가진다.",
+  "action": "진행자는 검지를 들어 올린 채 계속 말한다. 다른 손은 책상 위에 올려놓고 있으며 움직임은 안정적이고 절제되어 있다.",
+  "edit": "고정 카메라. 긴 정지 시간을 유지하며 토크쇼 특유의 공식성과 제도적인 시선을 강조한다.",
+  "dialogue": "",
+  "prompt": "korean late night talk show host sitting behind desk, medium close up, one finger raised while speaking, calm television studio atmosphere, cinematic broadcast lighting, neutral expression, restrained performance, blurred studio background lights, static shot, realistic late night show framing, clean studio composition, korean male host in formal suit",
+  "overheadDiagram": ""
+}

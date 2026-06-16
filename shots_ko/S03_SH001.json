@@ -1,0 +1,17 @@
+{
+  "id": "S03_SH001",
+  "scene": "S#3",
+  "shotType": "MWS",
+  "duration": "",
+  "cameraMovement": "Static",
+  "status": "draft",
+  "image": "",
+  "description": "좁고 평범한 한국 아파트 내부. 마크는 화면 왼쪽 화장실 방향에서 걸어 나와 중앙의 돌출된 벽 모서리 근처에 멈춘 뒤 오른쪽 현관 쪽으로 방향을 튼다. 카메라 위치가 낮기 때문에 그의 머리는 화면 상단에 의해 완전히 잘려 보이지 않으며, 얼굴과 사과 역시 보이지 않는다. 전체 화면은 공간이 차분하게 인물의 움직임을 관찰하는 듯한 느낌을 준다.",
+  "composition": "낮은 시점의 실내 관찰 구도. 화면 중앙에는 돌출된 벽 모서리가 있으며, 왼쪽은 화장실로 이어지는 통로, 오른쪽은 신발장과 현관문이다. 마크는 화면 중앙 오른쪽에 위치하며 머리는 프레임 밖으로 잘려 있고 몸의 움직임만 보인다.",
+  "lighting": "차가운 아침 실내 조명. 낮은 채도와 낮은 대비. 공간 전체에 피로감과 일상적인 차가움이 감돈다.",
+  "action": "마크는 화장실 방향에서 걸어 나와 중앙 벽 모서리 근처에 멈춘 뒤 현관 방향으로 몸을 돌린다. 움직임은 다소 급하지만 절제되어 있다.",
+  "edit": "고정 카메라로 공간의 완전성을 유지한다. 인물이 스스로 화면에 들어오고 나가도록 두며, 약간의 감시 카메라 같은 느낌을 준다.",
+  "dialogue": "",
+  "prompt": "medium wide shot of narrow korean apartment interior, low angle static camera, man walking from bathroom hallway toward apartment entrance, head cropped out of frame, only body visible, central wall corner dividing composition, shoe cabinet and front door on right side, cold morning indoor lighting, restrained cinematic realism, quiet domestic tension, minimal korean apartment, surveillance-like framing, realistic korean film style",
+  "overheadDiagram": ""
+}
