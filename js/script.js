@@ -51,6 +51,9 @@ const prompt =
 const allShotsView =
   document.getElementById('allShotsView')
 
+const allShotsGrid =
+  document.getElementById('allShotsGrid')
+
 const allShotsButton =
   document.getElementById('allShotsButton')
 
@@ -122,7 +125,9 @@ async function loadShots() {
   renderSidebar()
 
   if (shots.length > 0) {
+
     renderShot(shots[0])
+
   }
 
 }
@@ -141,19 +146,11 @@ function renderSidebar() {
     const item =
       document.createElement('button')
 
-    item.className = `
-      w-full
-      text-left
-      px-3
-      py-2
-      rounded-lg
-      text-sm
-      hover:bg-zinc-800
-      transition
-    `
+    item.className =
+      'sidebar-shot-button'
 
     item.innerHTML = `
-      <div class="font-medium tracking-wide">
+      <div class="sidebar-shot-title">
         ${shot.id}
       </div>
     `
@@ -179,7 +176,9 @@ function renderSidebar() {
     shotList.appendChild(item)
 
     if (index === 0) {
+
       item.classList.add('shot-active')
+
     }
 
   })
@@ -239,7 +238,7 @@ function renderShot(shot) {
 
 function renderAllShots() {
 
-  allShotsView.innerHTML = ''
+  allShotsGrid.innerHTML = ''
 
   singleShotView.classList.add('hidden')
 
@@ -254,13 +253,16 @@ function renderAllShots() {
       'shot-card'
 
     card.innerHTML = `
+
       <img
         src="${getImagePath(shot.id)}"
+        class="shot-card-image"
       />
 
       <div class="shot-card-title">
         ${shot.id}
       </div>
+
     `
 
     card.onclick = () => {
@@ -273,7 +275,7 @@ function renderAllShots() {
 
     }
 
-    allShotsView.appendChild(card)
+    allShotsGrid.appendChild(card)
 
   })
 
