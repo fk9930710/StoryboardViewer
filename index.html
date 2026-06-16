@@ -14,78 +14,47 @@
 
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <style>
-
-    body {
-      background: #0b0b0b;
-      color: white;
-      overflow: hidden;
-    }
-
-    .sidebar-scroll::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    .sidebar-scroll::-webkit-scrollbar-thumb {
-      background: #333;
-      border-radius: 999px;
-    }
-
-    .shot-active {
-      background: #ffffff15;
-      border-color: #ffffff50;
-    }
-
-    textarea::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    textarea::-webkit-scrollbar-thumb {
-      background: #333;
-      border-radius: 999px;
-    }
-
-  </style>
+  <link
+    rel="stylesheet"
+    href="./css/style.css"
+  />
 
 </head>
 
 <body>
 
-  <div class="flex h-screen">
+  <div class="app-layout">
 
     <!-- SIDEBAR -->
 
-    <aside
-      class="
-        w-[220px]
-        border-r
-        border-zinc-800
-        flex
-        flex-col
-      "
-    >
+    <aside class="sidebar">
 
-      <div class="p-5 border-b border-zinc-800">
+      <div class="sidebar-header">
 
-        <h1 class="text-2xl font-bold">
+        <h1 class="site-title">
           MARK
         </h1>
 
-        <p class="text-zinc-400 text-sm mt-1">
+        <p class="site-subtitle">
           Storyboard Viewer
         </p>
 
       </div>
 
+      <div class="sidebar-actions">
+
+        <button
+          id="allShotsButton"
+          class="sidebar-button"
+        >
+          All Shots
+        </button>
+
+      </div>
+
       <div
         id="shotList"
-        class="
-          flex-1
-          overflow-y-auto
-          sidebar-scroll
-          p-3
-          space-y-1
-        "
+        class="shot-list sidebar-scroll"
       >
       </div>
 
@@ -93,21 +62,34 @@
 
     <!-- MAIN -->
 
-    <main class="flex-1 overflow-y-auto">
+    <main class="main-content">
 
-      <div class="max-w-6xl mx-auto p-8">
+      <!-- ALL SHOTS -->
 
-        <!-- TOP -->
+      <div
+        id="allShotsView"
+        class="all-shots-view hidden"
+      >
+      </div>
 
-        <div class="mb-6">
+      <!-- SINGLE SHOT -->
 
-          <div class="text-zinc-400 text-sm mb-2">
+      <div
+        id="singleShotView"
+        class="single-shot-view"
+      >
+
+        <!-- HEADER -->
+
+        <div class="page-header">
+
+          <div class="page-label">
             CURRENT SHOT
           </div>
 
           <h2
             id="sceneTitle"
-            class="text-5xl font-bold"
+            class="scene-title"
           >
           </h2>
 
@@ -115,152 +97,86 @@
 
         <!-- MAIN IMAGE -->
 
-        <div
-          class="
-            relative
-            w-full
-            aspect-video
-            bg-zinc-900
-            rounded-3xl
-            overflow-hidden
-            border
-            border-zinc-800
-            mb-8
-          "
-        >
+        <div class="main-image-wrapper">
 
           <img
             id="mainImage"
             src=""
-            class="w-full h-full object-cover"
+            class="main-image"
           />
-          <!-- DIAGRAM OVERLAY -->
 
-          <div
-            id="diagramOverlay"
-            class="
-              fixed
-              inset-0
-              bg-black/80
-              hidden
-              items-center
-              justify-center
-              z-50
-              p-10
-            "
-          >
+        </div>
 
-            <img
-              id="diagramImage"
-              src=""
-              class="
-                max-w-full
-                max-h-full
-                object-contain
-                rounded-2xl
-                border
-                border-zinc-700
-                shadow-2xl
-              "
-            />
+        <!-- DIAGRAM OVERLAY -->
 
-          </div>
-          <!-- IMAGE UPLOAD -->
+        <div
+          id="diagramOverlay"
+          class="diagram-overlay hidden"
+        >
 
-          <div
-            class="
-              absolute
-              bottom-4
-              right-4
-              z-20
-            "
-          >
-
-            <label
-              class="
-                bg-black/70
-                hover:bg-black
-                px-4
-                py-2
-                rounded-xl
-                text-sm
-                cursor-pointer
-                transition
-                border
-                border-zinc-700
-              "
-            >
-
-              Upload Image
-
-              <input
-                type="file"
-                id="imageUpload"
-                accept="image/*"
-                class="hidden"
-              />
-
-            </label>
-
-          </div>
+          <img
+            id="diagramImage"
+            src=""
+            class="diagram-image"
+          />
 
         </div>
 
         <!-- META -->
 
-        <div class="grid grid-cols-4 gap-4 mb-8">
+        <div class="meta-grid">
 
-          <div class="bg-zinc-900 rounded-2xl p-4 border border-zinc-800">
+          <div class="meta-card">
 
-            <div class="text-zinc-400 text-sm mb-1">
+            <div class="meta-label">
               Shot Type
             </div>
 
             <div
               id="shotType"
-              class="text-xl font-semibold"
+              class="meta-value"
             >
             </div>
 
           </div>
 
-          <div class="bg-zinc-900 rounded-2xl p-4 border border-zinc-800">
+          <div class="meta-card">
 
-            <div class="text-zinc-400 text-sm mb-1">
+            <div class="meta-label">
               Duration
             </div>
 
             <div
               id="duration"
-              class="text-xl font-semibold"
+              class="meta-value"
             >
             </div>
 
           </div>
 
-          <div class="bg-zinc-900 rounded-2xl p-4 border border-zinc-800">
+          <div class="meta-card">
 
-            <div class="text-zinc-400 text-sm mb-1">
+            <div class="meta-label">
               Camera
             </div>
 
             <div
               id="cameraMovement"
-              class="text-xl font-semibold"
+              class="meta-value"
             >
             </div>
 
           </div>
 
-          <div class="bg-zinc-900 rounded-2xl p-4 border border-zinc-800">
+          <div class="meta-card">
 
-            <div class="text-zinc-400 text-sm mb-1">
+            <div class="meta-label">
               Scene
             </div>
 
             <div
               id="scene"
-              class="text-xl font-semibold"
+              class="meta-value"
             >
             </div>
 
@@ -270,154 +186,71 @@
 
         <!-- DESCRIPTION -->
 
-        <section
-          class="
-            bg-zinc-900
-            border
-            border-zinc-800
-            rounded-3xl
-            p-6
-            mb-6
-          "
-        >
+        <section class="content-card">
 
-          <h3 class="text-2xl font-bold mb-4">
+          <h3 class="section-title">
             Description
           </h3>
 
           <textarea
             id="description"
-            class="
-              w-full
-              bg-transparent
-              text-zinc-300
-              text-lg
-              leading-relaxed
-              outline-none
-              resize-y
-              min-h-[180px]
-            "
+            class="storyboard-textarea textarea-large"
           ></textarea>
 
         </section>
 
         <!-- DETAILS -->
 
-        <div class="grid grid-cols-2 gap-6">
+        <div class="details-grid">
 
-          <section
-            class="
-              bg-zinc-900
-              border
-              border-zinc-800
-              rounded-3xl
-              p-6
-            "
-          >
+          <section class="content-card">
 
-            <h3 class="text-xl font-bold mb-4">
+            <h3 class="section-title">
               Action
             </h3>
 
             <textarea
               id="action"
-              class="
-                w-full
-                bg-transparent
-                text-zinc-300
-                leading-relaxed
-                outline-none
-                resize-y
-                min-h-[160px]
-              "
+              class="storyboard-textarea textarea-medium"
             ></textarea>
 
           </section>
 
-          <section
-            class="
-              bg-zinc-900
-              border
-              border-zinc-800
-              rounded-3xl
-              p-6
-            "
-          >
+          <section class="content-card">
 
-            <h3 class="text-xl font-bold mb-4">
+            <h3 class="section-title">
               Edit
             </h3>
 
             <textarea
               id="edit"
-              class="
-                w-full
-                bg-transparent
-                text-zinc-300
-                leading-relaxed
-                outline-none
-                resize-y
-                min-h-[160px]
-              "
+              class="storyboard-textarea textarea-medium"
             ></textarea>
 
           </section>
 
-          <section
-            class="
-              bg-zinc-900
-              border
-              border-zinc-800
-              rounded-3xl
-              p-6
-            "
-          >
+          <section class="content-card">
 
-            <h3 class="text-xl font-bold mb-4">
+            <h3 class="section-title">
               Dialogue
             </h3>
 
             <textarea
               id="dialogue"
-              class="
-                w-full
-                bg-transparent
-                text-zinc-300
-                leading-relaxed
-                outline-none
-                resize-y
-                min-h-[160px]
-              "
+              class="storyboard-textarea textarea-medium"
             ></textarea>
 
           </section>
 
-          <section
-            class="
-              bg-zinc-900
-              border
-              border-zinc-800
-              rounded-3xl
-              p-6
-            "
-          >
+          <section class="content-card">
 
-            <h3 class="text-xl font-bold mb-4">
+            <h3 class="section-title">
               Prompt
             </h3>
 
             <textarea
               id="prompt"
-              class="
-                w-full
-                bg-transparent
-                text-zinc-400
-                text-sm
-                leading-relaxed
-                outline-none
-                resize-y
-                min-h-[220px]
-              "
+              class="storyboard-textarea textarea-prompt"
             ></textarea>
 
           </section>
@@ -430,417 +263,8 @@
 
   </div>
 
-  <!-- SAVE BUTTON -->
-
-
-<script>
-
-let shots = []
-let currentShot = null
-
-const shotList =
-  document.getElementById('shotList')
-
-const mainImage =
-  document.getElementById('mainImage')
-
-const diagramOverlay =
-  document.getElementById('diagramOverlay')
-
-const diagramImage =
-  document.getElementById('diagramImage')
-
-const imageUpload =
-  document.getElementById('imageUpload')
-
-const sceneTitle =
-  document.getElementById('sceneTitle')
-
-const shotType =
-  document.getElementById('shotType')
-
-const duration =
-  document.getElementById('duration')
-
-const cameraMovement =
-  document.getElementById('cameraMovement')
-
-const scene =
-  document.getElementById('scene')
-
-const description =
-  document.getElementById('description')
-
-const action =
-  document.getElementById('action')
-
-const edit =
-  document.getElementById('edit')
-
-const dialogue =
-  document.getElementById('dialogue')
-
-const prompt =
-  document.getElementById('prompt')
-
-// LOAD SHOTS
-
-async function loadShots() {
-
-  const manifestRes =
-    await fetch('./shots/manifest.json')
-
-  const manifest =
-    await manifestRes.json()
-
-  const shotPromises =
-    manifest.map(async (fileName) => {
-
-      const res =
-        await fetch(`./shots/${fileName}.json`)
-
-      return await res.json()
-
-    })
-
-  shots =
-    await Promise.all(shotPromises)
-
-  renderSidebar()
-
-  renderShot(shots[0])
-
-}
-
-// SIDEBAR
-
-function renderSidebar() {
-
-  shotList.innerHTML = ''
-
-  shots.forEach((shot, index) => {
-
-    const item =
-      document.createElement('button')
-
-    item.className = `
-      w-full
-      text-left
-      px-3
-      py-2
-      rounded-lg
-      text-sm
-      hover:bg-zinc-800
-      transition
-    `
-
-    item.innerHTML = `
-      <div class="font-medium tracking-wide">
-        ${shot.id}
-      </div>
-    `
-
-    item.onclick = () => {
-
-      document
-        .querySelectorAll('#shotList button')
-        .forEach(btn =>
-          btn.classList.remove('shot-active')
-        )
-
-      item.classList.add('shot-active')
-
-      renderShot(shot)
-
-    }
-
-    shotList.appendChild(item)
-
-    if (index === 0) {
-      item.classList.add('shot-active')
-    }
-
-  })
-
-}
-
-// IMAGE PATH
-
-function getImagePath(shotId) {
-
-  return `./images/${shotId
-    .toLowerCase()}.png`
-
-}
-function getDiagramPath(shotId) {
-
-  return `./diagrams/${shotId
-    .toLowerCase()}.png`
-
-}
-
-// IMAGE FALLBACK
-
-function setImageWithFallback(imgElement, src) {
-
-  imgElement.onerror = () => {
-
-    imgElement.src =
-      './images/placeholder.jpg'
-
-  }
-
-  imgElement.src =
-    `${src}?t=${Date.now()}`
-
-}
-
-// RENDER SHOT
-
-async function renderShot(shot) {
-
-  currentShot = shot
-
-  setImageWithFallback(
-    mainImage,
-    getImagePath(shot.id)
-  )
-
-  sceneTitle.textContent =
-    shot.id || ''
-
-  shotType.textContent =
-    shot.shotType || '-'
-
-  duration.textContent =
-    shot.duration || '-'
-
-  cameraMovement.textContent =
-    shot.cameraMovement || '-'
-
-  scene.textContent =
-    shot.scene || '-'
-
-  description.value =
-    shot.description || ''
-
-  action.value =
-    shot.action || ''
-
-  edit.value =
-    shot.edit || ''
-
-  dialogue.value =
-    shot.dialogue || ''
-
-  prompt.value =
-    shot.prompt || ''
-
-}
-
-// SAVE JSON
-
-saveButton.addEventListener('click', async () => {
-
-  if (!currentShot) return
-
-  currentShot.description =
-    description.value
-
-  currentShot.action =
-    action.value
-
-  currentShot.edit =
-    edit.value
-
-  currentShot.dialogue =
-    dialogue.value
-
-  currentShot.prompt =
-    prompt.value
-
-  try {
-
-    const response =
-      await fetch('/api/save-json', {
-
-        method: 'POST',
-
-        headers: {
-          'Content-Type': 'application/json'
-        },
-
-        body: JSON.stringify({
-
-          shotId: currentShot.id,
-
-          data: currentShot
-
-        })
-
-      })
-
-    if (!response.ok) {
-      throw new Error('Save failed')
-    }
-
-    saveButton.innerText = 'Saved'
-
-    setTimeout(() => {
-
-      saveButton.innerText =
-        'Save Shot'
-
-    }, 1500)
-
-  } catch (err) {
-
-    console.error(err)
-
-    saveButton.innerText = 'Error'
-
-  }
-
-})
-
-// MAIN IMAGE UPLOAD
-
-imageUpload.addEventListener('change', async (e) => {
-
-  const file = e.target.files[0]
-
-  if (!file || !currentShot) return
-
-  const reader = new FileReader()
-
-  reader.onload = async () => {
-
-    const imageData =
-      reader.result
-
-    mainImage.src =
-      imageData
-
-    try {
-
-      const response =
-        await fetch('/api/save-shot', {
-
-          method: 'POST',
-
-          headers: {
-            'Content-Type': 'application/json'
-          },
-
-          body: JSON.stringify({
-
-            shotId:
-              currentShot.id.toLowerCase(),
-
-            imageData,
-
-            folder:
-              'images'
-
-          })
-
-        })
-
-      const result =
-        await response.text()
-
-      console.log(result)
-
-      if (!response.ok) {
-
-        throw new Error(result)
-
-      }
-
-      setTimeout(() => {
-
-        mainImage.src =
-          `${getImagePath(currentShot.id)}?v=${crypto.randomUUID()}`
-
-      }, 1500)
-
-    } catch (err) {
-
-      console.error(err)
-
-      alert('Upload failed')
-
-    }
-
-  }
-
-  reader.readAsDataURL(file)
-
-})
-// ========================
-// DIAGRAM TOGGLE
-// ========================
-
-let diagramVisible = false
-
-mainImage.addEventListener('click', () => {
-
-  if (!currentShot) return
-
-  const diagramPath =
-    `${getDiagramPath(currentShot.id)}?v=${Date.now()}`
-
-  diagramImage.onload = () => {
-
-    diagramOverlay.classList.remove('hidden')
-    diagramOverlay.classList.add('flex')
-
-    diagramVisible = true
-
-  }
-
-  diagramImage.onerror = () => {
-
-    diagramOverlay.classList.add('hidden')
-    diagramOverlay.classList.remove('flex')
-
-    diagramVisible = false
-
-  }
-
-  // already open → close
-
-  if (diagramVisible) {
-
-    diagramOverlay.classList.add('hidden')
-    diagramOverlay.classList.remove('flex')
-
-    diagramVisible = false
-
-    return
-
-  }
-
-  diagramImage.src =
-    diagramPath
-
-})
-
-// close overlay
-
-diagramOverlay.addEventListener('click', () => {
-
-  diagramOverlay.classList.add('hidden')
-
-  diagramOverlay.classList.remove('flex')
-
-  diagramVisible = false
-
-})
-
-loadShots()
-
-</script>
+  <script src="./js/script.js"></script>
 
 </body>
+
 </html>
