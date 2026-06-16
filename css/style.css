@@ -1,3 +1,44 @@
+.all-shots-grid{
+
+  display:grid;
+
+  grid-template-columns:
+    repeat(auto-fill,minmax(260px,1fr));
+
+  gap:20px;
+
+}
+
+.shot-card{
+
+  cursor:pointer;
+
+}
+
+.shot-card-image{
+
+  width:100%;
+
+  aspect-ratio:16/9;
+
+  object-fit:cover;
+
+  border-radius:12px;
+
+}
+
+.shot-card-title{
+
+  text-align:center;
+
+  margin-top:8px;
+
+  font-size:14px;
+
+  font-weight:600;
+
+}
+
 body{
   background:#0b0b0b;
   color:white;
